@@ -45,7 +45,97 @@
           <p><a class="source-link" href="https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p>
           <p class="small">Abgerufen: 2026-08-21T16:53:33.485463+00:00 · HTTP 200</p>
         </article>
-    </div></section><section id="process" class="tab"><div class="panel"><h2>Prozess & Zuständigkeit</h2><div class="event"><div class="event-date">2026-01-01</div><div><b>TARDOC und ambulante Pauschalen treten in Kraft</b><div class="small">IMPLEMENTATION · CONFIRMED</div></div></div></div><div class="panel"><h2>Institutionen</h2><p><b>Eidgenössische Finanzkontrolle (EFK)</b> · Prüf- und Systemquelle</p><p><b>Bundesamt für Gesundheit (BAG)</b> · Tarif-/Regulierungsquelle</p><p><b>Schweizer Radio und Fernsehen (SRF)</b> · Sekundärquelle / öffentliches Signal</p></div></section><section id="sources" class="tab"><div><article class="source-card"><div><span class="badge">OFFICIAL</span></div><h4>Mechanismen zur angemessenen Verwendung bildgebender Verfahren in der Medizin</h4><p>Eidgenössische Finanzkontrolle (EFK)</p><p><a class="source-link" href="https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:18.736243+00:00 · HTTP 200</p></article><article class="source-card"><div><span class="badge">OFFICIAL</span></div><h4>TARDOC und ambulante Pauschalen</h4><p>Bundesamt für Gesundheit (BAG)</p><p><a class="source-link" href="https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:27.413787+00:00 · HTTP 200</p></article><article class="source-card"><div><span class="badge">SECONDARY_SIGNAL</span></div><h4>Datenleck gibt Einblick: Die Radiologie lastet immer schwerer auf dem Gesundheitswesen</h4><p>Schweizer Radio und Fernsehen (SRF)</p><p><a class="source-link" href="https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:33.485463+00:00 · HTTP 200</p></article></div></section><section id="guardrails" class="tab">
+    </div></section><section id="process" class="tab">
+      <div class="panel">
+        <h2>Prozess & Zuständigkeit</h2>
+        <p>Öffentlich belegte Prozessereignisse und institutionelle Rollen werden getrennt dargestellt. <b>Eine Quelle ist nicht automatisch die zuständige Stelle.</b></p>
+        <div class="kpis">
+          <div class="kpi"><span>Process Events</span><b>2</b></div>
+          <div class="kpi"><span>Institutionen</span><b>3</b></div>
+          <div class="kpi"><span>Zuständigkeiten</span><b>2</b></div>
+          <div class="kpi"><span>Spezifische CT/MRI-Prüfung belegt</span><b>NEIN</b></div>
+        </div>
+        <p class="small"><b>Rekonstruktionsmethode:</b> DETERMINISTIC_POC_V1</p>
+        <p class="small"><b>Scope:</b> Rekonstruktion aus dem bestehenden Radiologie-CaseBundle; keine vollständige Behörden- oder OAAT-Verfahrensrecherche.</p>
+      </div>
+      <div class="panel"><h3>Timeline / Status</h3><article class="gap-card">
+          <div class="claim-top">
+            <span class="badge ok">CONFIRMED</span>
+            <span class="badge">AI_EXTRACTED</span>
+          </div>
+          <h4>TARDOC und Ambulante Pauschalen treten in Kraft</h4>
+          <p>Das neue ambulante ärztliche Gesamt-Tarifsystem ersetzt TARMED.</p>
+          <p class="small"><b>Zeitpunkt:</b> 2026-01-01 · <b>Typ:</b> IMPLEMENTATION</p>
+          <p class="small"><b>Institution:</b> Bundesamt für Gesundheit (BAG)</p>
+          <div class="review-only">
+            <p class="small"><b>ProcessEvent-ID:</b> event-tariff-system-effective-2026</p>
+            <p class="small"><b>Basis-Claims:</b> claim-004 · claim-005</p>
+            <p class="small"><b>Quellen:</b> bag_tardoc</p>
+            <p class="small"><b>Confidence:</b> 1.0</p>
+            <div class="human-check" data-review-id="event-tariff-system-effective-2026">
+              <label><input data-check="event" type="checkbox"> Ereignis korrekt rekonstruiert</label>
+              <label><input data-check="basis" type="checkbox"> Evidenzbasis ausreichend</label>
+            </div>
+          </div>
+        </article><article class="gap-card">
+          <div class="claim-top">
+            <span class="badge warn">NOT_FOUND_IN_MONITORED_SOURCES</span>
+            <span class="badge">NOT_FOUND</span>
+          </div>
+          <h4>Spezifischer öffentlicher CT/MRI-Prüfstatus nicht gefunden</h4>
+          <p>Ein spezifischer öffentlicher Prüfstatus für eine CT/MRI-Kostenrealitätsprüfung wurde in den überwachten öffentlichen Quellen nicht gefunden.</p>
+          <p class="small"><b>Zeitpunkt:</b> 2026-08-21T16:53:33.485463+00:00 · <b>Typ:</b> STATUS_OBSERVATION</p>
+          <p class="small"><b>Institution:</b> —</p>
+          <div class="review-only">
+            <p class="small"><b>ProcessEvent-ID:</b> event-ctmri-specific-review-status-not-found</p>
+            <p class="small"><b>Basis-Claims:</b> notfound-specific-public-review-status</p>
+            <p class="small"><b>Quellen:</b> —</p>
+            <p class="small"><b>Confidence:</b> 0.95</p>
+            <div class="human-check" data-review-id="event-ctmri-specific-review-status-not-found">
+              <label><input data-check="event" type="checkbox"> Ereignis korrekt rekonstruiert</label>
+              <label><input data-check="basis" type="checkbox"> Evidenzbasis ausreichend</label>
+            </div>
+          </div>
+        </article></div>
+      <div class="panel"><h3>Institutionen</h3><article class="source-card"><h4>Bundesamt für Gesundheit (BAG)</h4><p>Offizielle Informations- und Aufsichtsquelle zum ambulanten Arzttarif</p><p class="small">FEDERAL_AUTHORITY · Confidence 99%</p></article><article class="source-card"><h4>Organisation ambulante Arzttarife (OAAT AG)</h4><p>Pflege und Weiterentwicklung des Gesamt-Tarifsystems</p><p class="small">TARIFF_ORGANISATION · Confidence 85%</p></article><article class="source-card"><h4>Tarifpartner</h4><p>Vertragliche Ausgestaltung und Anträge zur Tarifweiterentwicklung</p><p class="small">STAKEHOLDER_GROUP · Confidence 85%</p></article></div>
+      <div class="panel"><h3>Rollen & Zuständigkeiten</h3><article class="inference-card">
+          <div class="claim-top">
+            <span class="badge infer">AUS OFFIZIELLER PROZESSQUELLE ABGELEITET</span>
+            <span class="badge">Confidence 85%</span>
+          </div>
+          <h4>Organisation ambulante Arzttarife (OAAT AG)</h4>
+          <p>OAAT AG ist für Pflege und Weiterentwicklung des Gesamt-Tarifsystems vorgesehen.</p>
+          <p class="small"><b>Verantwortungstyp:</b> TARIFF_SYSTEM_MAINTENANCE</p>
+          <div class="review-only">
+            <p class="small"><b>Responsibility-ID:</b> resp-oaat-maintenance</p>
+            <p class="small"><b>Evidenzklasse:</b> RULE_DERIVED_POC</p>
+            <p class="small"><b>Basisquellen:</b> bag_tardoc</p>
+            <p class="small"><b>Basis-Claims:</b> —</p>
+            <div class="human-check" data-review-id="resp-oaat-maintenance">
+              <label><input data-check="responsibility" type="checkbox"> Zuständigkeit fachlich korrekt</label>
+              <label><input data-check="strength" type="checkbox"> Aussage nicht zu stark</label>
+            </div>
+          </div>
+        </article><article class="inference-card">
+          <div class="claim-top">
+            <span class="badge infer">AUS OFFIZIELLER PROZESSQUELLE ABGELEITET</span>
+            <span class="badge">Confidence 85%</span>
+          </div>
+          <h4>Tarifpartner</h4>
+          <p>Die Tarifpartner wirken an der Weiterentwicklung mit und können Änderungen in den vorgesehenen Prozess einbringen.</p>
+          <p class="small"><b>Verantwortungstyp:</b> TARIFF_DEVELOPMENT_REQUESTS</p>
+          <div class="review-only">
+            <p class="small"><b>Responsibility-ID:</b> resp-tariff-partners-development</p>
+            <p class="small"><b>Evidenzklasse:</b> RULE_DERIVED_POC</p>
+            <p class="small"><b>Basisquellen:</b> bag_tardoc</p>
+            <p class="small"><b>Basis-Claims:</b> —</p>
+            <div class="human-check" data-review-id="resp-tariff-partners-development">
+              <label><input data-check="responsibility" type="checkbox"> Zuständigkeit fachlich korrekt</label>
+              <label><input data-check="strength" type="checkbox"> Aussage nicht zu stark</label>
+            </div>
+          </div>
+        </article></div>
+    </section><section id="sources" class="tab"><div><article class="source-card"><div><span class="badge">OFFICIAL</span></div><h4>Mechanismen zur angemessenen Verwendung bildgebender Verfahren in der Medizin</h4><p>Eidgenössische Finanzkontrolle (EFK)</p><p><a class="source-link" href="https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:18.736243+00:00 · HTTP 200</p></article><article class="source-card"><div><span class="badge">OFFICIAL</span></div><h4>TARDOC und ambulante Pauschalen</h4><p>Bundesamt für Gesundheit (BAG)</p><p><a class="source-link" href="https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:27.413787+00:00 · HTTP 200</p></article><article class="source-card"><div><span class="badge">SECONDARY_SIGNAL</span></div><h4>Datenleck gibt Einblick: Die Radiologie lastet immer schwerer auf dem Gesundheitswesen</h4><p>Schweizer Radio und Fernsehen (SRF)</p><p><a class="source-link" href="https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen" target="_blank" rel="noopener noreferrer">Quelle öffnen ↗</a></p><p>Abgerufen: 2026-08-21T16:53:33.485463+00:00 · HTTP 200</p></article></div></section><section id="guardrails" class="tab">
       <div class="panel">
         <h2>Guardrail Review</h2>
         <p>Guardrail-Treffer werden getrennt von der normalen Evidenz ausgewiesen. Ein Roh-Treffer ist noch keine Verletzung.</p>

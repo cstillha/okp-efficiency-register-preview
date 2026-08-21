@@ -363,40 +363,75 @@
   ],
   "process_events": [
     {
-      "process_event_id": "event-tardoc-start",
+      "process_event_id": "event-tariff-system-effective-2026",
       "event_type": "IMPLEMENTATION",
       "date": "2026-01-01",
-      "title": "TARDOC und ambulante Pauschalen treten in Kraft",
+      "date_precision": "DAY",
+      "title": "TARDOC und Ambulante Pauschalen treten in Kraft",
+      "description": "Das neue ambulante ärztliche Gesamt-Tarifsystem ersetzt TARMED.",
       "status": "CONFIRMED",
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 1.0,
       "basis_claim_ids": [
-        "claim-004"
+        "claim-004",
+        "claim-005"
       ],
-      "source_id": "bag_tardoc"
+      "source_ids": [
+        "bag_tardoc"
+      ],
+      "institution_ids": [
+        "inst-bag"
+      ],
+      "publication_action": "PUBLISH"
+    },
+    {
+      "process_event_id": "event-ctmri-specific-review-status-not-found",
+      "event_type": "STATUS_OBSERVATION",
+      "date": "2026-08-21T16:53:33.485463+00:00",
+      "date_precision": "TIMESTAMP",
+      "title": "Spezifischer öffentlicher CT/MRI-Prüfstatus nicht gefunden",
+      "description": "Ein spezifischer öffentlicher Prüfstatus für eine CT/MRI-Kostenrealitätsprüfung wurde in den überwachten öffentlichen Quellen nicht gefunden.",
+      "status": "NOT_FOUND_IN_MONITORED_SOURCES",
+      "evidence_class": "NOT_FOUND",
+      "confidence": 0.95,
+      "basis_claim_ids": [
+        "notfound-specific-public-review-status"
+      ],
+      "source_ids": [],
+      "search_coverage_id": "coverage-radiology-poc-v1",
+      "publication_action": "PUBLISH_WITH_SCOPE_LABEL",
+      "publication_label": "IN ÜBERWACHTEN QUELLEN NICHT GEFUNDEN"
     }
   ],
   "institutions": [
     {
-      "institution_id": "efk_radiology",
-      "name": "Eidgenössische Finanzkontrolle (EFK)",
-      "role": "Prüf- und Systemquelle",
-      "basis_source_ids": [
-        "efk_radiology"
-      ]
-    },
-    {
-      "institution_id": "bag_tardoc",
+      "institution_id": "inst-bag",
       "name": "Bundesamt für Gesundheit (BAG)",
-      "role": "Tarif-/Regulierungsquelle",
+      "institution_type": "FEDERAL_AUTHORITY",
+      "role": "Offizielle Informations- und Aufsichtsquelle zum ambulanten Arzttarif",
+      "role_confidence": 0.99,
       "basis_source_ids": [
         "bag_tardoc"
       ]
     },
     {
-      "institution_id": "srf_3r_leak",
-      "name": "Schweizer Radio und Fernsehen (SRF)",
-      "role": "Sekundärquelle / öffentliches Signal",
+      "institution_id": "inst-oaat",
+      "name": "Organisation ambulante Arzttarife (OAAT AG)",
+      "institution_type": "TARIFF_ORGANISATION",
+      "role": "Pflege und Weiterentwicklung des Gesamt-Tarifsystems",
+      "role_confidence": 0.85,
       "basis_source_ids": [
-        "srf_3r_leak"
+        "bag_tardoc"
+      ]
+    },
+    {
+      "institution_id": "inst-tariff-partners",
+      "name": "Tarifpartner",
+      "institution_type": "STAKEHOLDER_GROUP",
+      "role": "Vertragliche Ausgestaltung und Anträge zur Tarifweiterentwicklung",
+      "role_confidence": 0.85,
+      "basis_source_ids": [
+        "bag_tardoc"
       ]
     }
   ],
@@ -525,5 +560,42 @@
       "provenance_valid": true,
       "temporal_role": "CURRENT"
     }
-  ]
+  ],
+  "responsibilities": [
+    {
+      "responsibility_id": "resp-oaat-maintenance",
+      "institution_id": "inst-oaat",
+      "responsibility_type": "TARIFF_SYSTEM_MAINTENANCE",
+      "statement": "OAAT AG ist für Pflege und Weiterentwicklung des Gesamt-Tarifsystems vorgesehen.",
+      "evidence_class": "RULE_DERIVED_POC",
+      "confidence": 0.85,
+      "basis_source_ids": [
+        "bag_tardoc"
+      ],
+      "basis_claim_ids": [],
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "AUS OFFIZIELLER PROZESSQUELLE ABGELEITET"
+    },
+    {
+      "responsibility_id": "resp-tariff-partners-development",
+      "institution_id": "inst-tariff-partners",
+      "responsibility_type": "TARIFF_DEVELOPMENT_REQUESTS",
+      "statement": "Die Tarifpartner wirken an der Weiterentwicklung mit und können Änderungen in den vorgesehenen Prozess einbringen.",
+      "evidence_class": "RULE_DERIVED_POC",
+      "confidence": 0.85,
+      "basis_source_ids": [
+        "bag_tardoc"
+      ],
+      "basis_claim_ids": [],
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "AUS OFFIZIELLER PROZESSQUELLE ABGELEITET"
+    }
+  ],
+  "process_reconstruction": {
+    "method": "DETERMINISTIC_POC_V1",
+    "scope": "Rekonstruktion aus dem bestehenden Radiologie-CaseBundle; keine vollständige Behörden- oder OAAT-Verfahrensrecherche.",
+    "specific_ct_mri_review_asserted": false,
+    "event_count": 2,
+    "responsibility_count": 2
+  }
 }
