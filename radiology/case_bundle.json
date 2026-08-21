@@ -89746,6 +89746,6 @@
   "structured_source_architecture": {
     "structured_data_before_llm": true,
     "architecture_note": "Structured official data are ingested before any LLM extraction. These atlas signals inform Q, not P cost reality.",
-    "updated_at": "2026-08-21T22:59:27.954973+00:00"
+    "updated_at": "2026-08-21T23:02:49.626666+00:00"
   }
 }
