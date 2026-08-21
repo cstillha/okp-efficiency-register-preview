@@ -340,6 +340,38 @@
       ],
       "search_coverage_id": "coverage-radiology-poc-v1",
       "absence_scope": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche."
+    },
+    {
+      "gap_id": "gap-radiology-case-identical-current-tariff",
+      "title": "Fallidentischer aktueller MRI-Vergleich fehlt",
+      "required_information": [
+        "konkrete MRI-Leistung bzw. Pauschalenzuordnung",
+        "anwendbare Tarifposition(en) oder Pauschale",
+        "Taxpunkte und anwendbarer Taxpunktwert, falls TARDOC",
+        "vergleichbare historische TARMED-Abrechnung"
+      ],
+      "why_it_matters": "Erst damit lässt sich die Veränderung der Vergütung für einen tatsächlich vergleichbaren MRI-Fall berechnen.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "category": "COSTS_TARIFFS",
+      "signal_path": "P"
+    },
+    {
+      "gap_id": "gap-radiology-current-efficient-full-cost",
+      "title": "Aktuelle effiziente Vollkostenbasis fehlt",
+      "required_information": [
+        "Geräteinvestition und Abschreibung",
+        "Auslastung und Untersuchungen pro Gerät",
+        "Personalaufwand",
+        "Raum- und Infrastrukturkosten",
+        "Wartung, IT und Verbrauchsmaterial",
+        "qualitäts- und versorgungsrelevante Vorhaltekosten"
+      ],
+      "why_it_matters": "Ohne aktuelle Vollkosten effizienter Leistungserbringer kann selbst ein korrekter Tarifvergleich keine Kostenrealitätsprüfung ersetzen.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "category": "COSTS_TARIFFS",
+      "signal_path": "P"
     }
   ],
   "inferences": [
@@ -456,6 +488,16 @@
       "llm_used": false,
       "source_ids": [
         "versorgungsatlas-mri"
+      ]
+    },
+    {
+      "revision_id": "revision-radiology-tariff-context-v1",
+      "timestamp": "2026-08-21T23:16:21.489979+00:00",
+      "change_type": "STRUCTURED_TARIFF_CONTEXT_ENRICHMENT",
+      "summary": "Tarifkontext 2026 mit Versionstrennung, Transcodierungsgrenzen und P-Datenlücken ergänzt.",
+      "llm_used": false,
+      "source_ids": [
+        "radiology-tariff-context-2026"
       ]
     }
   ],
@@ -90655,6 +90697,93 @@
   "structured_source_architecture": {
     "structured_data_before_llm": true,
     "architecture_note": "Structured official data are ingested before any LLM extraction. These atlas signals inform Q, not P cost reality.",
-    "updated_at": "2026-08-21T23:07:41.523506+00:00"
+    "updated_at": "2026-08-21T23:16:21.295441+00:00"
+  },
+  "p_tariff_context": {
+    "context_id": "p-radiology-tariff-context-2026",
+    "signal_path": "P",
+    "context_type": "TARIFF_SYSTEM_CONTEXT",
+    "title": "Radiologie: Tarifkontext 2026",
+    "version_context": {
+      "reference_year": 2026,
+      "applicable_tardoc_version": "1.4c",
+      "applicable_flat_rate_version": "1.1c",
+      "effective_from": "2026-01-01",
+      "transcoder_supported_tardoc_versions": [
+        "1.4c",
+        "1.5"
+      ],
+      "tarmed_input_version": "1.09_BR"
+    },
+    "applicable_system": {
+      "tardoc_version": "1.4c",
+      "ambulatory_flat_rate_version": "1.1c",
+      "effective_from": "2026-01-01",
+      "billing_rule": "Eine ambulante ärztliche Abrechnung erfolgt entweder über TARDOC oder über eine ambulante Pauschale; die Zuordnung der konkreten Leistung ist separat zu bestimmen.",
+      "price_formation_note": "Bei TARDOC ergibt sich die Vergütung aus Taxpunkten und dem jeweils anwendbaren Taxpunktwert. Pauschalen folgen ihrer eigenen Tariflogik."
+    },
+    "transcoding_tool": {
+      "operator": "OAAT-OTMA",
+      "url": "https://tarifmatcher.oaat-otma.ch/transcode?locale=de",
+      "input_tarmed_version": "1.09_BR",
+      "supported_tardoc_versions": [
+        "1.4c",
+        "1.5"
+      ],
+      "statistical_transcoding": true,
+      "case_identical_price_comparison": false,
+      "cost_reality_assessment": false,
+      "interpretation": "Die Transcodierung bildet historische TARMED-Volumen statistisch auf TARDOC ab. Sie ist weder ein fallidentischer Preisvergleich noch eine Prüfung heutiger effizienter Vollkosten."
+    },
+    "data_basis": {
+      "source_role": "OFFICIAL_TARIFF_CONTEXT",
+      "structured": true,
+      "llm_used": false,
+      "reference_year": 2026,
+      "sources": [
+        {
+          "publisher": "BAG",
+          "url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen",
+          "purpose": "anwendbares ambulantes Tarifsystem ab 2026"
+        },
+        {
+          "publisher": "OAAT-OTMA",
+          "url": "https://tarifmatcher.oaat-otma.ch/transcode?locale=de",
+          "purpose": "statistische Transcodierung und Toolversionen"
+        }
+      ]
+    },
+    "interpretation": "Der Tarifkontext zeigt, welches System und welche Versionen für 2026 relevant sind und welche Simulationen technisch möglich sind. Er beantwortet noch nicht, ob MRI-Leistungen aktuell angemessen vergütet werden.",
+    "p_data_gaps": [
+      {
+        "gap_id": "gap-radiology-case-identical-current-tariff",
+        "title": "Fallidentischer aktueller MRI-Vergleich fehlt",
+        "required_information": [
+          "konkrete MRI-Leistung bzw. Pauschalenzuordnung",
+          "anwendbare Tarifposition(en) oder Pauschale",
+          "Taxpunkte und anwendbarer Taxpunktwert, falls TARDOC",
+          "vergleichbare historische TARMED-Abrechnung"
+        ],
+        "why_it_matters": "Erst damit lässt sich die Veränderung der Vergütung für einen tatsächlich vergleichbaren MRI-Fall berechnen."
+      },
+      {
+        "gap_id": "gap-radiology-current-efficient-full-cost",
+        "title": "Aktuelle effiziente Vollkostenbasis fehlt",
+        "required_information": [
+          "Geräteinvestition und Abschreibung",
+          "Auslastung und Untersuchungen pro Gerät",
+          "Personalaufwand",
+          "Raum- und Infrastrukturkosten",
+          "Wartung, IT und Verbrauchsmaterial",
+          "qualitäts- und versorgungsrelevante Vorhaltekosten"
+        ],
+        "why_it_matters": "Ohne aktuelle Vollkosten effizienter Leistungserbringer kann selbst ein korrekter Tarifvergleich keine Kostenrealitätsprüfung ersetzen."
+      }
+    ],
+    "guardrails": [
+      "TARDOC 1.5 darf nicht allein wegen Transcoder-Unterstützung als anwendbare 2026-Abrechnungsversion bezeichnet werden.",
+      "Statistische Transcodierung darf nicht als fallidentischer Preisvergleich bezeichnet werden.",
+      "Tarifvergleich darf nicht als Nachweis einer Über- oder Untervergütung dargestellt werden, solange die aktuelle effiziente Vollkostenbasis fehlt."
+    ]
   }
 }
