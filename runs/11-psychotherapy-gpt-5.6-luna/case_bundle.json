@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.1-draft",
+  "case": {
+    "case_id": "case-psychological-psychotherapy",
+    "title": "Psychologische Psychotherapie",
+    "signals": [
+      "P",
+      "Q",
+      "WZW",
+      "T"
+    ],
+    "lifecycle_status": "precheck",
+    "official_status": "BAG-Evaluation 2026; Kostenmonitoring wird weitergeführt und Versorgungssituation vertieft analysiert.",
+    "summary": "Der PoC prüft, ob Kostenwachstum, Tarif- und Versorgungseffekte sauber getrennt werden, ohne aus Kostenanstieg allein Überversorgung oder Übervergütung abzuleiten."
+  },
+  "sources": [
+    {
+      "source_id": "bag_psychotherapy_2026",
+      "publisher": "Bundesamt für Gesundheit (BAG)",
+      "title": "Neuregelung der psychologischen Psychotherapie hat sich etabliert",
+      "url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "source_class": "OFFICIAL",
+      "allowed_claim_types": [
+        "okp_cost_2021",
+        "okp_cost_2024",
+        "access_assessment",
+        "monitoring_continues",
+        "supply_analysis_planned"
+      ],
+      "focus": "Only 2021/2024 OKP costs, access assessment, continued monitoring and planned deeper supply analysis.",
+      "content": "Neuregelung der psychologischen Psychotherapie hat sich etabliert\nZum Hauptinhalt springen\nAlle Schweizer Bundesbehörden\nLeichte Sprache\nGebärdensprache\nSprach Dropdown Deutsch ausgewählt\nDE\nFR\nIT\nEN\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nSuche\nSuche\nMedien\nJobs\nKontakt\nLeichte Sprache\nGebärdensprache\nMedienmitteilung\nVeröffentlicht am 24. Juni 2026\nNeuregelung der psychologischen Psychotherapie hat sich etabliert\nBern, 24.06.2026 — Die Neuregelung der psychologischen Psychotherapie hat sich etabliert und der Systemwechsel vom Delegations- zum Anordnungsmodell wird von den Patienten und Fachpersonen überwiegend als gelungen beurteilt. Der Zugang zur psychologischen Psychotherapie wird tendenziell als verbessert beurteilt. Parallel sind die Kosten zulasten der Grundversicherung in den ersten drei Jahren von 528 auf 922 Millionen Franken gestiegen. Dies zeigt die Evaluation des Bundesamtes für Gesundheit (BAG), die der Bundesrat an seiner Sitzung vom 24. Juni 2026 zur Kenntnis genommen hat. Mit Blick auf den Kostenanstieg zulasten der Grundversicherung will der Bundesrat das Kostenmonitoring weiterführen. Zudem will er die weitere Entwicklung der Versorgungssituation vertieft analysieren.\nPsychologische Psychotherapeutinnen und Psychotherapeuten können seit dem 1. Juli 2022 als ambulant tätige Leistungserbringer auf ärztliche Anordnung hin selbstständig und auf eigene Rechnung zulasten der obligatorischen Krankenpflegeversicherung (OKP) tätig sein (Anordnungsmodell). Zuvor wurden ihre Leistungen nur unter ärztlicher Aufsicht im Delegationsmodell vergütet oder die psychologischen Psychotherapeutinnen und Psychotherapeuten arbeiteten selbstständig im Zusatzversicherungsbereich und für Selbstzahlende. Diese Änderung wurde eingeführt, um den Zugang zur Psychotherapie zu verbessern und die Qualität der Leistungen zu gewährleisten.\nBreit angelegte Wirkungsanalyse\nUm den Systemwechsel und dessen Auswirkungen zu verfolgen, hatte der Bundesrat begleitende Untersuchungen vorgesehen. Diese umfassen ein Kostenmonitoring, das seit 2024 jährlich durchgeführt wird, sowie eine 2025 durchgeführte Evaluation zur Beobachtung der laufenden Umsetzung des Systemwechsels und zur Erfassung der ersten Wirkungen auf die Akteure sowie die Versorgungssituation. Diese Evaluation stützt sich unter anderem auf Befragungen von Fachpersonen aus den Bereichen Psychotherapie, Psychiatrie, Hausarzt- bzw. Kinder- und Jugendmedizin sowie Patientinnen und Patienten.\nAnordnungsmodell hat sich etabliert\nGemäss dieser Evaluation wird die Umsetzung des Systemwechsels von den Beteiligten überwiegend als gelungen beurteilt. Die Anordnungspraxis hat sich etabliert und funktioniert überwiegend gut. Der Zugang zur psychologischen Psychotherapie wird tendenziell als verbessert beurteilt. Die Zahl der zur OKP zugelassenen Psychotherapeutinnen und Psychotherapeuten ist deutlich gestiegen. Trotzdem bestehen weiterhin lange Wartezeiten, besonders im Kinder- und Jugendbereich und in ländlichen Regionen. Zudem beeinflussen der Fachärztemangel und die steigende Inanspruchnahme psychotherapeutischer Leistungen die Versorgungssituation.\nUrsachen für den Kostenanstieg\nDie Kosten der psychologischen Psychotherapie zulasten der OKP sind von 528 Millionen Franken im Jahr 2021 auf 922 Millionen Franken im Jahr 2024 gestiegen. Der Kostenanstieg hat mehrere Ursachen: Rund 30 Prozent des Kostenwachstums sind auf höhere Tarife zurückzuführen. Knapp 25 Prozent können durch einen langfristigen Trend zur steigenden Inanspruchnahme psychotherapeutischer Leistungen sowie das Bevölkerungswachstum erklärt werden. Knapp 45 Prozent des Kostenzuwachs entfallen auf andere, nicht direkt beobachtbare Faktoren, etwa die Verlagerung aus dem Selbstzahler- und Zusatzversicherungsbereich in die OKP.\nPotenzial für Optimierungen vorhanden\nDer Evaluationsbericht zeigt auch auf, wo die Akteure Optimierungspotenzial erkennen. So bei der Organisation von Kostengutsprachen und psychiatrischen Fallbeurteilungen bei längeren Therapien. Angesichts der hohen Mehrkosten will der Bundesrat die Kostenentwicklung weiter beobachten und das jährliche Kostenmonitoring fortführen. Zudem will er die weitere Entwicklung der Versorgungssituation vertieft analysieren.\nWeitere Informationen\nEvaluationsbericht der Neuregelung der psychologischen Psychotherapie\nBAG-Bericht zur Neuregelung der psychologischen Psychotherapie\nÜber uns\nAls Teil des Eidgenössischen Departements des Innern ist das BAG verantwortlich für die Gesundheit der Bevölkerung, entwickelt die schweizerische Gesundheitspolitik und setzt sich für ein langfristig leistungsfähiges und bezahlbares Gesundheitssystem ein.\n© BAG | OFSP | UFSP | FOPH\nBleiben Sie informiert\nFacebook\nDas BAG auf X\nInstagram\nYouTube\nLinkedin\nDie Newsletters des BAG\nWeitere Informationen\nKontakt & Standort\nOffene Stellen\nOrganisation\nBAG-Bulletin\nMittel und Gegenständeliste\nMedizinalberuferegister\nRechtliches\nImpressum\nBarrierefreiheit",
+      "retrieved_at": "2026-08-21T18:52:25.380900+00:00",
+      "http_status": 200,
+      "final_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "retrieval_mode": "LIVE_HTML"
+    },
+    {
+      "source_id": "bag_psychotherapy_2025",
+      "publisher": "Bundesamt für Gesundheit (BAG)",
+      "title": "Zweiter Monitoringbericht zur Neuregelung der psychologischen Psychotherapie",
+      "url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "source_class": "OFFICIAL",
+      "allowed_claim_types": [
+        "annual_additional_cost",
+        "tariff_effect_share",
+        "causes_multifactorial"
+      ],
+      "focus": "Only annual additional OKP cost, tariff-effect share and explicit statement that causes are multiple/multifactorial.",
+      "content": "Zweiter Monitoringbericht zur Neuregelung der psychologischen Psychotherapie\nZum Hauptinhalt springen\nAlle Schweizer Bundesbehörden\nLeichte Sprache\nGebärdensprache\nSprach Dropdown Deutsch ausgewählt\nDE\nFR\nIT\nEN\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nSuche\nSuche\nMedien\nJobs\nKontakt\nLeichte Sprache\nGebärdensprache\nMedienmitteilung\nVeröffentlicht am 19. August 2025\nZweiter Monitoringbericht zur Neuregelung der psychologischen Psychotherapie\nBern, 19.08.2025 — 2021 verabschiedete der Bundesrat den Wechsel vom Delegations- zum Anordnungsmodell für die psychologische Psychotherapie, um den Zugang zu psychotherapeutischen Leistungen zu verbessern und eine angemessene Versorgung sicherzustellen. 2022 trat die Änderung in Kraft. Bei diesem Wechsel kam es zu jährlichen Mehrkosten von durchschnittlich 131 Millionen Franken in der obligatorischen Krankenpflegeversicherung. Dies zeigt der zweite Monitoringbericht zur Neuregelung der psychologischen Psychotherapie. Die Ursachen für die Kostenzunahme sind vielfältig. Ein Drittel davon sind Tarifeffekte.\nPsychologische Psychotherapeutinnen und Psychotherapeuten können seit dem 1. Juli 2022 zulasten der obligatorischen Krankenpflegeversicherung (OKP) auf ärztliche Anordnung hin selbständig und auf eigene Rechnung tätig sein. Zuvor wurden ihre Leistungen nur unter ärztlicher Aufsicht im sogenannten Delegationsmodell vergütet oder die psychologischen Psychotherapeutinnen und -therapeuten arbeiteten selbstständig im Zusatzversicherungsbereich und für Selbstzahlende. Dieser Systemwechsel wurde beschlossen, um den Zugang der psychotherapeutischen Leistungen zu verbessern und eine angemessene Versorgung sicherzustellen.\nDer im Auftrag des Bundesamts für Gesundheit (BAG) vom schweizerischen Gesundheitsobservatorium (Obsan) erstellte zweite Monitoring-Bericht ist nun erschienen. Das Monitoring beruht auf Abrechnungsdaten von 2014 bis 2024, wobei die Jahre 2021 bis 2024 mit Fokus auf den Systemwechsel besonders genau betrachtet wurden.\nKostenentwicklung\nDas Monitoring zeigt, dass die OKP-Kosten für die psychologische Psychotherapie kontinuierlich steigen. Insgesamt nahmen die Kosten von 2021 bis 2024 um 394 Millionen Franken zu, von 528 Millionen Franken im letzten Jahr des Delegationsmodells auf 922 Millionen Franken. Dies entspricht durchschnittlichen jährlichen Mehrkosten von 131 Millionen Franken oder einem Plus von durchschnittlich 20,4 Prozent pro Jahr. Besonders stark war der Anstieg zwischen 2022 und 2023 – dem Jahr, in dem das Anordnungs- das Delegationsmodell vollständig ablöste. In diesem Jahr stiegen die Kosten um 217 Millionen Franken.\nDer Kostenanstieg hat mehrere Ursachen. Die selbstständigen Tarife der angeordneten psychologischen Psychotherapie sind rund 16 Prozent höher im Vergleich zu den früheren Tarifen im Delegationsmodell. Weiterhin fehlt ein von den Tarifpartnern gemeinsam vereinbarter gesamtschweizerischer Tarifvertrag, weshalb die kantonal provisorisch festgelegten Tarife immer noch in Anwendung sind. Die Analysen zeigen nun, dass rund ein Drittel des Kostenanstiegs auf diesen Tarifunterschied zurückzuführen ist. Dieser Anteil liegt tiefer als im ersten Monitoring-Bericht von 2024 geschätzt.\nWeitere Gründe für die Kostenzunahme sind eine langfristig zunehmende Inanspruchnahme psychotherapeutischer Leistungen sowie das Bevölkerungswachstum. 44 Prozent des Anstiegs entfallen auf andere, nicht direkt beobachtete Faktoren. Dazu zählen die direkten Auswirkungen des Modellwechsels wie mögliche Verlagerungen aus dem Selbstzahler- und Zusatzversicherungsbereich sowie eine mögliche Reduktion der Unterversorgung.\nWeitere Analysen\nIm ersten Monitoring-Bericht 2024 wurden für den Zeitraum zwischen 2022 und 2023 Mehrkosten im Bereich von 175 bis 200 Millionen Franken prognostiziert. Der ehemalige Krankenkassenverband santésuisse schätzte Mehrkosten von über 300 Millionen Franken. Der aktuelle Monitoring-Bericht geht unter anderem auch den Hintergründen dieser Abweichungen nach. Er kommt zum Schluss, dass die Differenzen aus einer Kombination verschiedener Faktoren resultieren, darunter die zugrunde liegenden Daten, der betrachtete Zeitraum und die Berechnungsmethode.\nNeben den Kosten wurden auch Kennzahlen der Versorgung analysiert. Zum Beispiel enthält der Bericht Analysen zu den anordnenden Ärztegruppen sowie zur Anzahl und zur unterschiedlichen regionalen Verteilung der zugelassenen Psychotherapeutinnen und Psychotherapeuten und ihrer Leistungen.\nVertiefte Evaluation geplant\nMit dem für Frühling 2026 erwarteten Evaluationsbericht werden zusätzlich zentrale Fragen zum Einfluss des Systemwechsels auf die Versorgungssituation sowie zu allfälligen Problemen in der Umsetzung, Handlungsbedarf und möglichen Anpassungsmassnahmen adressiert.\nWeitere Informationen:\nNeuregelung der psychologischen Psychotherapie ab 1. Juli 2022\nMonitoring im BAG\nÜber uns\nAls Teil des Eidgenössischen Departements des Innern ist das BAG verantwortlich für die Gesundheit der Bevölkerung, entwickelt die schweizerische Gesundheitspolitik und setzt sich für ein langfristig leistungsfähiges und bezahlbares Gesundheitssystem ein.\n© BAG | OFSP | UFSP | FOPH\nBleiben Sie informiert\nFacebook\nDas BAG auf X\nInstagram\nYouTube\nLinkedin\nDie Newsletters des BAG\nWeitere Informationen\nKontakt & Standort\nOffene Stellen\nOrganisation\nBAG-Bulletin\nMittel und Gegenständeliste\nMedizinalberuferegister\nRechtliches\nImpressum\nBarrierefreiheit",
+      "retrieved_at": "2026-08-21T18:52:35.450962+00:00",
+      "http_status": 200,
+      "final_url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "retrieval_mode": "LIVE_HTML"
+    },
+    {
+      "source_id": "bag_psychotherapy_rules",
+      "publisher": "Bundesamt für Gesundheit (BAG)",
+      "title": "Neuregelung der psychologischen Psychotherapie ab 1. Juli 2022",
+      "url": "https://www.bag.admin.ch/de/neuregelung-der-psychologischen-psychotherapie-ab-1-juli-2022",
+      "source_class": "OFFICIAL",
+      "allowed_claim_types": [
+        "model_start_date"
+      ],
+      "focus": "Only the start date of the Anordnungsmodell / new regulation.",
+      "content": "Neuregelung der psychologischen Psychotherapie ab 1. Juli 2022\nZum Hauptinhalt springen\nAlle Schweizer Bundesbehörden\nLeichte Sprache\nGebärdensprache\nSprach Dropdown Deutsch ausgewählt\nDE\nFR\nIT\nEN\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nBundesamt für Gesundheit BAG\nSuche\nSuche\nMedien\nJobs\nKontakt\nLeichte Sprache\nGebärdensprache\nNeuregelung der psychologischen Psychotherapie ab 1. Juli 2022\nPsychologische Psychotherapeutinnen und Psychotherapeuten können seit dem 1. Juli 2022 zulasten der obligatorischen Krankenpflegeversicherung (OKP) selbständig und auf eigene Rechnung tätig sein. Voraussetzung ist eine ärztliche Anordnung.\n1. Zulassungsvoraussetzungen, um ab 1. Juli 2022 Leistungen über die OKP zu verrechnen\nDie konkreten Zulassungsvoraussetzungen für psychologische Psychotherapeutinnen und Psychotherapeuten und für Organisationen der Psychotherapie inkl. Übergangsregeln sind in der Verordnung über die Krankenversicherung (KVV; SR 832.102) geregelt.\nArtikel 50\nc\nKVV regelt die Grundvoraussetzungen für die Zulassung als Psychotherapeut oder Psychotherapeutin zur Tätigkeit zu Lasten der OKP. Dies sind:\nEine kantonale Bewilligung zur Berufsausübung in Psychotherapie nach Artikel 22 des Psychologieberufegesetzes (PsyG; SR 935.81), d.h. der Besitz eines eidgenössischen oder eines anerkannten ausländischen Weiterbildungstitels in Psychotherapie\nMindestens 3 Jahre psychotherapeutische Erfahrung (Details siehe Kapitel psychotherapeutische Erfahrung)\nSie üben ihren Beruf selbstständig und auf eigene Rechnung aus. Qualitätsanforderungen nach neuem Artikel 58\ng\nKVV.\nArtikel 52\ne\nKVV regelt die Anforderungen an Organisationen der psychologischen Psychotherapie.\nWeitere Informationen zum Thema Zulassung sind zu finden unter dem Link\nFAQ Leistungserbringer\nund unten in den FAQ.\nPsychotherapeutische Erfahrung für die Zulassung zur Tätigkeit zu Lasten der OKP\nAlle psychologischen Psychotherapeutinnen und Psychotherapeuten müssen drei Jahre klinische Praxis absolviert haben, bevor sie künftig Leistungen im Rahmen der OKP selbständig abrechnen dürfen.\nFür Personen, die am 1. Juli 2022 die Berufsausübungsbewilligung zur Tätigkeit in eigener fachlicher Verantwortung und bereits mindestens 3 Jahre psychotherapeutische Erfahrung besassen, gilt eine Übergangsregelung.\nFür alle anderen gelten die normalen Zulassungsbedingungen gemäss Artikel 50\nc\nKVV.\nPsychotherapeutische Erfahrung für die Zulassung zur Tätigkeit gemäss Artikel 50c KVV\nAngerechnet werden:\na) Die zwei Jahre, die während der Weiterbildung durchgeführt werden müssen, und\nb) Ein zusätzliches Jahr, welches vor oder nach Erwerb des Weiterbildungstitels, jedoch nach Beginn der Weiterbildung, absolviert werden kann. Dieses dritte Jahr kann nur in psychotherapeutisch-psychiatrischen Einrichtungen erfolgen, die über Anerkennungen des Schweizerischen Instituts für ärztliche Weiter- und Fortbildung (SIWF) verfügen:\nFür künftig in der Erwachsenen-Psychotherapie Tätige: an einer Einrichtung, die über eine Anerkennung des SIWF als ambulante oder stationäre Weiterbildungsstätte der Kategorien A oder B sowie ab 1. Januar 2023 auch der Kategorie C verfügt. Die Einteilung der Weiterbildungsstätten in die verschiedenen Kategorien erfolgt gemäss dem durch das Eidg. Departement des Innern (EDI) akkreditierten Weiterbildungsprogramm «Facharzt für Psychiatrie und Psychotherapie» des SIWF vom 1. Juli 2009 in der Fassung vom 15. Dezember 2016.\nAb dem 1. Juli 2024 werden zusätzlich auch die Weiterbildungsstätten, die eine Anerkennung des SIWF als Weiterbildungsstätte Kategorie A oder B im Rahmen eines Schwerpunktes (Alterspsychiatrie und -psychotherapie, Konsiliar- und Liaisonpsychiatrie, Forensische Psychiatrie und Psychotherapie, Psychiatrie und Psychotherapie der Abhängigkeitserkrankungen) besitzen, in Artikel 50\nc\nBuchstabe b Ziffer 1 KVV aufgenommen. Für Zulassungen ab dem 1. Juli 2024 wird psychologischen Psychotherapeutinnen und Psychotherapeuten somit eine Tätigkeit in Institutionen mit Schwerpunkt-Kategorie A oder B als Zulassungsvoraussetzung anerkannt. Zudem wird auf das revidierte Weiterbildungsprogramm «Facharzt für Psychiatrie und Psychotherapie» in der neuen Fassung vom 1. Januar 2024 verwiesen.\nFür künftig in der Kinder- und Jugend-Psychotherapie Tätige: an einer Einrichtung, die über eine Anerkennung des SIWF als Weiterbildungsstätte der Kategorien A, B oder C verfügt. Die Einteilung der Weiterbildungsstätten in die verschiedenen Kategorien erfolgt gemäss dem durch das EDI akkreditierten Weiterbildungsprogramm «Facharzt für Kinder- und Jugendpsychiatrie und -psychotherapie» des SIWF vom 1. Juli 2006 in der Fassung vom\n20. Dezember 2018.\nDie SIWF-Anerkennung der Weiterbildungsstätte muss zum Zeitpunkt der Tätigkeit an der Weiterbildungsstätte gelten oder gegolten haben; der relevante Bereich der Einrichtung muss anerkannt sein. Link zum Register der SIWF-anerkannten Weiterbildungsstätten und zu den Weiterbildungsprogrammen unter «Links».\nDie Reihenfolge, wie die drei Jahre geleistet werden, ist nicht vorgegeben. (Teilzeit siehe Frage «Zählt auch klinische Erfahrung in Teilzeit?»)\nEs ist vorgesehen, dass seitens der Fachverbände mittelfristig für die zu Lasten der OKP tätigen psychologischen Psychotherapeuten und Psychotherapeutinnen andere spezifische Kriterien etabliert werden, in welchen Einrichtungen ein breites, dem späteren Tätigkeitsfeld angepasstes Störungsspektrum der behandelten Patienten und Patientinnen und eine zweckmässige Mindestgrösse mit einem interprofessionellen Umfeld vorhanden sind. Sobald diese implementierbar sind, könnte die Regelung künftig entsprechend angepasst werden.\nZeitlich und betreffend qualifizierte Supervision gelten analoge Bedingungen, wie für die Anerkennung der praktischen Jahre in der Psychotherapie-Weiterbildung gemäss die Verordnung des EDI über Umfang und Akkreditierung der Weiterbildungsgänge der Psychologieberufe (AkkredV-PsyG; SR 935.811.1).\nDie psychotherapeutische Erfahrung für die OKP-Zulassung kann während der Weiterbildung erfolgt sein, oder nach dem Erwerb des Weiterbildungstitels.\nGemäss Qualitätsstandard 2.2 im Anhang 1 der AkkredV-PsyG ist die klinische Praxis grundsätzlich während der Weiterbildung in Psychotherapie zu erwerben.\nDie Anforderungen betreffend qualifizierte Supervision gelten analog zu jenen für die Anerkennung innerhalb der Weiterbildung gemäss AkkredV-PsyG. Die Supervisorinnen und Supervisoren verfügen in der Regel über eine qualifizierte Weiterbildung in Psychotherapie, über entsprechende Berufserfahrung und über eine Spezialisierung in Supervision. Ein Fähigkeitszeugnis «delegierte Psychotherapie» qualifiziert nicht zur Supervision.\nPsychotherapeutische Erfahrung und Zulassung zur Tätigkeit zu Lasten der OKP gemäss Übergangsbestimmung\nPersonen, die am 1. Juli 2022 alle Anforderungen zur Qualifikation UND 3 Jahre psychotherapeutische Erfahrung vollständig erfüllten, gilt eine Übergangsbestimmung. So können die bereits seit Längerem psychotherapeutisch Tätigen zugelassen werden.\nDie Neuregelung ist am 1. Juli 2022 in Kraft getreten. Dies ist der Stichtag, an dem alle Qualifikationen vorhanden sein müssen, um die klinische Erfahrung via Übergangsregel der KVV zählen zu können. Dies gilt in der Organisation und für einzelne Leistungserbringer.\nDie Übergangsbestimmung zur KVV-Änderung (Absatz 5) ermöglicht für qualifizierte Fachpersonen mit kantonaler Berufsausübungsbewilligung die Zulassung, auch wenn sie die Bedingungen betreffend klinische Erfahrung gemäss Artikel 50\nc\nBuchstabe b KVV (Erfahrung in SIWF-anerkannter Einrichtung) zwar nicht erfüllen, jedoch beim Inkrafttreten am 1. Juli 2022 bereits über mindestens 3-jährige psychotherapeutische Erfahrung verfügt haben.\nAnerkannt wird eine psychotherapeutische Erfahrung von mindestens 3 Jahren in der psychotherapeutisch-psychiatrischen Versorgung, die von einer qualifizierten Supervision begleitet wurde.\nDies kann sein:\nPsychotherapeutische Tätigkeit während der Psychotherapie-Weiterbildung, die allenfalls auch für die Weiterbildung angerechnet wurde.\na. delegierte psychotherapeutische Tätigkeit\nb. psychotherapeutische Tätigkeit in der ambulanten oder stationären Versorgung, z.B. in einer Klinik\nPsychotherapeutische Tätigkeit nach dem Erwerb des Weiterbildungstitels\na. delegierte psychotherapeutische Tätigkeit\nb. psychotherapeutische Tätigkeit in der ambulanten oder stationären Versorgung,\nc. psychotherapeutische Tätigkeit in eigener fachlicher Verantwortung, unabhängig davon, ob die Patienten Selbstzahler waren oder eine Zusatzversicherung die Kosten trug.\nZeitlich und betreffend qualifizierte Supervision gelten analoge Bedingungen, wie für die Anerkennung der praktischen Jahre in der Psychotherapie-Weiterbildung gemäss AkkredV-PsyG.\nDie psychotherapeutische Erfahrung für die OKP-Zulassung kann während der Weiterbildung erfolgt sein, oder nach dem Erwerb des Weiterbildungstitels.\nGemäss Qualitätsstandard 2.2 im Anhang 1 der Verordnung des EDI über Umfang und Akkreditierung der Weiterbildungsgänge der Psychologieberufe (AkkredV-PsyG) ist die klinische Praxis grundsätzlich während der Weiterbildung in Psychotherapie zu erwerben.\nDie Anforderungen betreffend qualifizierte Supervision gelten analog zu jenen für die Anerkennung innerhalb der Weiterbildung gemäss AkkredV-PsyG. Die Supervisorinnen und Supervisoren verfügen in der Regel über eine qualifizierte Weiterbildung in Psychotherapie, über entsprechende Berufserfahrung und über eine Spezialisierung in Supervision. Ein Fähigkeitszeugnis «delegierte Psychotherapie» qualifiziert nicht zur Supervision.\nDelegierte Tätigkeit\nBei der delegierten Psychotherapie handelte es sich um eine durch die Rechtsprechung des Bundesgerichts begründete Übergangsregelung, die eine Vergütung von durch nichtärztliche Personen erbrachter Psychotherapie als ärztliche Leistung ermöglichte (BGE 107 V 46 vom 24. März 1981).\nDie Übergangsregelung in der KLV sieht vor, dass die ärztlich delegierte Psychotherapie noch 6 Monate nach Inkrafttreten, d.h. bis 31. Dezember 2022, vergütet werden konnte.\nDas bedeutet, dass sämtliche Tarmed-Regeln für die delegierte Tätigkeit ihre Gültigkeit bis zum 31. Dezember 2022 behalten haben. Somit konnte eine delegiert arbeitende Person, die die Zulassungsvoraussetzungen nicht erfüllt, noch bis maximal zu diesem Datum delegiert tätig sein.\nWährend dieser Übergangsphase war es möglich, nebeneinander delegiert sowie selbständig und auf eigene Rechnung zu arbeiten.\nSeit dem 1. Januar 2023 gibt es die delegierte Psychotherapie nicht mehr.\nDie Neuregelung betrifft aber nur die OKP. Andere vertragliche Regelungen ausserhalb der OKP sind davon nicht direkt betroffen.\nInformationen zu Anstellungsverhältnissen, Personen in Weiterbildung und Organisationsformen in diesem Zusammenhang finden Sie in den\nFAQ Leistungserbringer\n2. Vorgaben betreffend die Leistung psychologische Psychotherapie ab 1. Juli 2022\nVorgaben betreffend die eigentliche Leistung Psychotherapie mit Details zu Anordnung und zur Anzahl der Sitzungen finden Sie in der Krankenpflege-Leistungsverordnung (KLV).\nWelche Leistungen bezahlt die Grundversicherung (OKP) ab dem 1. Juli 2022?\nDie Grundsätze der OKP gelten auch für psychologische Psychotherapie: Nur Leistungen bei Krankheit werden vergütet.\nEs gilt Artikel 11\nb\nder KLV.\nGrundsätze und Methoden gelten gemäss der Regelung zur ärztlichen Psychotherapie nach Artikel 2 KLV.\nDie Leistungen der psychologischen Psychotherapeuten umfassen neben der eigentlichen Psychotherapie auch Koordinationsleistungen. Letztere müssen im Zusammenhang mit der Psychotherapie stehen und betreffen einerseits die Koordination mit dem anordnenden Arzt oder der anordnenden Ärztin im Rahmen der Behandlung der psychischen Krankheit und andererseits die Abstimmung mit weiteren in die Behandlung involvierten Personen im Sinne der koordinierten Versorgung.\nIm Rahmen der Leistung der Psychotherapie sind auch Erstgespräche mit insbesondere anamnestischen und diagnostischen Elementen eingeschlossen.\nWer darf die Leistungen anordnen?\nDie nicht-ärztlichen psychotherapeutischen Leistungen müssen von einer ärztlichen Fachperson angeordnet sein, um über die OKP vergütet zu werden.\nDie reguläre Anordnungsbefugnis ist eingeschränkt auf Ärzte oder Ärztinnen mit den folgenden in der Schweiz erworbenen oder anerkannten Facharzttiteln (Art. 11\nb\nAbs. 1 Bst. a KLV):\nAllgemeine Innere Medizin, Kinder- und Jugendmedizin, Psychiatrie und Psychotherapie, Kinder- und Jugendpsychiatrie und –psychotherapie, sowie auf Ärzte mit dem interdisziplinären Schwerpunkt Psychosomatische und psychosoziale Medizin (SAPPM).\nZu den Fachärzten für Allgemeine Innere Medizin gehören auch die früheren eidgenössischen Facharzttitel «Innere Medizin» und «Allgemeinmedizin». Diese wurden erst 2011 zu einem gemeinsamen Titel «Allgemeine Innere Medizin» zusammengefasst. Personen, die diese früheren Titel erworben haben, führen diese weiterhin.\nKriseninterventionen oder Kurztherapien für Patienten und Patientinnen mit schweren Erkrankungen bei Neudiagnose oder bei einer lebensbedrohlichen Situation können durch alle Ärztinnen und Ärzte mit einem Weiterbildungstitel (alle ärztlichen Fachrichtungen inkl. Praktischer Arzt) einmalig für ein Maximum von 10 Sitzungen angeordnet werden.\nPraktische Ärzte können maximal 10 Sitzungen anordnen, auch wenn sie als Hausarzt arbeiten und Fortbildungszertifikate für die kontinuierliche Fortbildung besitzen. Auch eine Dignität betreffend des TARDOC (vorher TARMED) ersetzt nicht den Facharzttitel.\nWas gilt betreffend Anzahl Sitzungen?\nPro ärztliche Anordnung sind gemäss Artikel 11\nb\nAbsatz 2 KLV maximal 15 Sitzungen der psychologischen Psychotherapie möglich.\nDanach ist ein Informationsaustausch zwischen der anordnenden ärztlichen und der ausführenden psychotherapeutischen Fachperson für eine mögliche Anordnung von weiteren maximal 15 Sitzungen notwendig.\nDies gilt nur für die reguläre Anordnung (siehe oben: Wer darf anordnen?). Kriseninterventionen oder Kurztherapien können einmalig für ein Maximum von 10 Sitzungen angeordnet werden. Für eine mögliche Weiterführung der Therapie nach einer Krisenintervention oder Kurztherapie muss eine reguläre Anordnung erfolgen. Nach kumuliert 30 Sitzungen (10 Sitzungen Kurztherapie/Krisenintervention + 20 Sitzungen via reguläre Anordnung) ist eine Kostengutsprache des Versicherers notwendig.\nWas gilt betreffend Weiterführung einer Therapie nach 30 Sitzungen?\nVor einer Weiterführung der Psychotherapie nach 30 Sitzungen ist eine Kostengutsprache des Versicherers nötig. Dies regelt Artikel 11\nb\nAbsatz 3 KLV.\nDies gilt auch für die Weiterführung einer Psychotherapie, die als Krisenintervention oder Kurztherapie begann und sich mit einer regulären Anordnung fortsetzte. Nach kumuliert 30 Sitzungen (10 Sitzungen Kurztherapie/Krisenintervention + 20 Sitzungen via reguläre Anordnung) ist eine Kostengutsprache des Versicherers notwendig.\nDer Bericht mit dem Vorschlag zur Fortsetzung ist durch den anordnenden Arzt oder die anordnende Ärztin zu erstellen. Dieser beinhaltet bei durch Fachärzte und Fachärztinnen Allgemeine Innere Medizin sowie Kinder- und Jugendmedizin angeordneten psychologischen Psychotherapien das Ergebnis einer Fallbeurteilung durch Fachärzte oder Fachärztinnen mit den Weiterbildungstiteln Psychiatrie und Psychotherapie oder Kinder- und Jugendpsychiatrie und -psychotherapie.\nJe nach individueller Vulnerabilität der Patientin oder des Patienten kann diese Fallbeurteilung auch in Form einer Aktenbeurteilung stattfinden.\nFür Psychotherapien, die durch Fachärzte und Fachärztinnen für Psychiatrie und Psychotherapie oder für Kinder- und Jugendpsychiatrie und -psychotherapie oder mit einem interdisziplinären Schwerpunkttitel Psychosomatische und Psychosoziale Medizin SAPPM angeordnet wurden, ist keine zusätzliche Fallbeurteilung notwendig.\n3. Monitoring und Evaluation\nUm die Auswirkungen der Neuregelung auf die Kosten und die Versorgung zu verfolgen, hat der Bundesrat ein Monitoring sowie eine Evaluation vorgesehen. Die vom BAG in Auftrag gegebenen Monitoringberichte wurden am 3. Mai 2024 und am 19. August 2025 veröffentlicht (siehe Link unten an der Seite unter «Dokumente»). Die vom BAG in Auftrag gegebene formative Evaluation sowie der Bericht des BAG zur formativen Evaluation wurden am 24. Juni 2026 veröffentlicht (siehe Link unten an der Seite unter «Dokumente»).\n4. Weitere Informationen und FAQ\nWeitere Informationen finden Sie hier:\nZur Einführung des formellen Zulassungsverfahrens für\nLeistungserbringer\ndurch die Kantone im ambulanten Bereich, das per 1. Januar 2022 in Kraft trat. Dort insbesondere «Häufig gestellte Fragen FAQ. Psychologische Psychotherapeuten bzw. deren Organisationen sind von diesem neuen kantonalen Verfahren ebenfalls betroffen.\nZum Psychologieberufegesetz (PsyG), zu Weiterbildungstiteln, Berufsausübung im Fach Psychotherapie:\nHäufige Fragen (FAQ) zum Psychologieberufegesetz (PsyG)\nHäufige Fragen (FAQ)\n01. Welche kantonale Bewilligung wird vorausgesetzt?\nGemäss Artikel 50c KVV benötigen Sie für eine Zulassung zur Tätigkeit zu Lasten der OKP eine kantonale Bewilligung zur Berufsausübung in Psychotherapie in eigener fachlicher Verantwortung nach Artikel 22 des Psychologieberufegesetzes (PsyG)\nDiese kann den Personen mit einem eidgenössischen oder einem anerkannten ausländischen Weiterbildungstitel in Psychotherapie erteilt werden.\nDie kantonale Berufsausübungsbewilligung ist beim Kanton zu beantragen.\nAuch die Zulassung zur Tätigkeit im Rahmen der OKP wird vom zuständigen Kanton auf Antrag erteilt. Es gibt keinen Automatismus. Die Adressen der zuständigen kantonalen Stellen finden Sie unter folgendem Link der\nGDK Zulassung von ambulanten Leistungserbringern zur OKP\nunter «Weitere Informationen».\n02. Erfülle ich als Eidg. anerkannte Psychotherapeutin die Bedingungen, auch wenn ich meine Weiterbildung in einem provisorisch akkreditierten Weiterbildungsgang absolvierte?\nJa, Sie sind gemäss PsyG eine Eidg. anerkannte Psychotherapeutin. Zur Zulassung zur OKP benötigen sie weiter eine kantonale Berufsausübungsbewilligung zur Berufsausübung der Psychotherapie in eigener fachlicher Verantwortung.\n03. Ich bin schon seit 20 Jahren als delegierte Psychotherapeutin tätig. Werde ich automatisch zugelassen?\nNein. Grundvoraussetzungen für die Zulassung zur Tätigkeit zu Lasten der OKP ist eine kantonale Bewilligung zur Berufsausübung der Psychotherapie in eigener fachlicher Verantwortung nach Artikel 22 des Psychologieberufegesetzes (PsyG) (Voraussetzung dafür ist ein eidgenössischer oder als gleichwertig anerkannter ausländischer Weiterbildungstitel in Psychotherapie nach dem PsyG) und eine psychotherapeutische Erfahrung von mindestens 3 Jahren.\nPersonen, die nach den Übergangsbestimmungen in Artikel 49 Absatz 3 PsyG keine einem eidgenössischen Weiterbildungstitel entsprechende Ausbildung hatten, sind nicht zu Lasten der OKP zugelassen.\nViele dieser Personen waren jedoch vor Inkrafttreten des PsyG im Besitz einer kantonalen Berufsausübungsbewilligung und können somit gemäss PsyG auch weiterhin eingeschränkt im jeweiligen Kanton in eigener fachlicher Verantwortung tätig sein. Ihre Leistungen werden jedoch nicht durch die OKP vergütet.\n04. Welche praktische Erfahrung wird benötigt, wenn ich später mit Erwachsenen und Kindern arbeiten möchte?\nDas Psychologieberufegesetz (PsyG) unterscheidet nicht zwischen Psychotherapeutinnen und Psychotherapeuten für Kinder- und Jugendliche und für Erwachsene. Die Inhaberinnen und Inhaber von eidgenössischen Weiterbildungstiteln in Psychotherapie können ihre Tätigkeit je nach Fokus ihrer Weiterbildung entsprechend ausweisen und entweder Psychotherapie für Erwachsene oder für Kinder und Jugendliche anbieten, oder aber beides bei entsprechenden Kenntnissen und Fähigkeiten. Es gehört zu den Berufspflichten nach Artikel 27 PsyG, den Beruf gewissenhaft auszuüben und sich an die Grenzen der eigenen Kompetenzen zu halten.\nAuch die OKP-Regelung sieht keine getrennte Qualifikation vor. Für die Zulassung zur Tätigkeit zulasten der OKP werden in Artikel 50\nc\nKVV insgesamt 3 Jahre praktische Erfahrung gefordert, davon 12 Monate, welche nur an bestimmten SIWF-anerkannten Kliniken für Erwachsene und/oder Kinder Jugendliche erworben werden können. Diese 12 Monate sollen das spätere Tätigkeitsfeld reflektieren und darauf vorbereiten. Die Neuregelung beinhaltet aber keine Vorgabe, dass Personen, welche mit Erwachsenen arbeiten, auch diese 12 Monate in Kliniken für Erwachsene tätig gewesen sein müssten (resp. das Entsprechende für Kinder und Jugendliche).\n05. Was, wenn ich die Bedingungen am 01. Juli 2022 nur ganz knapp noch nicht erfülle?\nDie Personen, welche per 1.7.22 die Anforderungen noch nicht vollständig erfüllen, haben die klinische Erfahrung gemäss Artikel 50c KVV zu erfüllen: d.h. sie haben mind. 12 Monate der 3 Jahre in einer psychotherapeutisch-psychiatrischen Einrichtung mit SIWF-Anerkennung zu absolvieren.\nZur Illustration einige Beispiele:\nPerson A: Abschluss der Weiterbildung anfangs 2022 und bis zum Inkrafttreten 2,5 Jahre klinische Erfahrung, aber nur in Einrichtungen ohne SIWF-Anerkennung.\n- Die Person erfüllt am 1.7.2022 nicht alle Anforderungen und muss die klinische Erfahrung gemäss Art. 50c KVV nachweisen. Sie muss noch 12 Monate in einer Einrichtung mit SIWF-Anerkennung absolvieren, bevor sie zugelassen werden kann. Nur eine Absolvierung der fehlenden 6 Monate an einer SIWF anerkannten Einrichtung, ist nicht möglich.\n- Zur Zulassung zur OKP benötigt die Person neben dem eidg. Weiterbildungstitel weiter eine kantonale Berufsausübungsbewilligung.\nPerson B: Weiterbildung 2021 abgeschlossen und eidg. Titel vorhanden; zum Zeitpunkt des Inkrafttretens noch keine drei Jahre Berufserfahrung.\n- Die Person erfüllt am 1.7.2022 nicht alle Anforderungen und muss die klinische Erfahrung gemäss Art. 50c KVV nachweisen.\nSofern die bisherige klinische Erfahrung nicht bereits Zeit an einer SIWF-anerkannten Weiterbildungsstätte gemäss Art. 50c KVV enthielt, müssen die entsprechenden 12 Monate noch absolviert werden.\n- Zur Zulassung zur OKP benötigt die Person neben dem eidg. Weiterbildungstitel weiter eine kantonale Berufsausübungsbewilligung.\n06. Zählt auch psychotherapeutische Erfahrung in Teilzeit?\nJa, bei Teilzeitbeschäftigung verlängert sich die Dauer entsprechend.\nDas Gleiche gilt, wenn psychotherapeutische Arbeit nur einen Anteil der Beschäftigung neben anderen Tätigkeiten ausmacht (z.B. nur 50 Prozent psychotherapeutisch tätig, daneben 50 Prozent andere Aufgaben, wie Neuropsychologie oder weitere).\n07. Wird ein Mutterschaftsurlaub während der klinischen Erfahrung in jedem Fall vollständig an die klinische Erfahrung angerechnet?\nNein. Das Erfordernis der klinischen Erfahrung soll die Qualität der Behandlung sicherstellen. Eine gute klinische Praxiserfahrung ist wichtig für die selbständige Behandlung der Patientinnen und Patienten. Aus diesem Grund wird eine klinische Erfahrung von drei Jahren vorgeschrieben, um das Spektrum der Störungen und die Interprofessionalität zu umfassen, die für die Behandlung von Krankheiten im Rahmen des KVG erforderlich sind. Aus diesem Grund kann ein Mutterschaftsurlaub nicht an die klinische Erfahrung angerechnet werden.\n08. Ändert sich etwas an den Bedingungen für die kantonale Berufsausübungsbewilligung?\nNein, die beschlossenen Änderungen betreffen nur die OKP-Zulassung. Sie betreffen nicht die kantonalen Bewilligungen zur Berufsausübung in eigener fachlicher Verantwortung.\n09. Wie erhalten wir die SIWF-Anerkennung? Können die Kriterien dafür angepasst werden?\nDie Kriterien für eine Anerkennung als Weiterbildungsstätte für die ärztliche Weiterbildung sind für den jeweiligen ärztlichen Weiterbildungsgang festgelegt.\nEs gelten die jeweiligen Kriterien für die Anerkennung in einer bestimmten Kategorie\n. Mit einer SIWF-Anerkennung als «Praxis» können Sie nicht ohne weiteres in einer anderen Kategorie zugelassen werden.\nDas SIWF ist allein für den Bereich der ärztlichen Weiterbildung zuständig\n. Eine SIWF-Anerkennung von nichtärztlichen Einrichtungen, wie zum Beispiel Organisationen der Psychotherapie oder psychologische Hochschulambulatorien ist ausgeschlossen.\nBitte sehen Sie auch davon ab, beim SIWF Ausnahmen zu beantragen.\n10. Ich möchte abklären lassen, ob ich die Bedingungen erfülle. Wer prüft mein Dossier und gibt mir Auskunft?\nDie Zulassung zur Tätigkeit zu Lasten der OKP muss aktiv beim Kanton beantragt werden.\nEs gibt keinen Automatismus. Die Adressen der zuständigen kantonalen Stellen finden Sie unter folgendem Link der\nGDK Zulassung von ambulanten Leistungserbringern zur OKP\nunter «Weitere Informationen».\nErst mit der kantonalen OKP-Zulassung kann die ZSR-Nummer oder K-Nummer bei der SASIS AG beantragt werden.\n11. Was ändert sich betreffend Weiterbildung in Psychotherapie?\nDer Wechsel zum Anordnungsmodell hat keine direkten Auswirkungen auf die Struktur und die Inhalte der akkreditierten Weiterbildungsgänge für Psychotherapie.\nDie beschlossenen Änderungen betreffen die OKP, nicht aber die Regulation zur Weiterbildung in Psychotherapie. Hier ist das Psychologieberufegesetz (PsyG) massgebend.\n12. Wie können Personen in Weiterbildung abrechnen?\nSie können ihre Leistungen nicht direkt gegenüber den Krankenversicherern abrechnen und sie können seit 2023 nicht mehr delegiert bei Ärzten arbeiten.\nPersonen in Weiterbildung können nur unter der Verantwortung und direkten Aufsicht der psychologischen Psychotherapeutin oder des psychologischen Psychotherapeuten arbeiten, der die Person unterstellt ist. Dies bedingt auch obligatorisch die Tätigkeit in den gleichen Räumlichkeiten und im Prinzip eine limitierte Anzahl Personen in Weiterbildung pro psychologische Psychotherapeutin oder psychologischer Psychotherapeut.\nWeitere Informationen zum Thema sind zu finden unter dem Link\nFAQ Leistungserbringer (admin.ch)\n13. Ich arbeite delegiert in einer Arztpraxis, mache aber nur diagnostische Test und keine Therapien. Was gilt nach dem 1. Juli 2022?\nSeit dem 1. Januar 2023 gibt es die delegierte Psychotherapie nicht mehr.\nEine neue Form der Delegation von ärztlichen Leistungen an Psychologinnen und Psychologen mit oder ohne Weiterbildungstitel ist im Rahmen der OKP nicht vorgesehen. Ärztliche Leistungen, die entsprechend tarifiert sind, sind grundsätzlich auch durch Ärztinnen und Ärzte zu erbringen. Die delegierte psychologische Psychotherapie nahm hier eine per Rechtsprechung begründete Sonderstellung ein.\n14. Wenn ich die Zulassungs-Voraussetzungen nicht erfülle und NICHT in Weiterbildung bin oder noch praktische Erfahrung nach dem Weiterbildungsabschluss sammle: Kann ich dann weiterhin delegiert arbeiten?\nNein, das ist nicht möglich.\nDie Anforderungen an Organisationen der psychologischen Psychotherapie (Art. 52e) sehen vor, dass auch in der Organisation die Leistungen durch Personen erbracht werden, welche die Voraussetzungen nach Artikel 50c KVV erfüllen.\nAusnahmebewilligungen sind ebenfalls nicht möglich.\nDelegierte Psychotherapie als Übergangsform der ärztlichen Psychotherapie konnte nur noch bis 31. Dezember 2022 gemäss den bisherigen Tarmed-Regeln verrechnet werden.\nEine neue Form der Delegation von ärztlichen Leistungen an Psychologinnen und Psychologen mit oder ohne Weiterbildungstitel ist im Rahmen der OKP nicht vorgesehen. Ärztliche Leistungen, die entsprechend tarifiert sind, sind grundsätzlich auch durch Ärztinnen und Ärzte zu erbringen. Die delegierte Psychotherapie nahm hier eine nur per Rechtsprechung begründete Sonderstellung ein.\n15. Was gilt für die delegierenden ärztlichen Fachpersonen nach dem 1. Juli 2022?\nBei der delegierten Psychotherapie handelte es sich um eine durch die Rechtsprechung des Bundesgerichts begründete Übergangsregelung, die eine Vergütung von durch nichtärztliche Personen erbrachter Psychotherapie als ärztliche Leistung ermöglichte (BGE 107 V 46 vom 24. März 1981).\nDie psychologischen Psychotherapeutinnen und Psychotherapeuten sind ab 1. Juli 2022 neu als auf Anordnung einer ärztlichen Fachperson tätige Leistungserbringer in der OKP zugelassen und können ihre Leistungen in eigener fachlicher Verantwortung erbringen.\nDie Übergangsregelung in der KLV sieht vor, dass die delegierte Psychotherapie noch maximal 6 Monate nach Inkrafttreten der Neuregelung, d.h. bis 31. Dezember 2022, vergütet werden konnte. Bis dahin haben die Tarmed-Regeln für die delegierte Tätigkeit ihre Gültigkeit behalten. Dies sollte es ermöglichen, entsprechende organisatorische Vorkehrungen zu treffen.\nAntworten auf Fragen zu Anstellungsverhältnissen, gemeinsame Nutzung von Praxisinfrastruktur etc. sind in den «\nFAQ Leistungserbringer (admin.ch)\n» enthalten.\n16. Welche Regeln gelten für seit über 20 Jahren delegiert arbeitende Psychotherapeutinnen, welche die Zulassungsbedingungen zwar nicht erfüllen, aber eine Besitzstandswahrung als delegierte Psychotherapeuten besitzen?\nBei der delegierten Psychotherapie handelte es sich um eine nur per Gerichtsurteil begründete Übergangsregelung. Die seit 1. Juli 2022 geltende Neuregelung definiert Mindest-Qualifikationen für psychotherapeutisch tätige Personen in der OKP.\nDie Anforderungen betreffend Qualifikation sind in jedem Fall zu erfüllen.\nSo werden Personen, die nach den Übergangsbestimmungen in Artikel 49 Absatz 3 PsyG keine einem eidgenössischen Weiterbildungstitel entsprechende Ausbildung hatten, jedoch vor Inkrafttreten des PsyG im Besitze einer kantonalen Berufsausübungsbewilligung waren und somit gemäss PsyG eingeschränkt im jeweiligen Kanton weitergehend in eigener fachlicher Verantwortung tätig sein können, nicht berücksichtigt. Das heisst sie werden nicht für die Tätigkeit zu Lasten der OKP zugelassen.\nEinige Kantone haben auch Berufsausübungsbewilligungen für die unselbstständige Tätigkeit ausgestellt. Diese Personen können ohne eine Berufsausübungsbewilligung für die selbstständige Tätigkeit in eigener fachlicher Verantwortung\nnicht\nfür die Tätigkeit zu Lasten der OKP zugelassen werden.\nDie psychologischen Psychotherapeutinnen und -therapeuten sind erst ab 1. Juli 2022 neu als auf Anordnung einer ärztlichen Fachperson tätige Leistungserbringer in der OKP zugelassen. Insofern kann\nkeine Besitzstandswahrung\ngegenüber der OKP vor diesem Datum geltend gemacht werden. Von Seiten Tarmed wurden Abgeltungs- und Zulassungsregeln für die delegierte Psychotherapie erstellt, in deren Rahmen sog. Besitzstandswahrungen für langjährig in der Psychotherapie tätige Personen vorgesehen waren. Diese Besitzstandswahrung galt nur im Rahmen der delegierten Psychotherapie gemäss Tarmed. Auch war die delegierte Psychotherapie hinsichtlich der Anforderungen nicht auf die in eigener fachlicher Verantwortung ausgeübte Tätigkeit ohne ärztliche Aufsicht ausgerichtet.\nDer weitere Besitzstand betreffend kantonale Zulassung zur Berufsausübung wird durch die OKP-Neuregelung nicht tangiert.\n17. Ein psychologischer Psychotherapeut arbeitet in eigenverantwortlicher Tätigkeit sowohl im spitalambulanten als auch im stationären Bereich eines Spitals. Muss er per 1. Juli 2022 eine Zulassung zur Tätigkeit zulasten der OKP beantragen?\nZu unterscheiden ist im vorliegenden Zusammenhang zwischen der Berufsausübungsbewilligung nach dem Psychologieberufegesetz (PsyG) und der Zulassung zulasten der Tätigkeit der OKP. Betreffend Berufsausübung in eigenverantwortlicher Tätigkeit kann auf die\nFAQ zum PsyG\n(Kapitel Berufsausübung) verwiesen werden. Was die Zulassung zur Tätigkeit zulasten der OKP anbelangt, so sind die Spitalambulatorien über die Zulassung des Spitals zugelassen. Die Verantwortung für die Durchführung von Leistungen durch entsprechend qualifiziertes Personal liegt bei der jeweiligen Spitalleitung. Als Leistungserbringer treten somit nicht die im Spital tätigen Personen auf, sondern das Spital selbst nach Artikel 39 KVG.\n18. Gibt es Voraussetzungen seitens des Patienten, damit eine Psychotherapie angeordnet und vergütet werden kann? Muss bei einer Paartherapie mindestens ein Partner eine Krankheit haben?\nEs gelten die Grundsätze der OKP, wonach nur Leistungen bei Krankheit vergütet werden.\nZum Beispiel darf eine psychotherapeutische Begleitung für Paarkonflikte oder zur Aufarbeitung und Bewältigung von Alltagsproblemen oder sozialen Belastungssituationen ohne dass eine Krankheit vorliegt, nicht von der OKP vergütet werden.\nBei Gruppen- oder Paartherapien gilt: Für jede Person, für die eine Vergütung erfolgen soll, müssen diese Grundsätze erfüllt sein und jeweils eine ärztliche Anordnung vorliegen.\n19. Können alle Hausärzte, inkl. praktischer Arzt, die Psychotherapie anordnen?\nDie reguläre Anordnungsbefugnis (max. 2x 15 Sitzungen bis Kostengutsprache) ist eingeschränkt auf Ärzte oder Ärztinnen mit den folgenden in der Schweiz erworbenen oder anerkannten Facharzttiteln (Artikel 11b Absatz 1 Buchstabe a KLV):\n- Allgemeine Innere Medizin\n- Kinder- und Jugendmedizin\n- Psychiatrie und Psychotherapie\n- Kinder- und Jugendpsychiatrie und –psychotherapie\n- sowie Ärzte mit dem interdisziplinären Schwerpunkt Psychosomatische und psychosoziale Medizin (SAPPM).\nKriseninterventionen oder Kurztherapien für Patienten und Patientinnen mit schweren Erkrankungen bei Neudiagnose oder bei einer lebensbedrohlichen Situation können durch alle Ärztinnen und Ärzte mit einem Weiterbildungstitel (alle ärztlichen Fachrichtungen inkl. Praktischer Arzt) einmalig für ein Maximum von 10 Sitzungen angeordnet werden.\nPraktische Ärzte können maximal 10 Sitzungen anordnen, auch wenn sie als Hausarzt arbeiten und Fortbildungszertifikate für die kontinuierliche Fortbildung besitzen. Auch eine Dignität betreffend des TARDOC (vorher TARMED) ersetzt nicht den Facharzttitel.\n20. Woher beziehe ich ein Anordnungsformular?\nHier sind die Fachverbände zuständig.\nVielleicht möchten Sie analog einer Überweisung zu psychiatrischen Kollegen mehr Informationen an den Psychotherapeuten / die Psychotherapeutin übermitteln, als ein Formular zum blossen Ankreuzen gestattet? Dafür würde sich ein Überweisungsschreiben eignen.\n21. Was passiert, wenn die Therapie länger als 30 Sitzungen dauert?\nVor einer Weiterführung der Psychotherapie nach 30 Sitzungen ist eine Kostengutsprache des Versicherers nötig. Dies regelt Artikel 11b Absatz 3 KLV.\nDer Bericht mit dem Vorschlag zur Fortsetzung der Therapie ist durch den anordnenden Arzt oder die anordnende Ärztin zu erstellen.\nWenn die Therapie durch Fachärzte und Fachärztinnen Allgemeine Innere Medizin sowie Kinder- und Jugendmedizin angeordnet wurde, muss der Bericht das Ergebnis einer Fallbeurteilung durch Fachärzte oder Fachärztinnen mit den Weiterbildungstiteln Psychiatrie und Psychotherapie oder Kinder- und Jugendpsychiatrie und -psychotherapie beinhalten.\n22. Was gilt, wenn nach einer Krisenintervention doch eine längere Behandlung nötig ist?\nSollte sich herausstellen, dass eine längere psychotherapeutische Behandlung indiziert ist, hat diese mit einer regulären Anordnung zu erfolgen gemäss Artikel 11\nb\nAbsatz 1 Buchstabe a KLV.\nFür die Weiterführung der Psychotherapie nach kumuliert 30 Sitzungen (10 Sitzungen Kurztherapie/Krisenintervention + 20 Sitzungen via reguläre Anordnungen) ist ebenfalls gemäss dem oben dargestellten Vorgehen eine Kostengutsprache des Versicherers notwendig.\n23. Was geschieht mit Kostengutsprachen bei den laufenden Therapien, die bis über den Zeitpunkt des Modellwechsels hinaus gesprochen sind?\nDelegierte Psychotherapie konnte noch bis 31.12.2022 gemäss den geltenden Bedingungen vergütet werden. Sofern Sie bis Ende 2022 delegiert weitergearbeitet haben, änderte sich am Ablauf bis dahin nichts.\nSofern die Leistungen weiterhin über die Krankenversicherung vergütet werden sollen, müssen Sie den neuen Ablauf einhalten. Die psychotherapeutischen Leistungen müssen von einer Ärztin/ einem Arzt angeordnet sein, um über die OKP vergütet zu werden. Sie können nicht einfach ohne Anordnung tätig sein.\nBetreffend Kostengutsprache: Wir raten Ihnen, Kontakt mit der Versicherung aufzunehmen und hinsichtlich des Vorgehens im spezifischen Fall nachzufragen.\n24. Welche Leistungen bezahlen die Zusatzversicherungen ab 1. Juli 2022?\nDie Änderungen betreffen nur die OKP (d.h. die Grundversicherung) nach dem Bundesgesetz über die Krankenversicherung (KVG), nicht aber die Zusatzversicherungen nach Versicherungsvertragsgesetz (VVG).\nDiese Versicherungen sind nicht durch die Bestimmungen des KVG und die zugehörigen Ausführungsverordnungen (KVV, KLV) geregelt und frei, ihre Leistungen zu definieren.\nEine versicherte Person kann auf Versicherungsleistungen verzichten (Art. 23 ATSG). Der Verzicht auf Leistungen nach ATSG bezieht sich auf das Verhältnis zwischen der versicherten Person und der Versicherung. So hat eine nach KVG versicherte Person die Möglichkeit, ausdrücklich gegenüber ihrer Krankenversicherung auf die Vergütung einer KVG-pflichtigen Leistung zu verzichten. Mit einem Verzicht wird weder der Tarifschutz nach KVG bedeutungslos, noch wird der entsprechende Leistungserbringer von der Tätigkeit zulasten der OKP ausgeschlossen.\nEs besteht grundsätzlich auch die Möglichkeit, dass Zusatzversicherungen nach VVG Leistungen der psychologischen Psychotherapie vergüten bei Leistungserbringern, die nicht als KVG-Leistungserbringer tätig sind (Ausstand). Dabei ist nicht massgebend, ob die Leistungserbringung mit oder ohne ärztliche Überweisung oder Anordnung erfolgt. Möchte ein Leistungserbringer über das KVG gedeckte Leistungen ausserhalb des KVG erbringen, so kann er bei der von der jeweiligen Kantonsregierung bezeichneten Stelle melden, dass er in den Ausstand treten und dadurch nicht als KVG-Leistungserbringer tätig sein will; er hat in diesem Fall keinen Anspruch auf Vergütung nach dem KVG; wenden sich Versicherte an solche Leistungserbringer, so müssen diese sie zuerst darauf hinweisen (Art. 44 Abs. 2 KVG). Hierbei ist zu beachten, dass ein Leistungserbringer nicht einzelfallweise wählen kann, ob er als KVG-Leistungserbringer zu Lasten der obligatorischen Krankenpflegeversicherung (OKP) tätig sein will oder nicht. Solange der Leistungserbringer im Leistungsbereich des KVG tätig (also nicht in den Ausstand getreten) ist und die entsprechenden Voraussetzungen, die dort an diesen gestellt werden, erfüllt, sind die Pflichtleistungen im Rahmen des KVG nach den entsprechenden Tarifen abzurechnen.\nAls KVG-Leistungserbringer zugelassene psychologische Psychotherapeutinnen und Psychotherapeuten können auch Leistungen erbringen, die nicht über das KVG abgedeckt sind (z.B. psychologische Betreuung zu Alltagsproblemen oder schwierigen Lebensumständen, die nicht den Status einer Krankheit haben). Solche Leistungen können auch über Zusatzversicherungen gedeckt werden.\n25. Können Psychologinnen nun auch Arbeitsunfähigkeitszeugnisse, Schuldispense, IV-Berichte und FFE ausstellen?\nDie Neuregelung betrifft nur die OKP (d.h. die Grundversicherung) nach dem Bundesgesetz über die Krankenversicherung (KVG). Sie führt nicht zu Änderungen der Kompetenzen der Psychotherapeutinnen und Psychotherapeuten oder zu Anpassungen an anderen rechtlichen Grundlagen.\nUnverändert bleiben zum Beispiel:\nDie meisten Taggeldversicherungen verlangen unverändert die Ausstellung von Arbeitsunfähigkeitszeugnissen durch Ärztinnen und Ärzte.\nDas PsyG (und nicht die Gesetzgebung über die Krankenversicherung) regelt die Berufsausübung der Psychologieberufe in eigener fachlicher Verantwortung, die Berufspflichten, sowie die Aus- und Weiterbildung.\nArtikel 28 des Arbeitslosenversicherungsgesetzes (AVIG) bestimmt, dass die Arbeitsunfähigkeit mit einem Arzt- Zeugnis nachzuweisen ist.\nDie kantonalen Gesetze oder Regelungen bezüglich Schul-Dispensationen bleiben unverändert gültig.\nAuch die Zuweisung zur fürsorgerischen Unterbringung hat keinen Bezug zur Krankenversicherung. Gemäss Zivilgesetzbuch (ZGB) ist die Erwachsenenschutzbehörde dafür zuständig. Nach Artikel 429 ZGB können die Kantone Ärztinnen und Ärzte bezeichnen, die neben der Erwachsenenschutzbehörde eine Unterbringung während einer vom kantonalen Recht festgelegten Dauer anordnen dürfen.\nWeitere Informationen\nDokumente\nBericht der formativen Evaluation zur Neuregelung der psychologischen Psychotherapie vom Dezember 2025\nBericht des BAG vom 24. Juni 2026 zur formativen Evaluation der Neuregelung der psychologischen Psychotherapie\nPDF\n1.08 MB\n20. August 2026\nOBSAN, Monitoring zur Neuregelung der psychologischen Psychotherapie, Bericht vom 19. August 2025\nPDF\n1.03 MB\n18. August 2025\nPolynomics, Monitoring zur Neuregelung der psychologischen Psychotherapie, Bericht 30. April 2024\nPDF\n1.53 MB\n2. Mai 2024\nLinks\nAnpassungen an Art. 50c KVV per 1. Juli 2024, AS 2024 265 vom 7. Juni 2024\nErläuterungen zu den Anpassungen an Art. 50c KVV per 1. Juli 2024 (AS 2024 265)\nArt. 50c Psychologische Psychotherapeuten und psychologische Psychotherapeutinnen\nÄnderungen in der Krankenpflege-Leistungsverordnung (KLV)\nKommentare zu den Änderung KVV und KLV betreffend Neuregelung der psychologischen Psychotherapie\nHäufige Fragen (FAQ) zum Psychologieberufegesetz (PsyG)\nexterne Links\nAdressen der jeweils zuständigen Stellen der Kantone unter diesem Link der GDK (unten unter «Informationen der Kantone…»)\nRegister der zertifizierten Weiterbildungsstätten (siwf-register.ch)\nMedien\n24. Juni 2026\nNeuregelung der psychologischen Psychotherapie hat sich etabliert\nDie Neuregelung der psychologischen Psychotherapie hat sich etabliert und der Systemwechsel vom Delegations- zum Anordnungsmodell wird von den Patienten und Fachpersonen überwiegend als gelungen beurteilt. Der Zugang zur psychologischen Psychotherapie wird tendenziell als verbessert beurteilt. Parallel sind die Kosten zulasten der Grundversicherung in den ersten drei Jahren von 528 auf 922 Millionen Franken gestiegen. Dies zeigt die Evaluation des Bundesamtes für Gesundheit (BAG), die der Bundesrat an seiner Sitzung vom 24. Juni 2026 zur Kenntnis genommen hat. Mit Blick auf den Kostenanstieg zulasten der Grundversicherung will der Bundesrat das Kostenmonitoring weiterführen. Zudem will er die weitere Entwicklung der Versorgungssituation vertieft analysieren.\nMehr über «Neuregelung der psychologischen Psychotherapie hat sich etabliert»\nAlle Medienmitteilungen\nGesetze\n832.10 Bundesgesetz über die Krankenversicherung\n832.102 Verordnung über die Krankenversicherung\n832.112.31 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung\nInhaltsverzeichnis\n1. Zulassungsvoraussetzungen, um ab 1. Juli 2022 Leistungen über die OKP zu verrechnen\n2. Vorgaben betreffend die Leistung psychologische Psychotherapie ab 1. Juli 2022\n3. Monitoring und Evaluation\n4. Weitere Informationen und FAQ\nHäufige Fragen (FAQ)\nWeitere Informationen\nWeiterführende Themen\nMonitoring im BAG\nMonitoring beobachtet und zeigt Entwicklungen und Trends im Bereich Gesundheit auf.\nMehr über «Monitoring im BAG»\nKrankenversicherung: Leistungen und Tarife\nWelche ärztlichen Leistungen vergütet die OKP (Krankenversicherung, Grundversicherung)? In welchem Spital können Sie sich behandeln lassen? Was gilt bei einer Mutterschaft? Welche Tarife und Preise sind behördlich festgelegt?\nMehr über «Krankenversicherung: Leistungen und Tarife»\nReferenzdokumente zur Verordnung über die Krankenversicherung (KVV) und zur Krankenpflege-Leistungsverordnung (KLV) und deren Anhänge\nDas BAG publiziert die Referenzdokumente zur Verordnung über die Krankenversicherung (KVV) und zur Krankenpflege-Leistungsverordnung (KLV) und deren Anhänge 1, 2 und 3.\nMehr über «Referenzdokumente zur Verordnung über die Krankenversicherung (KVV) und zur Krankenpflege-Leistungsverordnung (KLV) und deren Anhänge»\nBundesamt für Gesundheit BAG\nDirektionsbereich Kranken- und Unfallversicherung\nAbteilung Leistungen Krankenversicherung\nSchwarzenburgstrasse 157\nSchweiz\n-\n3003 Bern\nLeistungen-Krankenversicherung@bag.admin.ch\n+41 58 462 21 11\nStandort auf Karte anzeigen\nÜber uns\nAls Teil des Eidgenössischen Departements des Innern ist das BAG verantwortlich für die Gesundheit der Bevölkerung, entwickelt die schweizerische Gesundheitspolitik und setzt sich für ein langfristig leistungsfähiges und bezahlbares Gesundheitssystem ein.\n© BAG | OFSP | UFSP | FOPH\nBleiben Sie informiert\nFacebook\nDas BAG auf X\nInstagram\nYouTube\nLinkedin\nDie Newsletters des BAG\nWeitere Informationen\nKontakt & Standort\nOffene Stellen\nOrganisation\nBAG-Bulletin\nMittel und Gegenständeliste\nMedizinalberuferegister\nRechtliches\nImpressum\nBarrierefreiheit",
+      "retrieved_at": "2026-08-21T18:52:47.595485+00:00",
+      "http_status": 200,
+      "final_url": "https://www.bag.admin.ch/de/neuregelung-der-psychologischen-psychotherapie-ab-1-juli-2022",
+      "retrieval_mode": "LIVE_HTML"
+    }
+  ],
+  "claims": [
+    {
+      "claim_type": "okp_cost_2021",
+      "statement": "The costs of psychological psychotherapy charged to the OKP amounted to CHF 528 million in 2021.",
+      "value": {
+        "value": 528,
+        "unit": "CHF million"
+      },
+      "excerpt": "Die Kosten der psychologischen Psychotherapie zulasten der OKP sind von 528 Millionen Franken im Jahr 2021 auf 922 Millionen Franken im Jahr 2024 gestiegen.",
+      "confidence": 0.99,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-001"
+    },
+    {
+      "claim_type": "okp_cost_2024",
+      "statement": "The costs of psychological psychotherapy charged to the OKP amounted to CHF 922 million in 2024.",
+      "value": {
+        "value": 922,
+        "unit": "CHF million"
+      },
+      "excerpt": "Die Kosten der psychologischen Psychotherapie zulasten der OKP sind von 528 Millionen Franken im Jahr 2021 auf 922 Millionen Franken im Jahr 2024 gestiegen.",
+      "confidence": 0.99,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-002"
+    },
+    {
+      "claim_type": "access_assessment",
+      "statement": "Access to psychological psychotherapy is assessed as having improved tendentially.",
+      "value": null,
+      "excerpt": "Der Zugang zur psychologischen Psychotherapie wird tendenziell als verbessert beurteilt.",
+      "confidence": 0.99,
+      "is_historical": false,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-003"
+    },
+    {
+      "claim_type": "access_assessment",
+      "statement": "The number of psychotherapists authorized to provide services under the OKP has increased significantly.",
+      "value": null,
+      "excerpt": "Die Zahl der zur OKP zugelassenen Psychotherapeutinnen und Psychotherapeuten ist deutlich gestiegen.",
+      "confidence": 0.99,
+      "is_historical": false,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-004"
+    },
+    {
+      "claim_type": "access_assessment",
+      "statement": "Long waiting times continue to exist, particularly in the child and youth sector and in rural regions.",
+      "value": null,
+      "excerpt": "Trotzdem bestehen weiterhin lange Wartezeiten, besonders im Kinder- und Jugendbereich und in ländlichen Regionen.",
+      "confidence": 0.99,
+      "is_historical": false,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-005"
+    },
+    {
+      "claim_type": "monitoring_continues",
+      "statement": "The Federal Council intends to continue monitoring cost developments and continue the annual cost monitoring.",
+      "value": null,
+      "excerpt": "Angesichts der hohen Mehrkosten will der Bundesrat die Kostenentwicklung weiter beobachten und das jährliche Kostenmonitoring fortführen.",
+      "confidence": 0.99,
+      "is_historical": false,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-006"
+    },
+    {
+      "claim_type": "supply_analysis_planned",
+      "statement": "The Federal Council intends to conduct a more in-depth analysis of the further development of the care situation.",
+      "value": null,
+      "excerpt": "Zudem will er die weitere Entwicklung der Versorgungssituation vertieft analysieren.",
+      "confidence": 0.99,
+      "is_historical": false,
+      "source_id": "bag_psychotherapy_2026",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/InNuMMG44_5LuF8ztcpg3",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-007"
+    },
+    {
+      "claim_type": "annual_additional_cost",
+      "statement": "Die jährlichen Mehrkosten in der obligatorischen Krankenpflegeversicherung betrugen durchschnittlich 131 Millionen Franken.",
+      "value": {
+        "value": 131000000,
+        "unit": "CHF"
+      },
+      "excerpt": "Bei diesem Wechsel kam es zu jährlichen Mehrkosten von durchschnittlich 131 Millionen Franken in der obligatorischen Krankenpflegeversicherung.",
+      "confidence": 0.99,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2025",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-008"
+    },
+    {
+      "claim_type": "tariff_effect_share",
+      "statement": "Rund ein Drittel des Kostenanstiegs ist auf den Tarifunterschied zurückzuführen.",
+      "value": {
+        "value": "one-third",
+        "unit": "share"
+      },
+      "excerpt": "Die Analysen zeigen nun, dass rund ein Drittel des Kostenanstiegs auf diesen Tarifunterschied zurückzuführen ist.",
+      "confidence": 0.99,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2025",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-009"
+    },
+    {
+      "claim_type": "causes_multifactorial",
+      "statement": "Die Ursachen für die Kostenzunahme sind vielfältig beziehungsweise der Kostenanstieg hat mehrere Ursachen.",
+      "value": null,
+      "excerpt": "Die Ursachen für die Kostenzunahme sind vielfältig.",
+      "confidence": 0.99,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2025",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-010"
+    },
+    {
+      "claim_type": "causes_multifactorial",
+      "statement": "Als weitere Gründe für die Kostenzunahme werden eine langfristig zunehmende Inanspruchnahme psychotherapeutischer Leistungen und das Bevölkerungswachstum genannt.",
+      "value": null,
+      "excerpt": "Weitere Gründe für die Kostenzunahme sind eine langfristig zunehmende Inanspruchnahme psychotherapeutischer Leistungen sowie das Bevölkerungswachstum.",
+      "confidence": 0.98,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_2025",
+      "source_url": "https://www.bag.admin.ch/de/newnsb/603Y3IK5M86SsZu6f7kjs",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-011"
+    },
+    {
+      "claim_type": "model_start_date",
+      "statement": "Die Neuregelung der psychologischen Psychotherapie und damit das Anordnungsmodell trat am 1. Juli 2022 in Kraft.",
+      "value": {
+        "value": "2022-07-01",
+        "unit": "date"
+      },
+      "excerpt": "Die Neuregelung ist am 1. Juli 2022 in Kraft getreten.",
+      "confidence": 1.0,
+      "is_historical": true,
+      "source_id": "bag_psychotherapy_rules",
+      "source_url": "https://www.bag.admin.ch/de/neuregelung-der-psychologischen-psychotherapie-ab-1-juli-2022",
+      "evidence_class": "AI_EXTRACTED",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "claim_id": "claim-012"
+    }
+  ],
+  "inferences": [
+    {
+      "inference_id": "inf-cost-growth-context",
+      "statement": "Der deutliche OKP-Kostenanstieg ist ein relevantes Beobachtungssignal, belegt für sich allein aber weder Überversorgung noch Übervergütung. Die überwachten BAG-Quellen nennen mehrere Einflussfaktoren und berichten zugleich über einen tendenziell verbesserten Zugang.",
+      "evidence_class": "AI_INFERRED",
+      "confidence": 0.98,
+      "supporting_claim_ids": [
+        "claim-001",
+        "claim-002",
+        "claim-003",
+        "claim-004",
+        "claim-005",
+        "claim-009",
+        "claim-010",
+        "claim-011"
+      ],
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-INFERIERT",
+      "risk_level": "MEDIUM"
+    }
+  ],
+  "data_gaps": [
+    {
+      "data_gap_id": "gap-causal-decomposition",
+      "category": "Kosten- und Wirkungsgrundlagen",
+      "title": "Vollständige kausale Zerlegung des Kostenanstiegs bleibt begrenzt",
+      "description": "Die überwachten Quellen quantifizieren mehrere Einflussfaktoren, erlauben aber keine vollständige kausale Zuordnung des gesamten Kostenanstiegs zu Tarif, Verlagerung, Nachfrage, Versorgungseffekt und weiteren Faktoren.",
+      "why_it_matters": "Ohne vollständige Zerlegung kann aus dem Kostenanstieg keine belastbare Aussage über Überversorgung oder Übervergütung abgeleitet werden.",
+      "required_information": [
+        "vollständige Kostendekomposition",
+        "Verlagerungseffekte VVG/Selbstzahler",
+        "Mengen- und Versorgungswirkung",
+        "Qualitäts-/Outcome-Daten"
+      ],
+      "possible_data_holders": [
+        "BAG",
+        "Versicherer",
+        "Leistungserbringer",
+        "Obsan"
+      ],
+      "status": "OPEN",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "basis_claim_ids": [
+        "claim-001",
+        "claim-002",
+        "claim-009",
+        "claim-010",
+        "claim-011"
+      ],
+      "generation_method": "RULE_DERIVED_POC"
+    }
+  ],
+  "process_events": [
+    {
+      "process_event_id": "event-anordnungsmodell-start",
+      "event_type": "IMPLEMENTATION",
+      "date": "2022-07-01",
+      "title": "Anordnungsmodell tritt in Kraft",
+      "status": "CONFIRMED",
+      "basis_claim_ids": [
+        "claim-012"
+      ],
+      "institution_id": "bag"
+    },
+    {
+      "process_event_id": "event-evaluation-2026",
+      "event_type": "EVALUATION",
+      "date": "2026-06-24",
+      "title": "Bundesrat nimmt Evaluation zur Kenntnis; Kostenmonitoring wird weitergeführt",
+      "status": "CONFIRMED",
+      "basis_claim_ids": [
+        "claim-006",
+        "claim-007"
+      ],
+      "institution_id": "bag"
+    }
+  ],
+  "institutions": [
+    {
+      "institution_id": "bag",
+      "name": "Bundesamt für Gesundheit (BAG)",
+      "role": "Monitoring-/Evaluationsquelle und zuständige Bundesstelle im dokumentierten Prozess",
+      "basis_source_ids": [
+        "bag_psychotherapy_2026",
+        "bag_psychotherapy_2025",
+        "bag_psychotherapy_rules"
+      ]
+    }
+  ],
+  "responsibilities": [
+    {
+      "responsibility_id": "resp-bag-monitoring",
+      "institution_id": "bag",
+      "responsibility_type": "MONITORING_EVALUATION",
+      "statement": "Das BAG führt bzw. begleitet das dokumentierte Monitoring und die Evaluation der Neuregelung; der Bundesrat will das Kostenmonitoring weiterführen und die Versorgungssituation vertieft analysieren.",
+      "confidence": 0.98,
+      "basis_claim_ids": [
+        "claim-006",
+        "claim-007"
+      ],
+      "generation_method": "RULE_DERIVED_FROM_OFFICIAL_CLAIMS"
+    }
+  ],
+  "retrieval_errors": [],
+  "provenance": {
+    "provider": "openai-responses",
+    "model": "gpt-5.6-luna",
+    "retrieval": "LIVE_HTML"
+  }
+}
