@@ -765,6 +765,309 @@
         "yoy_count_change_percent": 8.678446988853228
       },
       "period_count_change_percent": 113.25561032915586,
+      "canton_comparison_latest": {
+        "year": 2024,
+        "metric": "standardized_rate_per_1000",
+        "interpretation": "Deskriptiver Vergleich standardisierter MRI-Raten zwischen Kantonen. Ein hoher oder tiefer Wert ist kein Effizienzranking und belegt weder Über- noch Unterversorgung; Unterschiede können durch Versorgung, Patientenströme, Kodierung, Angebotsstruktur und weitere Faktoren beeinflusst sein.",
+        "cantons": [
+          {
+            "rank_by_standardized_rate": 1,
+            "region_id": 25,
+            "canton": "GE",
+            "count": 125508,
+            "standardized_rate": 243.3578,
+            "crude_rate": 236.3162,
+            "lower_ci": 241.9911,
+            "upper_ci": 244.7317,
+            "vs_ch_rate_percent": 24.781722306882937
+          },
+          {
+            "rank_by_standardized_rate": 2,
+            "region_id": 22,
+            "canton": "VD",
+            "count": 186645.4813,
+            "standardized_rate": 226.9236,
+            "crude_rate": 218.2717,
+            "lower_ci": 225.8841,
+            "upper_ci": 227.9685,
+            "vs_ch_rate_percent": 16.355085557472094
+          },
+          {
+            "rank_by_standardized_rate": 3,
+            "region_id": 23,
+            "canton": "VS",
+            "count": 80427.6393,
+            "standardized_rate": 209.5282,
+            "crude_rate": 216.6179,
+            "lower_ci": 208.0741,
+            "upper_ci": 210.9945,
+            "vs_ch_rate_percent": 7.435593467154256
+          },
+          {
+            "rank_by_standardized_rate": 4,
+            "region_id": 1,
+            "canton": "ZH",
+            "count": 331762.1334,
+            "standardized_rate": 207.8007,
+            "crude_rate": 204.7889,
+            "lower_ci": 207.0866,
+            "upper_ci": 208.5178,
+            "vs_ch_rate_percent": 6.54981776863488
+          },
+          {
+            "rank_by_standardized_rate": 5,
+            "region_id": 14,
+            "canton": "SH",
+            "count": 19204.3006,
+            "standardized_rate": 206.5518,
+            "crude_rate": 216.589,
+            "lower_ci": 203.6132,
+            "upper_ci": 209.53,
+            "vs_ch_rate_percent": 5.909444240483852
+          },
+          {
+            "rank_by_standardized_rate": 6,
+            "region_id": 10,
+            "canton": "FR",
+            "count": 69954.5406,
+            "standardized_rate": 206.3908,
+            "crude_rate": 201.7877,
+            "lower_ci": 204.8542,
+            "upper_ci": 207.9432,
+            "vs_ch_rate_percent": 5.826891483632002
+          },
+          {
+            "rank_by_standardized_rate": 7,
+            "region_id": 13,
+            "canton": "BL",
+            "count": 65193.2599,
+            "standardized_rate": 203.7915,
+            "crude_rate": 216.3567,
+            "lower_ci": 202.2102,
+            "upper_ci": 205.3847,
+            "vs_ch_rate_percent": 4.494100298010317
+          },
+          {
+            "rank_by_standardized_rate": 8,
+            "region_id": 12,
+            "canton": "BS",
+            "count": 41010.717,
+            "standardized_rate": 201.8034,
+            "crude_rate": 203.6444,
+            "lower_ci": 199.8275,
+            "upper_ci": 203.7972,
+            "vs_ch_rate_percent": 3.474701938400271
+          },
+          {
+            "rank_by_standardized_rate": 9,
+            "region_id": 24,
+            "canton": "NE",
+            "count": 36249,
+            "standardized_rate": 199.2188,
+            "crude_rate": 201.924,
+            "lower_ci": 197.1592,
+            "upper_ci": 201.301,
+            "vs_ch_rate_percent": 2.1494481784041897
+          },
+          {
+            "rank_by_standardized_rate": 10,
+            "region_id": 5,
+            "canton": "SZ",
+            "count": 34575.8149,
+            "standardized_rate": 196.6815,
+            "crude_rate": 204.6742,
+            "lower_ci": 194.595,
+            "upper_ci": 198.7932,
+            "vs_ch_rate_percent": 0.8484474954211452
+          },
+          {
+            "rank_by_standardized_rate": 11,
+            "region_id": 11,
+            "canton": "SO",
+            "count": 56925.827,
+            "standardized_rate": 188.8287,
+            "crude_rate": 196.4368,
+            "lower_ci": 187.2693,
+            "upper_ci": 190.403,
+            "vs_ch_rate_percent": -3.1780760387803197
+          },
+          {
+            "rank_by_standardized_rate": 12,
+            "region_id": 2,
+            "canton": "BE",
+            "count": 211742.3609,
+            "standardized_rate": 187.9433,
+            "crude_rate": 197.6654,
+            "lower_ci": 187.1367,
+            "upper_ci": 188.7538,
+            "vs_ch_rate_percent": -3.632064926461398
+          },
+          {
+            "rank_by_standardized_rate": 13,
+            "region_id": 19,
+            "canton": "AG",
+            "count": 138517.5919,
+            "standardized_rate": 185.896,
+            "crude_rate": 188.2524,
+            "lower_ci": 184.9132,
+            "upper_ci": 186.8853,
+            "vs_ch_rate_percent": -4.681818088590917
+          },
+          {
+            "rank_by_standardized_rate": 14,
+            "region_id": 21,
+            "canton": "TI",
+            "count": 72204.6927,
+            "standardized_rate": 185.4866,
+            "crude_rate": 201.1816,
+            "lower_ci": 184.1129,
+            "upper_ci": 186.8706,
+            "vs_ch_rate_percent": -4.891737956014253
+          },
+          {
+            "rank_by_standardized_rate": 15,
+            "region_id": 20,
+            "canton": "TG",
+            "count": 56323.4755,
+            "standardized_rate": 184.4764,
+            "crude_rate": 188.0527,
+            "lower_ci": 182.9455,
+            "upper_ci": 186.0224,
+            "vs_ch_rate_percent": -5.409718049006596
+          },
+          {
+            "rank_by_standardized_rate": 16,
+            "region_id": 9,
+            "canton": "ZG",
+            "count": 23204.9969,
+            "standardized_rate": 170.168,
+            "crude_rate": 173.5096,
+            "lower_ci": 167.964,
+            "upper_ci": 172.4027,
+            "vs_ch_rate_percent": -12.746350757947111
+          },
+          {
+            "rank_by_standardized_rate": 17,
+            "region_id": 17,
+            "canton": "SG",
+            "count": 91794.0166,
+            "standardized_rate": 169.0129,
+            "crude_rate": 169.9776,
+            "lower_ci": 167.9154,
+            "upper_ci": 170.1198,
+            "vs_ch_rate_percent": -13.33862833210615
+          },
+          {
+            "rank_by_standardized_rate": 18,
+            "region_id": 8,
+            "canton": "GL",
+            "count": 7297.3355,
+            "standardized_rate": 165.6384,
+            "crude_rate": 172.2248,
+            "lower_ci": 161.8272,
+            "upper_ci": 169.5595,
+            "vs_ch_rate_percent": -15.068903350718987
+          },
+          {
+            "rank_by_standardized_rate": 19,
+            "region_id": 26,
+            "canton": "JU",
+            "count": 12759.2376,
+            "standardized_rate": 164.0699,
+            "crude_rate": 170.4869,
+            "lower_ci": 161.2075,
+            "upper_ci": 166.9778,
+            "vs_ch_rate_percent": -15.873151792471607
+          },
+          {
+            "rank_by_standardized_rate": 20,
+            "region_id": 18,
+            "canton": "GR",
+            "count": 36382.4371,
+            "standardized_rate": 163.8521,
+            "crude_rate": 176.4955,
+            "lower_ci": 162.1511,
+            "upper_ci": 165.5721,
+            "vs_ch_rate_percent": -15.984828751740787
+          },
+          {
+            "rank_by_standardized_rate": 21,
+            "region_id": 15,
+            "canton": "AR",
+            "count": 8993.5787,
+            "standardized_rate": 152.0667,
+            "crude_rate": 158.6029,
+            "lower_ci": 148.9093,
+            "upper_ci": 155.3018,
+            "vs_ch_rate_percent": -22.027793103306838
+          },
+          {
+            "rank_by_standardized_rate": 22,
+            "region_id": 3,
+            "canton": "LU",
+            "count": 65565.8781,
+            "standardized_rate": 149.1837,
+            "crude_rate": 149.7129,
+            "lower_ci": 148.0379,
+            "upper_ci": 150.3399,
+            "vs_ch_rate_percent": -23.506051476002288
+          },
+          {
+            "rank_by_standardized_rate": 23,
+            "region_id": 6,
+            "canton": "OW",
+            "count": 6097.8828,
+            "standardized_rate": 146.5771,
+            "crude_rate": 153.7462,
+            "lower_ci": 142.8897,
+            "upper_ci": 150.3978,
+            "vs_ch_rate_percent": -24.84258573693462
+          },
+          {
+            "rank_by_standardized_rate": 24,
+            "region_id": 7,
+            "canton": "NW",
+            "count": 6739.7751,
+            "standardized_rate": 137.5619,
+            "crude_rate": 148.6333,
+            "lower_ci": 134.2445,
+            "upper_ci": 140.9643,
+            "vs_ch_rate_percent": -29.465129920605783
+          },
+          {
+            "rank_by_standardized_rate": 25,
+            "region_id": 16,
+            "canton": "AI",
+            "count": 2309.8484,
+            "standardized_rate": 133.1219,
+            "crude_rate": 138.0415,
+            "lower_ci": 127.6897,
+            "upper_ci": 138.8895,
+            "vs_ch_rate_percent": -31.741740109564432
+          },
+          {
+            "rank_by_standardized_rate": 26,
+            "region_id": 4,
+            "canton": "UR",
+            "count": 4748.4082,
+            "standardized_rate": 117.8796,
+            "crude_rate": 124.0603,
+            "lower_ci": 114.5222,
+            "upper_ci": 121.3513,
+            "vs_ch_rate_percent": -39.557230083250104
+          }
+        ],
+        "summary": {
+          "canton_count": 26,
+          "national_standardized_rate": 195.0268,
+          "median_standardized_rate": 185.6913,
+          "min_standardized_rate": 117.8796,
+          "max_standardized_rate": 243.3578,
+          "max_min_ratio": 2.064460687006064,
+          "highest_canton": "GE",
+          "lowest_canton": "UR"
+        }
+      },
       "regional_observations": [
         {
           "indicator_id": "_430",
@@ -20385,6 +20688,309 @@
         "yoy_count_change_percent": 0.0
       },
       "period_count_change_percent": 88.41802302500992,
+      "canton_comparison_latest": {
+        "year": 2024,
+        "metric": "standardized_rate_per_1000",
+        "interpretation": "Deskriptiver Vergleich standardisierter MRI-Raten zwischen Kantonen. Ein hoher oder tiefer Wert ist kein Effizienzranking und belegt weder Über- noch Unterversorgung; Unterschiede können durch Versorgung, Patientenströme, Kodierung, Angebotsstruktur und weitere Faktoren beeinflusst sein.",
+        "cantons": [
+          {
+            "rank_by_standardized_rate": 1,
+            "region_id": 12,
+            "canton": "BS",
+            "count": 3917,
+            "standardized_rate": 19.0903,
+            "crude_rate": 19.4504,
+            "lower_ci": 18.4861,
+            "upper_ci": 19.7128,
+            "vs_ch_rate_percent": 54.17783879825553
+          },
+          {
+            "rank_by_standardized_rate": 2,
+            "region_id": 13,
+            "canton": "BL",
+            "count": 5295,
+            "standardized_rate": 15.6309,
+            "crude_rate": 17.5725,
+            "lower_ci": 15.2048,
+            "upper_ci": 16.0687,
+            "vs_ch_rate_percent": 26.23889517040867
+          },
+          {
+            "rank_by_standardized_rate": 3,
+            "region_id": 2,
+            "canton": "BE",
+            "count": 17873,
+            "standardized_rate": 15.3169,
+            "crude_rate": 16.6848,
+            "lower_ci": 15.0901,
+            "upper_ci": 15.5475,
+            "vs_ch_rate_percent": 23.702955903731237
+          },
+          {
+            "rank_by_standardized_rate": 4,
+            "region_id": 10,
+            "canton": "FR",
+            "count": 4690,
+            "standardized_rate": 14.3026,
+            "crude_rate": 13.5286,
+            "lower_ci": 13.8907,
+            "upper_ci": 14.731,
+            "vs_ch_rate_percent": 15.511225973186882
+          },
+          {
+            "rank_by_standardized_rate": 5,
+            "region_id": 22,
+            "canton": "VD",
+            "count": 10945,
+            "standardized_rate": 13.77,
+            "crude_rate": 12.7996,
+            "lower_ci": 13.5089,
+            "upper_ci": 14.0365,
+            "vs_ch_rate_percent": 11.209820707478602
+          },
+          {
+            "rank_by_standardized_rate": 6,
+            "region_id": 20,
+            "canton": "TG",
+            "count": 4117,
+            "standardized_rate": 13.5584,
+            "crude_rate": 13.7458,
+            "lower_ci": 13.1435,
+            "upper_ci": 13.9888,
+            "vs_ch_rate_percent": 9.500888386367311
+          },
+          {
+            "rank_by_standardized_rate": 7,
+            "region_id": 26,
+            "canton": "JU",
+            "count": 1089,
+            "standardized_rate": 13.497,
+            "crude_rate": 14.551,
+            "lower_ci": 12.6976,
+            "upper_ci": 14.3418,
+            "vs_ch_rate_percent": 9.005007268615728
+          },
+          {
+            "rank_by_standardized_rate": 8,
+            "region_id": 14,
+            "canton": "SH",
+            "count": 1204,
+            "standardized_rate": 12.6256,
+            "crude_rate": 13.5789,
+            "lower_ci": 11.9125,
+            "upper_ci": 13.3785,
+            "vs_ch_rate_percent": 1.9673719916007082
+          },
+          {
+            "rank_by_standardized_rate": 9,
+            "region_id": 1,
+            "canton": "ZH",
+            "count": 19463,
+            "standardized_rate": 12.4981,
+            "crude_rate": 12.014,
+            "lower_ci": 12.3206,
+            "upper_ci": 12.6785,
+            "vs_ch_rate_percent": 0.937651429494446
+          },
+          {
+            "rank_by_standardized_rate": 10,
+            "region_id": 24,
+            "canton": "NE",
+            "count": 2273,
+            "standardized_rate": 12.405,
+            "crude_rate": 12.6617,
+            "lower_ci": 11.8934,
+            "upper_ci": 12.9397,
+            "vs_ch_rate_percent": 0.18575351316427735
+          },
+          {
+            "rank_by_standardized_rate": 11,
+            "region_id": 11,
+            "canton": "SO",
+            "count": 3694,
+            "standardized_rate": 12.06,
+            "crude_rate": 12.7471,
+            "lower_ci": 11.6705,
+            "upper_ci": 12.4644,
+            "vs_ch_rate_percent": -2.600549184299783
+          },
+          {
+            "rank_by_standardized_rate": 12,
+            "region_id": 19,
+            "canton": "AG",
+            "count": 8678,
+            "standardized_rate": 11.7854,
+            "crude_rate": 11.7938,
+            "lower_ci": 11.5362,
+            "upper_ci": 12.0413,
+            "vs_ch_rate_percent": -4.818284606687129
+          },
+          {
+            "rank_by_standardized_rate": 13,
+            "region_id": 25,
+            "canton": "GE",
+            "count": 5719,
+            "standardized_rate": 11.5028,
+            "crude_rate": 10.7682,
+            "lower_ci": 11.199,
+            "upper_ci": 11.8142,
+            "vs_ch_rate_percent": -7.100629946696813
+          },
+          {
+            "rank_by_standardized_rate": 14,
+            "region_id": 21,
+            "canton": "TI",
+            "count": 4512,
+            "standardized_rate": 11.1462,
+            "crude_rate": 12.5716,
+            "lower_ci": 10.815,
+            "upper_ci": 11.4877,
+            "vs_ch_rate_percent": -9.98061702471329
+          },
+          {
+            "rank_by_standardized_rate": 15,
+            "region_id": 17,
+            "canton": "SG",
+            "count": 5762,
+            "standardized_rate": 10.6385,
+            "crude_rate": 10.6697,
+            "lower_ci": 10.3624,
+            "upper_ci": 10.9241,
+            "vs_ch_rate_percent": -14.080923921821997
+          },
+          {
+            "rank_by_standardized_rate": 16,
+            "region_id": 8,
+            "canton": "GL",
+            "count": 460,
+            "standardized_rate": 10.3491,
+            "crude_rate": 10.8565,
+            "lower_ci": 9.4167,
+            "upper_ci": 11.3976,
+            "vs_ch_rate_percent": -16.418187691810694
+          },
+          {
+            "rank_by_standardized_rate": 17,
+            "region_id": 23,
+            "canton": "VS",
+            "count": 4025,
+            "standardized_rate": 10.339,
+            "crude_rate": 10.8406,
+            "lower_ci": 10.0193,
+            "upper_ci": 10.6711,
+            "vs_ch_rate_percent": -16.499757712808915
+          },
+          {
+            "rank_by_standardized_rate": 18,
+            "region_id": 5,
+            "canton": "SZ",
+            "count": 1742,
+            "standardized_rate": 9.8516,
+            "crude_rate": 10.3119,
+            "lower_ci": 9.3895,
+            "upper_ci": 10.3395,
+            "vs_ch_rate_percent": -20.4361169439509
+          },
+          {
+            "rank_by_standardized_rate": 19,
+            "region_id": 18,
+            "canton": "GR",
+            "count": 2145,
+            "standardized_rate": 9.3935,
+            "crude_rate": 10.4057,
+            "lower_ci": 8.9935,
+            "upper_ci": 9.8127,
+            "vs_ch_rate_percent": -24.135842351801006
+          },
+          {
+            "rank_by_standardized_rate": 20,
+            "region_id": 15,
+            "canton": "AR",
+            "count": 547,
+            "standardized_rate": 9.1144,
+            "crude_rate": 9.6464,
+            "lower_ci": 8.3568,
+            "upper_ci": 9.953,
+            "vs_ch_rate_percent": -26.389920852850913
+          },
+          {
+            "rank_by_standardized_rate": 21,
+            "region_id": 7,
+            "canton": "NW",
+            "count": 445,
+            "standardized_rate": 8.684,
+            "crude_rate": 9.8137,
+            "lower_ci": 7.8829,
+            "upper_ci": 9.5718,
+            "vs_ch_rate_percent": -29.865934420933616
+          },
+          {
+            "rank_by_standardized_rate": 22,
+            "region_id": 9,
+            "canton": "ZG",
+            "count": 1139,
+            "standardized_rate": 8.4891,
+            "crude_rate": 8.5166,
+            "lower_ci": 7.9968,
+            "upper_ci": 9.0133,
+            "vs_ch_rate_percent": -31.439993539008228
+          },
+          {
+            "rank_by_standardized_rate": 23,
+            "region_id": 3,
+            "canton": "LU",
+            "count": 3465,
+            "standardized_rate": 7.8922,
+            "crude_rate": 7.912,
+            "lower_ci": 7.6294,
+            "upper_ci": 8.1656,
+            "vs_ch_rate_percent": -36.2607010176062
+          },
+          {
+            "rank_by_standardized_rate": 24,
+            "region_id": 16,
+            "canton": "AI",
+            "count": 136,
+            "standardized_rate": 7.7934,
+            "crude_rate": 8.1277,
+            "lower_ci": 6.5271,
+            "upper_ci": 9.4439,
+            "vs_ch_rate_percent": -37.05863350024229
+          },
+          {
+            "rank_by_standardized_rate": 25,
+            "region_id": 6,
+            "canton": "OW",
+            "count": 299,
+            "standardized_rate": 7.0427,
+            "crude_rate": 7.5387,
+            "lower_ci": 6.2605,
+            "upper_ci": 7.9706,
+            "vs_ch_rate_percent": -43.12146664513003
+          },
+          {
+            "rank_by_standardized_rate": 26,
+            "region_id": 4,
+            "canton": "UR",
+            "count": 276,
+            "standardized_rate": 6.7223,
+            "crude_rate": 7.211,
+            "lower_ci": 5.9443,
+            "upper_ci": 7.6217,
+            "vs_ch_rate_percent": -45.70909384590534
+          }
+        ],
+        "summary": {
+          "canton_count": 26,
+          "national_standardized_rate": 12.382,
+          "median_standardized_rate": 11.3245,
+          "min_standardized_rate": 6.7223,
+          "max_standardized_rate": 19.0903,
+          "max_min_ratio": 2.8398464811150945,
+          "highest_canton": "BS",
+          "lowest_canton": "UR"
+        }
+      },
       "regional_observations": [
         {
           "indicator_id": "_430",
@@ -69597,6 +70203,309 @@
         "yoy_count_change_percent": 9.435688490740702
       },
       "period_count_change_percent": 115.18092430057973,
+      "canton_comparison_latest": {
+        "year": 2024,
+        "metric": "standardized_rate_per_1000",
+        "interpretation": "Deskriptiver Vergleich standardisierter MRI-Raten zwischen Kantonen. Ein hoher oder tiefer Wert ist kein Effizienzranking und belegt weder Über- noch Unterversorgung; Unterschiede können durch Versorgung, Patientenströme, Kodierung, Angebotsstruktur und weitere Faktoren beeinflusst sein.",
+        "cantons": [
+          {
+            "rank_by_standardized_rate": 1,
+            "region_id": 25,
+            "canton": "GE",
+            "count": 119789,
+            "standardized_rate": 231.8549,
+            "crude_rate": 225.548,
+            "lower_ci": 230.5228,
+            "upper_ci": 233.1942,
+            "vs_ch_rate_percent": 26.943061067164244
+          },
+          {
+            "rank_by_standardized_rate": 2,
+            "region_id": 22,
+            "canton": "VD",
+            "count": 175700.4813,
+            "standardized_rate": 213.1536,
+            "crude_rate": 205.4722,
+            "lower_ci": 212.1477,
+            "upper_ci": 214.1648,
+            "vs_ch_rate_percent": 16.70389740085676
+          },
+          {
+            "rank_by_standardized_rate": 3,
+            "region_id": 23,
+            "canton": "VS",
+            "count": 76402.6393,
+            "standardized_rate": 199.1892,
+            "crude_rate": 205.7773,
+            "lower_ci": 197.7712,
+            "upper_ci": 200.6193,
+            "vs_ch_rate_percent": 9.058237628446019
+          },
+          {
+            "rank_by_standardized_rate": 4,
+            "region_id": 1,
+            "canton": "ZH",
+            "count": 312299.1334,
+            "standardized_rate": 195.3026,
+            "crude_rate": 192.7749,
+            "lower_ci": 194.611,
+            "upper_ci": 195.9972,
+            "vs_ch_rate_percent": 6.930282165164292
+          },
+          {
+            "rank_by_standardized_rate": 5,
+            "region_id": 14,
+            "canton": "SH",
+            "count": 18000.3006,
+            "standardized_rate": 193.9262,
+            "crude_rate": 203.0101,
+            "lower_ci": 191.0777,
+            "upper_ci": 196.8143,
+            "vs_ch_rate_percent": 6.176688304293365
+          },
+          {
+            "rank_by_standardized_rate": 6,
+            "region_id": 10,
+            "canton": "FR",
+            "count": 65264.5406,
+            "standardized_rate": 192.0882,
+            "crude_rate": 188.2591,
+            "lower_ci": 190.6086,
+            "upper_ci": 193.5837,
+            "vs_ch_rate_percent": 5.170363459567429
+          },
+          {
+            "rank_by_standardized_rate": 7,
+            "region_id": 13,
+            "canton": "BL",
+            "count": 59898.2599,
+            "standardized_rate": 188.1606,
+            "crude_rate": 198.7842,
+            "lower_ci": 186.6384,
+            "upper_ci": 189.6946,
+            "vs_ch_rate_percent": 3.0199600536122473
+          },
+          {
+            "rank_by_standardized_rate": 8,
+            "region_id": 5,
+            "canton": "SZ",
+            "count": 32833.8149,
+            "standardized_rate": 186.8299,
+            "crude_rate": 194.3623,
+            "lower_ci": 184.7964,
+            "upper_ci": 188.8887,
+            "vs_ch_rate_percent": 2.2913874361602415
+          },
+          {
+            "rank_by_standardized_rate": 9,
+            "region_id": 24,
+            "canton": "NE",
+            "count": 33976,
+            "standardized_rate": 186.8139,
+            "crude_rate": 189.2624,
+            "lower_ci": 184.82,
+            "upper_ci": 188.8303,
+            "vs_ch_rate_percent": 2.28262726340962
+          },
+          {
+            "rank_by_standardized_rate": 10,
+            "region_id": 12,
+            "canton": "BS",
+            "count": 37093.717,
+            "standardized_rate": 182.713,
+            "crude_rate": 184.194,
+            "lower_ci": 180.8332,
+            "upper_ci": 184.6109,
+            "vs_ch_rate_percent": 0.03734023634944794
+          },
+          {
+            "rank_by_standardized_rate": 11,
+            "region_id": 11,
+            "canton": "SO",
+            "count": 53231.827,
+            "standardized_rate": 176.7688,
+            "crude_rate": 183.6898,
+            "lower_ci": 175.2595,
+            "upper_ci": 178.2929,
+            "vs_ch_rate_percent": -3.2171734426602927
+          },
+          {
+            "rank_by_standardized_rate": 12,
+            "region_id": 21,
+            "canton": "TI",
+            "count": 67692.6927,
+            "standardized_rate": 174.3404,
+            "crude_rate": 188.61,
+            "lower_ci": 173.0077,
+            "upper_ci": 175.6833,
+            "vs_ch_rate_percent": -4.546748661883626
+          },
+          {
+            "rank_by_standardized_rate": 13,
+            "region_id": 19,
+            "canton": "AG",
+            "count": 129839.5919,
+            "standardized_rate": 174.1106,
+            "crude_rate": 176.4585,
+            "lower_ci": 173.1602,
+            "upper_ci": 175.0675,
+            "vs_ch_rate_percent": -4.672566643014198
+          },
+          {
+            "rank_by_standardized_rate": 14,
+            "region_id": 2,
+            "canton": "BE",
+            "count": 193869.3609,
+            "standardized_rate": 172.6264,
+            "crude_rate": 180.9806,
+            "lower_ci": 171.8525,
+            "upper_ci": 173.4041,
+            "vs_ch_rate_percent": -5.485182167792358
+          },
+          {
+            "rank_by_standardized_rate": 15,
+            "region_id": 20,
+            "canton": "TG",
+            "count": 52206.4755,
+            "standardized_rate": 170.918,
+            "crude_rate": 174.3069,
+            "lower_ci": 169.4452,
+            "upper_ci": 172.4059,
+            "vs_ch_rate_percent": -6.420549613238369
+          },
+          {
+            "rank_by_standardized_rate": 16,
+            "region_id": 9,
+            "canton": "ZG",
+            "count": 22065.9969,
+            "standardized_rate": 161.6789,
+            "crude_rate": 164.993,
+            "lower_ci": 159.5321,
+            "upper_ci": 163.8564,
+            "vs_ch_rate_percent": -11.479056616996486
+          },
+          {
+            "rank_by_standardized_rate": 17,
+            "region_id": 17,
+            "canton": "SG",
+            "count": 86032.0166,
+            "standardized_rate": 158.3744,
+            "crude_rate": 159.3079,
+            "lower_ci": 157.3127,
+            "upper_ci": 159.4456,
+            "vs_ch_rate_percent": -13.288306045395215
+          },
+          {
+            "rank_by_standardized_rate": 18,
+            "region_id": 8,
+            "canton": "GL",
+            "count": 6837.3355,
+            "standardized_rate": 155.2892,
+            "crude_rate": 161.3683,
+            "lower_ci": 151.5987,
+            "upper_ci": 159.0897,
+            "vs_ch_rate_percent": -14.977486356030944
+          },
+          {
+            "rank_by_standardized_rate": 19,
+            "region_id": 18,
+            "canton": "GR",
+            "count": 34237.4371,
+            "standardized_rate": 154.4586,
+            "crude_rate": 166.0899,
+            "lower_ci": 152.8063,
+            "upper_ci": 156.13,
+            "vs_ch_rate_percent": -15.432248823946814
+          },
+          {
+            "rank_by_standardized_rate": 20,
+            "region_id": 26,
+            "canton": "JU",
+            "count": 11670.2376,
+            "standardized_rate": 150.5729,
+            "crude_rate": 155.9358,
+            "lower_ci": 147.8274,
+            "upper_ci": 153.3639,
+            "vs_ch_rate_percent": -17.559711527511325
+          },
+          {
+            "rank_by_standardized_rate": 21,
+            "region_id": 15,
+            "canton": "AR",
+            "count": 8446.5787,
+            "standardized_rate": 142.9524,
+            "crude_rate": 148.9565,
+            "lower_ci": 139.8908,
+            "upper_ci": 146.0917,
+            "vs_ch_rate_percent": -21.732017555386186
+          },
+          {
+            "rank_by_standardized_rate": 22,
+            "region_id": 3,
+            "canton": "LU",
+            "count": 62100.8781,
+            "standardized_rate": 141.2915,
+            "crude_rate": 141.801,
+            "lower_ci": 140.1767,
+            "upper_ci": 142.4168,
+            "vs_ch_rate_percent": -22.64137823797885
+          },
+          {
+            "rank_by_standardized_rate": 23,
+            "region_id": 6,
+            "canton": "OW",
+            "count": 5798.8828,
+            "standardized_rate": 139.5345,
+            "crude_rate": 146.2075,
+            "lower_ci": 135.9355,
+            "upper_ci": 143.2669,
+            "vs_ch_rate_percent": -23.603354708154846
+          },
+          {
+            "rank_by_standardized_rate": 24,
+            "region_id": 7,
+            "canton": "NW",
+            "count": 6294.7751,
+            "standardized_rate": 128.8779,
+            "crude_rate": 138.8196,
+            "lower_ci": 125.6629,
+            "upper_ci": 132.1779,
+            "vs_ch_rate_percent": -29.437958266537013
+          },
+          {
+            "rank_by_standardized_rate": 25,
+            "region_id": 16,
+            "canton": "AI",
+            "count": 2173.8484,
+            "standardized_rate": 125.3285,
+            "crude_rate": 129.9138,
+            "lower_ci": 120.058,
+            "upper_ci": 130.9348,
+            "vs_ch_rate_percent": -31.381293089099714
+          },
+          {
+            "rank_by_standardized_rate": 26,
+            "region_id": 4,
+            "canton": "UR",
+            "count": 4472.4082,
+            "standardized_rate": 111.1573,
+            "crude_rate": 116.8493,
+            "lower_ci": 107.8964,
+            "upper_ci": 114.5326,
+            "vs_ch_rate_percent": -39.14017809431202
+          }
+        ],
+        "summary": {
+          "canton_count": 26,
+          "national_standardized_rate": 182.6448,
+          "median_standardized_rate": 173.36849999999998,
+          "min_standardized_rate": 111.1573,
+          "max_standardized_rate": 231.8549,
+          "max_min_ratio": 2.0858270217070762,
+          "highest_canton": "GE",
+          "lowest_canton": "UR"
+        }
+      },
       "regional_observations": [
         {
           "indicator_id": "_430",
@@ -89746,6 +90655,6 @@
   "structured_source_architecture": {
     "structured_data_before_llm": true,
     "architecture_note": "Structured official data are ingested before any LLM extraction. These atlas signals inform Q, not P cost reality.",
-    "updated_at": "2026-08-21T23:02:49.626666+00:00"
+    "updated_at": "2026-08-21T23:07:41.523506+00:00"
   }
 }
