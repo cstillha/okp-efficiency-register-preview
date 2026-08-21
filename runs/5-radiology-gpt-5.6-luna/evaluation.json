@@ -5,7 +5,7 @@
     "source_attribution_accuracy": 1.0,
     "provenance_accuracy": 1.0,
     "numerical_accuracy": 1.0,
-    "severe_guardrail_false_positives": 1,
+    "severe_guardrail_false_positives": 0,
     "retrieval_errors": 0
   },
   "checks": {
@@ -14,8 +14,31 @@
     "source_attribution_accuracy": true,
     "provenance_accuracy": true,
     "numerical_accuracy": true,
-    "severe_guardrail_false_positives": false,
+    "severe_guardrail_false_positives": true,
     "historical_label": true
   },
-  "passed": false
+  "passed": true,
+  "guardrail_summary": {
+    "raw_hits": 1,
+    "actionable_violations": 0,
+    "false_positives": 1,
+    "review_required": 0
+  },
+  "guardrail_findings": [
+    {
+      "finding_id": "guardrail-001",
+      "rule_id": "forbidden-phrase:betrug",
+      "title": "Mehrdeutiger Guardrail-Treffer: 'betrug'",
+      "severity": "SEVERE",
+      "object_type": "CLAIM",
+      "object_id": "claim-007",
+      "claim_type": "historical_profit",
+      "matched_text": "betrug",
+      "statement": "Der Reingewinn dieser Praxis in der Region Mittelland betrug 2024 150'000 Franken.",
+      "disposition": "FALSE_POSITIVE",
+      "counts_as_violation": false,
+      "reason": "Lexikalischer False Positive: 'betrug' wird hier als Verb im Sinn von 'belief sich auf' verwendet, nicht als Betrugsvorwurf.",
+      "recommended_action": "Nicht blockieren. Treffer im Review sichtbar lassen und als Regressionstest behalten."
+    }
+  ]
 }
