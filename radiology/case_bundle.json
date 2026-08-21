@@ -1,0 +1,421 @@
+{
+  "schema_version": "1.1-draft",
+  "generated_at": "2026-08-21T16:53:40.594132+00:00",
+  "case": {
+    "case_id": "case-radiology-ct-mri",
+    "title": "Radiologie CT/MRI",
+    "signals": [
+      "P",
+      "Q",
+      "T"
+    ],
+    "lifecycle_status": "precheck",
+    "official_status": "PoC: öffentliche Evidenz aus mehreren Quellen wird geprüft.",
+    "summary": "Der PoC bündelt öffentlich zugängliche Evidenz zu Radiologie CT/MRI und trennt explizite Fakten, historische Sekundärsignale, Schlussfolgerungen und offene Datenlücken."
+  },
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "claim_type": "annual_okp_cost",
+      "statement": "Im Jahr 2023 entfielen 2,1 Milliarden Franken auf die medizinische Bildgebung in der obligatorischen Krankenversicherung (KVG).",
+      "value": {
+        "value": 2100000000,
+        "unit": "CHF"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "efk_radiology",
+      "source_url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/",
+      "excerpt": "Mit 2,1 Milliarden Franken entfiel 2023 ein Sechstel des ambulanten Leistungsvolumens in der obligatorischen Krankenversicherung (KVG) auf die Bildgebung.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_OBSERVATION",
+      "reference_year": 2023,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2023"
+    },
+    {
+      "claim_id": "claim-002",
+      "claim_type": "annual_cost_growth",
+      "statement": "Die Kosten der medizinischen Bildgebung sind in den letzten Jahren durchschnittlich um mehr als 5 % gestiegen.",
+      "value": {
+        "value": ">5",
+        "unit": "percent"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "efk_radiology",
+      "source_url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/",
+      "excerpt": "Dabei sind die Kosten in den letzten Jahren durchschnittlich um mehr als 5 % gestiegen.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_OBSERVATION",
+      "reference_year": null,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "letzte Jahre"
+    },
+    {
+      "claim_id": "claim-003",
+      "claim_type": "device_density_signal",
+      "statement": "Die Pro-Kopf-Dichte von Computertomografen (CT) und Magnetresonanztomografen (MRT) ist in der Schweiz die höchste in Europa.",
+      "value": null,
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "efk_radiology",
+      "source_url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/",
+      "excerpt": "Der hohe Verbrauch steht im Zusammenhang mit der Pro-Kopf-Dichte von Computertomografen (CT) und Magnetresonanztomografen (MRT) in der Schweiz, welche die höchste in Europa ist.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "CURRENT",
+      "reference_year": null,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": null
+    },
+    {
+      "claim_id": "claim-004",
+      "claim_type": "tariff_system_start",
+      "statement": "Seit dem 1. Januar 2026 gilt für ambulante ärztliche Behandlungen ein neues Tarifsystem.",
+      "value": {
+        "value": "2026-01-01",
+        "unit": "date"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 1,
+      "source_id": "bag_tardoc",
+      "source_url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen",
+      "excerpt": "Seit dem 1. Januar 2026 gilt für ambulante ärztliche Behandlungen ein neues Tarifsystem",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "CURRENT",
+      "reference_year": 2026,
+      "valid_from": "2026-01-01",
+      "valid_to": null,
+      "observation_period": null
+    },
+    {
+      "claim_id": "claim-005",
+      "claim_type": "tariff_system_name",
+      "statement": "Das neue Tarifsystem für ambulante ärztliche Behandlungen heisst TARDOC und Ambulante Pauschalen.",
+      "value": null,
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 1,
+      "source_id": "bag_tardoc",
+      "source_url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen",
+      "excerpt": "TARDOC und Ambulante Pauschalen ersetzen TARMED.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "CURRENT",
+      "reference_year": null,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": null
+    },
+    {
+      "claim_id": "claim-006",
+      "claim_type": "historical_revenue",
+      "statement": "Eine Praxis in der Region Mittelland verzeichnete 2024 einen Umsatz von 3,2 Millionen Franken.",
+      "value": {
+        "value": 3200000,
+        "unit": "CHF"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "srf_3r_leak",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "excerpt": "Weniger als 5 Jahre nach ihrer Eröffnung verzeichnete eine Praxis in der Region Mittelland 2024 einen Umsatz von 3,2 Millionen Franken.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_SIGNAL",
+      "reference_year": 2024,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2024"
+    },
+    {
+      "claim_id": "claim-007",
+      "claim_type": "historical_profit",
+      "statement": "Der Reingewinn dieser Praxis in der Region Mittelland betrug 2024 150'000 Franken.",
+      "value": {
+        "value": 150000,
+        "unit": "CHF"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "srf_3r_leak",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "excerpt": "Ihr Reingewinn betrug damals 150'000 Franken (4,7 Prozent), nach Abzug der getätigten Investitionen, insbesondere für die kostspielige Radiologie-Ausrüstung.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_SIGNAL",
+      "reference_year": 2024,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2024"
+    },
+    {
+      "claim_id": "claim-008",
+      "claim_type": "historical_margin",
+      "statement": "Der Reingewinn dieser Praxis in der Region Mittelland entsprach 2024 4,7 Prozent.",
+      "value": {
+        "value": 4.7,
+        "unit": "percent"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.98,
+      "source_id": "srf_3r_leak",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "excerpt": "Ihr Reingewinn betrug damals 150'000 Franken (4,7 Prozent), nach Abzug der getätigten Investitionen, insbesondere für die kostspielige Radiologie-Ausrüstung.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_SIGNAL",
+      "reference_year": 2024,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2024"
+    },
+    {
+      "claim_id": "claim-009",
+      "claim_type": "historical_profit",
+      "statement": "Eine Gruppe im Nordwesten der Schweiz erzielte 2025 einen Gewinn von 5,4 Millionen Franken.",
+      "value": {
+        "value": 5400000,
+        "unit": "CHF"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "srf_3r_leak",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_SIGNAL",
+      "reference_year": 2025,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2025"
+    },
+    {
+      "claim_id": "claim-010",
+      "claim_type": "historical_margin",
+      "statement": "Der Gewinn der Gruppe im Nordwesten der Schweiz entsprach 2025 47 Prozent ihres Umsatzes.",
+      "value": {
+        "value": 47,
+        "unit": "percent"
+      },
+      "evidence_class": "AI_EXTRACTED",
+      "confidence": 0.99,
+      "source_id": "srf_3r_leak",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "provenance_valid": true,
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "temporal_role": "HISTORICAL_SIGNAL",
+      "reference_year": 2025,
+      "valid_from": null,
+      "valid_to": null,
+      "observation_period": "2025"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "efk_radiology",
+      "title": "Mechanismen zur angemessenen Verwendung bildgebender Verfahren in der Medizin",
+      "publisher": "Eidgenössische Finanzkontrolle (EFK)",
+      "url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/",
+      "source_class": "OFFICIAL",
+      "retrieved_at": "2026-08-21T16:53:18.736243+00:00",
+      "http_status": 200,
+      "final_url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/"
+    },
+    {
+      "source_id": "bag_tardoc",
+      "title": "TARDOC und ambulante Pauschalen",
+      "publisher": "Bundesamt für Gesundheit (BAG)",
+      "url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen",
+      "source_class": "OFFICIAL",
+      "retrieved_at": "2026-08-21T16:53:27.413787+00:00",
+      "http_status": 200,
+      "final_url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen"
+    },
+    {
+      "source_id": "srf_3r_leak",
+      "title": "Datenleck gibt Einblick: Die Radiologie lastet immer schwerer auf dem Gesundheitswesen",
+      "publisher": "Schweizer Radio und Fernsehen (SRF)",
+      "url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "source_class": "SECONDARY_SIGNAL",
+      "retrieved_at": "2026-08-21T16:53:33.485463+00:00",
+      "http_status": 200,
+      "final_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen"
+    }
+  ],
+  "data_gaps": [
+    {
+      "data_gap_id": "gap-current-cost-productivity",
+      "category": "Kosten- und Tarifgrundlagen",
+      "title": "Aktuelle Kosten- und Produktivitätsbasis fehlt",
+      "description": "Die überwachten Quellen liefern Kosten-, Mengen- und historische Ergebnissignale, aber keine repräsentative aktuelle Vollkostenbasis effizienter CT/MRI-Leistungserbringer.",
+      "why_it_matters": "Ohne aktuelle Investitions-, Auslastungs-, Personal- und Produktivitätsdaten kann die heutige Kostenrealität nicht belastbar beurteilt werden.",
+      "required_information": [
+        "Geräteinvestitionen und Abschreibung",
+        "Auslastung/Untersuchungen pro Gerät",
+        "Personalaufwand",
+        "Produktivität und relevante Gemeinkosten"
+      ],
+      "possible_data_holders": [
+        "Leistungserbringer",
+        "Tarifpartner/OAAT",
+        "Versicherer",
+        "BAG"
+      ],
+      "status": "OPEN",
+      "severity": "HIGH",
+      "confidence": 0.92,
+      "basis_claim_ids": [
+        "claim-001",
+        "claim-002",
+        "claim-007",
+        "claim-009",
+        "claim-008",
+        "claim-010"
+      ],
+      "generation_method": "RULE_DERIVED_POC"
+    },
+    {
+      "data_gap_id": "gap-public-process-status",
+      "category": "Prüfprozess-Transparenz",
+      "title": "Spezifischer öffentlicher Prüfstatus für CT/MRI ungeklärt",
+      "description": "Die aktuell überwachten Quellen dokumentieren das allgemeine Tarifsystem, aber noch keinen einheitlichen öffentlichen Status einer spezifischen Kostenrealitätsprüfung CT/MRI.",
+      "why_it_matters": "Für Rechenschaft und Nachverfolgung sollte sichtbar sein, ob, seit wann und durch wen ein Signal geprüft wird.",
+      "required_information": [
+        "Prüfstart",
+        "zuständige Stelle",
+        "aktuelle Phase",
+        "geplanter Entscheid",
+        "Follow-up"
+      ],
+      "possible_data_holders": [
+        "BAG",
+        "OAAT/Tarifpartner"
+      ],
+      "status": "OPEN",
+      "severity": "MEDIUM",
+      "confidence": 0.88,
+      "basis_claim_ids": [
+        "claim-004",
+        "claim-005"
+      ],
+      "generation_method": "RULE_DERIVED_POC"
+    }
+  ],
+  "inferences": [
+    {
+      "inference_id": "inf-pq-review-signal",
+      "statement": "Kostenwachstum und hohe CT/MRT-Gerätedichte bilden zusammen ein plausibles P/Q-Prüfsignal. Sie belegen für sich allein weder Übervergütung noch unangemessene Indikation.",
+      "evidence_class": "AI_INFERRED",
+      "confidence": 0.92,
+      "supporting_claim_ids": [
+        "claim-002",
+        "claim-003"
+      ],
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-INFERIERT",
+      "risk_level": "LOW"
+    },
+    {
+      "inference_id": "inf-historical-limit",
+      "statement": "Die historischen SRF-Finanzangaben sind ein Sekundärsignal für eine vertiefte Prüfung, erlauben aber keine Aussage über heutige Margen oder die heutige Angemessenheit der Tarife.",
+      "evidence_class": "AI_INFERRED",
+      "confidence": 0.99,
+      "supporting_claim_ids": [
+        "claim-007",
+        "claim-009",
+        "claim-008",
+        "claim-010",
+        "claim-006"
+      ],
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-INFERIERT",
+      "risk_level": "LOW"
+    }
+  ],
+  "process_events": [
+    {
+      "process_event_id": "event-tardoc-start",
+      "event_type": "IMPLEMENTATION",
+      "date": "2026-01-01",
+      "title": "TARDOC und ambulante Pauschalen treten in Kraft",
+      "status": "CONFIRMED",
+      "basis_claim_ids": [
+        "claim-004"
+      ],
+      "source_id": "bag_tardoc"
+    }
+  ],
+  "institutions": [
+    {
+      "institution_id": "efk_radiology",
+      "name": "Eidgenössische Finanzkontrolle (EFK)",
+      "role": "Prüf- und Systemquelle",
+      "basis_source_ids": [
+        "efk_radiology"
+      ]
+    },
+    {
+      "institution_id": "bag_tardoc",
+      "name": "Bundesamt für Gesundheit (BAG)",
+      "role": "Tarif-/Regulierungsquelle",
+      "basis_source_ids": [
+        "bag_tardoc"
+      ]
+    },
+    {
+      "institution_id": "srf_3r_leak",
+      "name": "Schweizer Radio und Fernsehen (SRF)",
+      "role": "Sekundärquelle / öffentliches Signal",
+      "basis_source_ids": [
+        "srf_3r_leak"
+      ]
+    }
+  ],
+  "revisions": [],
+  "evaluation": {
+    "metrics": {
+      "document_recall": 1.0,
+      "claim_recall": 1.0,
+      "source_attribution_accuracy": 1.0,
+      "provenance_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "severe_guardrail_false_positives": 1,
+      "retrieval_errors": 0
+    },
+    "checks": {
+      "document_recall": true,
+      "claim_recall": true,
+      "source_attribution_accuracy": true,
+      "provenance_accuracy": true,
+      "numerical_accuracy": true,
+      "severe_guardrail_false_positives": false,
+      "historical_label": true
+    },
+    "passed": false
+  },
+  "provenance": {
+    "provider": "openai-responses",
+    "model": "gpt-5.6-luna",
+    "retrieval": "LIVE_HTML"
+  },
+  "retrieval_errors": []
+}

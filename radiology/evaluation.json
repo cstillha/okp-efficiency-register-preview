@@ -1,0 +1,21 @@
+{
+  "metrics": {
+    "document_recall": 1.0,
+    "claim_recall": 1.0,
+    "source_attribution_accuracy": 1.0,
+    "provenance_accuracy": 1.0,
+    "numerical_accuracy": 1.0,
+    "severe_guardrail_false_positives": 1,
+    "retrieval_errors": 0
+  },
+  "checks": {
+    "document_recall": true,
+    "claim_recall": true,
+    "source_attribution_accuracy": true,
+    "provenance_accuracy": true,
+    "numerical_accuracy": true,
+    "severe_guardrail_false_positives": false,
+    "historical_label": true
+  },
+  "passed": false
+}
