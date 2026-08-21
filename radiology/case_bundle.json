@@ -291,7 +291,12 @@
         "claim-008",
         "claim-010"
       ],
-      "generation_method": "RULE_DERIVED_POC"
+      "generation_method": "RULE_DERIVED_POC",
+      "not_found_claim_ids": [
+        "notfound-current-cost-productivity"
+      ],
+      "search_coverage_id": "coverage-radiology-poc-v1",
+      "absence_scope": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche."
     },
     {
       "data_gap_id": "gap-public-process-status",
@@ -317,7 +322,12 @@
         "claim-004",
         "claim-005"
       ],
-      "generation_method": "RULE_DERIVED_POC"
+      "generation_method": "RULE_DERIVED_POC",
+      "not_found_claim_ids": [
+        "notfound-specific-public-review-status"
+      ],
+      "search_coverage_id": "coverage-radiology-poc-v1",
+      "absence_scope": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche."
     }
   ],
   "inferences": [
@@ -417,5 +427,103 @@
     "model": "gpt-5.6-luna",
     "retrieval": "LIVE_HTML"
   },
-  "retrieval_errors": []
+  "retrieval_errors": [],
+  "search_coverage": {
+    "coverage_id": "coverage-radiology-poc-v1",
+    "strategy": "DIRECT_MONITORED_PAGES",
+    "scope_note": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche.",
+    "monitored_source_ids": [
+      "efk_radiology",
+      "bag_tardoc",
+      "srf_3r_leak"
+    ],
+    "checked_sources": [
+      {
+        "source_id": "efk_radiology",
+        "publisher": "Eidgenössische Finanzkontrolle (EFK)",
+        "url": "https://www.efk.admin.ch/prufung/mechanismen-zur-angemessenen-verwendung-bildgebender-verfahren-in-der-medizin/",
+        "retrieved_at": "2026-08-21T16:53:18.736243+00:00",
+        "http_status": 200,
+        "retrieval_ok": true,
+        "error": null
+      },
+      {
+        "source_id": "bag_tardoc",
+        "publisher": "Bundesamt für Gesundheit (BAG)",
+        "url": "https://www.bag.admin.ch/de/tardoc-und-ambulante-pauschalen",
+        "retrieved_at": "2026-08-21T16:53:27.413787+00:00",
+        "http_status": 200,
+        "retrieval_ok": true,
+        "error": null
+      },
+      {
+        "source_id": "srf_3r_leak",
+        "publisher": "Schweizer Radio und Fernsehen (SRF)",
+        "url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+        "retrieved_at": "2026-08-21T16:53:33.485463+00:00",
+        "http_status": 200,
+        "retrieval_ok": true,
+        "error": null
+      }
+    ],
+    "topics_checked": [
+      {
+        "topic_id": "current-cost-productivity-basis",
+        "question": "Enthalten die überwachten Quellen eine repräsentative aktuelle Vollkosten- und Produktivitätsbasis effizienter CT/MRI-Leistungserbringer?",
+        "terms": [
+          "Investitionen",
+          "Abschreibung",
+          "Auslastung",
+          "Personalaufwand",
+          "Produktivität",
+          "Vollkosten"
+        ]
+      },
+      {
+        "topic_id": "specific-public-review-status",
+        "question": "Enthalten die überwachten Quellen einen spezifischen öffentlichen Prüfstatus einer CT/MRI-Kostenrealitätsprüfung?",
+        "terms": [
+          "Prüfstart",
+          "zuständige Stelle",
+          "aktuelle Phase",
+          "Entscheid",
+          "Follow-up"
+        ]
+      }
+    ],
+    "last_checked": "2026-08-21T16:53:33.485463+00:00",
+    "retrieval_error_count": 0
+  },
+  "not_found_claims": [
+    {
+      "claim_id": "notfound-current-cost-productivity",
+      "claim_type": "current_cost_productivity_basis",
+      "statement": "Eine repräsentative aktuelle Vollkosten- und Produktivitätsbasis für effiziente CT/MRI-Leistungserbringer wurde in den überwachten öffentlichen Quellen nicht gefunden.",
+      "value": null,
+      "evidence_class": "NOT_FOUND",
+      "confidence": 0.95,
+      "search_coverage_id": "coverage-radiology-poc-v1",
+      "last_checked": "2026-08-21T16:53:33.485463+00:00",
+      "publication_action": "PUBLISH_WITH_SCOPE_LABEL",
+      "publication_label": "IN ÜBERWACHTEN QUELLEN NICHT GEFUNDEN",
+      "scope_limitation": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche.",
+      "provenance_valid": true,
+      "temporal_role": "CURRENT"
+    },
+    {
+      "claim_id": "notfound-specific-public-review-status",
+      "claim_type": "specific_public_review_status",
+      "statement": "Ein spezifischer öffentlicher Prüfstatus für eine CT/MRI-Kostenrealitätsprüfung wurde in den überwachten öffentlichen Quellen nicht gefunden.",
+      "value": null,
+      "evidence_class": "NOT_FOUND",
+      "confidence": 0.95,
+      "search_coverage_id": "coverage-radiology-poc-v1",
+      "last_checked": "2026-08-21T16:53:33.485463+00:00",
+      "publication_action": "PUBLISH_WITH_SCOPE_LABEL",
+      "publication_label": "IN ÜBERWACHTEN QUELLEN NICHT GEFUNDEN",
+      "scope_limitation": "PoC-Abdeckung: die drei definierten öffentlichen Radiologie-/Tarifseiten. Dies ist keine vollständige Web-, Behörden- oder Dokumentensuche.",
+      "provenance_valid": true,
+      "temporal_role": "CURRENT"
+    }
+  ]
 }
