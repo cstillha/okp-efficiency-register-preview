@@ -1,0 +1,1733 @@
+{
+  "signal": {
+    "raw_text": "Hinweise auf sehr hohe Margen bei ambulanten Radiologieanbietern und stark steigende Kosten in der medizinischen Bildgebung in der Schweiz.",
+    "treated_as_signal_not_fact": true
+  },
+  "framing": {
+    "subject": "Ambulante medizinische Bildgebung/Radiologie zulasten der OKP in der Schweiz",
+    "scope": "Nationale Kosten- und Mengenentwicklung, Rentabilitätssignale, geltende ambulante Vergütung, WZW-Kontrollen und Transparenzstand per 22.08.2026.",
+    "primary_question": "Stützen öffentliche Daten die Annahme hoher aktueller Margen bei ambulanten Radiologieanbietern und eines stark steigenden OKP-Kostenvolumens in der Bildgebung?",
+    "dimensions": [
+      "P",
+      "Q",
+      "WZW",
+      "T"
+    ]
+  },
+  "investigation_questions": [
+    {
+      "question": "Wie gross war das ambulante OKP-Kostenvolumen der Bildgebung, und wie entwickelte es sich?",
+      "why_it_matters": "Prüft das Ausmass und die zeitliche Einordnung des Kostensignals.",
+      "status": "ANSWERED",
+      "answer": "Nach vorsichtiger EFK-Schätzung betrugen die ambulanten OKP-Ausgaben für TARMED-Kapitel 39 im Jahr 2023 CHF 2,078 Mrd. (rund CHF 2,1 Mrd.). Von 2019 bis 2023 stiegen sie durchschnittlich um 5,3% jährlich, gegenüber 3,3% für alle ambulanten OKP-Leistungen. CT stieg von CHF 251 Mio. auf CHF 330 Mio. (7,1% p.a.), MRT von CHF 411 Mio. auf CHF 523 Mio. (6,2% p.a.) und Ultraschall von CHF 484 Mio. auf CHF 594 Mio. (5,2% p.a.). Dies ist historische Beobachtung bis 2023, keine aktuelle 2026-Kostenreihe."
+    },
+    {
+      "question": "War der Anstieg eher preis- oder mengengetrieben?",
+      "why_it_matters": "Trennt Tarif-/Preiswirkung von Nutzungsausweitung.",
+      "status": "ANSWERED",
+      "answer": "Für 2019–2023 führt die EFK bei kaum veränderten Tarifen und kantonalen Taxpunktwerten den starken Anstieg primär auf mehr Untersuchungen zurück. Die Aussage bezieht sich auf das damalige TARMED-System und darf nicht auf 2026 fortgeschrieben werden."
+    },
+    {
+      "question": "Gibt es einen belastbaren Nachweis sehr hoher aktueller Margen aller ambulanten Radiologieanbieter?",
+      "why_it_matters": "Das Signal behauptet Margen, nicht bloss hohe Umsätze oder Kosten.",
+      "status": "PARTIAL",
+      "answer": "Nein. Ein aktueller sekundärer SRF/RTS-Bericht über geleakte Daten nennt für eine einzelne ältere Gruppe im Nordwesten 2025 einen Gewinn von CHF 5,4 Mio. bzw. 47% des Umsatzes; dies ist ein starkes Einzelfallsignal. Eine BAG-beauftragte INFRAS-Studie fand 2016 in wenigen Spital-Fallstudien beim MRI rund CHF 205 Gewinn je Untersuchung, bezeichnete die Datengrundlage für Vollkosten/Wirtschaftlichkeit aber als dünn. Für eine nationale, aktuelle und repräsentative Margenaussage fehlen öffentliche Anbieter-Vollkosten-, Eigentümer- und Jahresabschlussdaten."
+    },
+    {
+      "question": "Welche Vergütung gilt aktuell und lässt sich daraus eine aktuelle Übervergütung ableiten?",
+      "why_it_matters": "Historische TARMED-Befunde sind wegen des Tarifwechsels nicht unmittelbar aktuell.",
+      "status": "ANSWERED",
+      "answer": "Seit 1. Januar 2026 ersetzen TARDOC und ambulante Pauschalen TARMED. Der öffentlich zugängliche Tarifbrowser enthält für Radiologie 185 TARDOC-Leistungen; die konkrete Rechnung hängt jedoch von Positionen, Regeln, kantonalen Taxpunktwerten und gegebenenfalls Pauschalgruppierung ab. Das BAG überwacht die Einführung mindestens bis 2028 mittels dynamischer Kostenneutralität. Ohne öffentliches, fallmixbereinigtes Vorher-Nachher-Monitoring kann keine aktuelle Übervergütung oder Margenhöhe quantifiziert werden."
+    },
+    {
+      "question": "Gibt es Mengen-/Angebotsindikatoren, die das Kostenrisiko plausibilisieren?",
+      "why_it_matters": "Prüft die Hypothese, dass hohe Kapazität und Nutzung Kosten treiben.",
+      "status": "ANSWERED",
+      "answer": "Die EFK schätzte für 2021 rund 700 CT- und MRT-Geräte in der Schweiz bzw. knapp 80 pro Million Einwohnerinnen und Einwohner; dies lag fast doppelt so hoch wie in den Niederlanden oder Belgien. Standardisierte CT-/MRT-Raten variierten kantonal; in der lateinischen Schweiz waren sie höher, und dort stiegen MRT-Raten zwischen 2015 und 2021 besonders stark. Das spricht für beobachtungswürdige Angebots- und Nutzungsunterschiede, beweist aber keine medizinische Unangemessenheit einzelner Untersuchungen."
+    },
+    {
+      "question": "Wie sind WZW und Abrechnung kontrolliert?",
+      "why_it_matters": "Hohe Nutzung oder Marge wäre nur mit unzureichenden Gegenmechanismen ein besonderes Steuerungsrisiko.",
+      "status": "PARTIAL",
+      "answer": "CT/MRT benötigen eine ärztliche Verschreibung. Versicherer kontrollieren Rechnungen und Tarifregeln, doch die EFK beurteilte die bildgebungsspezifische WZW-Kontrolle als unzureichend: Verschreibende seien auf Rechnungen nicht ausreichend nachverfolgbar; Ultraschall werde nicht überprüft. Klinische Audits prüfen bei CT an konkreten Dossiers Rechtfertigung und Ablauf, ihre Empfehlungen wurden laut EFK damals jedoch nicht systematisch nachverfolgt."
+    },
+    {
+      "question": "Welche Transparenz- und Datensysteme bestehen, und was fehlt?",
+      "why_it_matters": "Ermöglicht ein belastbares Folge-Monitoring statt Schlussfolgerungen aus Einzelfällen.",
+      "status": "PARTIAL",
+      "answer": "Das BFS publiziert einen maschinenlesbaren Datensatz zu Arztpraxen und ambulanten Zentren nach Kanton und Tätigkeit für 2018–2024, jedoch keine veröffentlichte nationale Vollerhebung zu Geräten, Untersuchungen, Tarifmix, Vollkosten und Gewinnen der ambulanten Radiologie. Die EFK bezeichnete genau diese Informationen als zentrale Lücke. Der SASIS-Daten-/Tarifpool konsolidiert Versicherer-Abrechnungsdaten, ist aber nicht als öffentliches radiologiespezifisches Vollkosten- und Margendataset zugänglich."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mechanismen zur angemessenen Verwendung bildgebender Verfahren in der Medizin (EFK-22613)",
+      "publisher": "Eidgenössische Finanzkontrolle",
+      "url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "authority": "OFFICIAL",
+      "publication_date": "2025-04-28",
+      "relevance": "Zentrale unabhängige Evaluation zu Kosten, Mengen, Geräten, kantonalen Unterschieden, WZW-Kontrollen und erwarteten Tariffolgen.",
+      "current_or_historical": "MIXED"
+    },
+    {
+      "title": "Ambulanter Arzttarif",
+      "publisher": "Bundesamt für Gesundheit",
+      "url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "authority": "OFFICIAL",
+      "publication_date": null,
+      "relevance": "Geltendes Gesamt-Tarifsystem seit 2026 und Kostenneutralitäts-/Monitoringvorgaben.",
+      "current_or_historical": "CURRENT"
+    },
+    {
+      "title": "1600 Radiologie – TARDOC Online Browser",
+      "publisher": "TARDOC Online",
+      "url": "https://www.tardoc-online.ch/de/dignitaet/1600-radiologia",
+      "authority": "PRIMARY_NON_GOV",
+      "publication_date": null,
+      "relevance": "Operativer öffentlicher Katalog der radiologischen TARDOC-Leistungen.",
+      "current_or_historical": "CURRENT"
+    },
+    {
+      "title": "Höchstzahlen für Ärztinnen und Ärzte",
+      "publisher": "Bundesamt für Gesundheit",
+      "url": "https://www.bag.admin.ch/de/hoechstzahlen-fuer-arztinnen-und-aerzte",
+      "authority": "OFFICIAL",
+      "publication_date": null,
+      "relevance": "Aktueller Rechts- und Methodenrahmen für kantonale Beschränkungen der ambulanten Zulassung.",
+      "current_or_historical": "CURRENT"
+    },
+    {
+      "title": "Arztpraxen und ambulante Zentren: Unternehmen, Standorte und Ärzte",
+      "publisher": "Bundesamt für Statistik / opendata.swiss",
+      "url": "https://opendata.swiss/fr/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
+      "authority": "OFFICIAL",
+      "publication_date": "2026-05-28",
+      "relevance": "Strukturierter öffentlicher Datensatz; zeigt vorhandene Transparenz zu ambulanten Standorten und Ärztinnen/Ärzten, aber nicht zu Margen.",
+      "current_or_historical": "MIXED"
+    },
+    {
+      "title": "Kosten und Rentabilitäten von kostenintensiven Infrastrukturen, Geräten und Einrichtungen sowie damit verbundenen Leistungen in der ambulanten Medizin",
+      "publisher": "Bundesamt für Gesundheit / INFRAS",
+      "url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "authority": "OFFICIAL",
+      "publication_date": "2018-03-30",
+      "relevance": "Historische BAG-Auftragsstudie zu Geräteinvestitionen, Vollkosten und Fallstudien-Rentabilität; zeitlich vor TARDOC.",
+      "current_or_historical": "HISTORICAL"
+    },
+    {
+      "title": "Datenleck gibt Einblick – Die Radiologie lastet immer schwerer auf dem Gesundheitswesen",
+      "publisher": "SRF / RTS",
+      "url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "authority": "SECONDARY",
+      "publication_date": "2026-06-20",
+      "relevance": "Rekonstruiert das wahrscheinliche aktuelle Ursprungssignal zu aussergewöhnlichen Gewinnen; Einzelfalldaten, keine nationale Repräsentativität.",
+      "current_or_historical": "CURRENT"
+    },
+    {
+      "title": "SASIS AG – Geschäftsbericht 2025",
+      "publisher": "santésuisse / SASIS AG",
+      "url": "https://geschaeftsbericht.santesuisse.ch/de/sasis-ag/",
+      "authority": "PRIMARY_NON_GOV",
+      "publication_date": null,
+      "relevance": "Benennbarer Datenhalter für konsolidierte Versicherer-Abrechnungsdaten und mögliche weitergehende Analysen.",
+      "current_or_historical": "CURRENT"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "Die EFK schätzte die KVG-Ausgaben für medizinische Bildgebung im ambulanten Bereich 2023 auf rund 2,1 Milliarden Franken.",
+      "excerpt": "Gemäss dieser vorsichtigen Schätzung8 beliefen sich die KVG-Ausgaben für die medizinische Bildgebung im Jahr 2023 auf rund 2,1 Milliarden Franken.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 2.1,
+      "unit": "Milliarden Franken",
+      "period": "2023",
+      "population": "ambulante medizinische Bildgebung",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": false,
+      "provenance_match_method": "NONE",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": 2.1,
+        "unit": "Milliarden Franken",
+        "period": "2023",
+        "population": "ambulante medizinische Bildgebung",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "PROVENANCE_UNRESOLVED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - QUELLENTEXT-NACHWEIS OFFEN",
+      "publication_warnings": [
+        "PROVENANCE_UNRESOLVED"
+      ]
+    },
+    {
+      "statement": "Die ambulanten KVG-Ausgaben für medizinische Bildgebung stiegen von 2019 bis 2023 durchschnittlich um 5,3 % pro Jahr; die gesamten ambulanten KVG-Kosten stiegen um 3,3 % pro Jahr.",
+      "excerpt": "Diese Ausgaben stiegen zwischen 2019 und 2023 um durchschnittlich 5,3 % pro Jahr und damit weitaus stärker als die gesamten KVG -Kosten im ambulanten Bereich (3,3 %).",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "5,3 % gegenüber 3,3 %",
+      "unit": "pro Jahr",
+      "period": "2019–2023",
+      "population": "KVG-Ausgaben für ambulante medizinische Bildgebung gegenüber gesamten ambulanten KVG-Kosten",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "5,3 % gegenüber 3,3 %",
+        "unit": "pro Jahr",
+        "period": "2019–2023",
+        "population": "KVG-Ausgaben für ambulante medizinische Bildgebung gegenüber gesamten ambulanten KVG-Kosten",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "Der starke Kostenanstieg der ambulanten medizinischen Bildgebung zwischen 2019 und 2023 war laut EFK in erster Linie auf eine höhere Zahl von Untersuchungen zurückzuführen.",
+      "excerpt": "Da sich die Tarife und der von jedem Kanton festgelegte Punktwert in diesem Zeitraum kaum verändert haben, ist der starke Kostenanstieg in erster Linie auf e ine höhere Anzahl von Untersuchungen zurückzuführen.",
+      "claim_role": "audit_findings",
+      "temporal_semantics": "PERIOD",
+      "value": null,
+      "unit": null,
+      "period": "2019–2023",
+      "population": "ambulante medizinische Bildgebung",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.98,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": true,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": null,
+        "unit": null,
+        "period": "2019–2023",
+        "population": "ambulante medizinische Bildgebung",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "Die Kosten für CT-Untersuchungen betrugen 2019 251 Millionen Franken und 2023 330 Millionen Franken.",
+      "excerpt": "CT-Untersuchungen 251 330 7,1 %",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "251–330",
+      "unit": "Millionen Franken",
+      "period": "2019–2023",
+      "population": "CT-Untersuchungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "251–330",
+        "unit": "Millionen Franken",
+        "period": "2019–2023",
+        "population": "CT-Untersuchungen",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "Die Kosten für MRT-Untersuchungen betrugen 2019 411 Millionen Franken und 2023 523 Millionen Franken.",
+      "excerpt": "MRT-Untersuchungen 411 523 6,2 %",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "411–523",
+      "unit": "Millionen Franken",
+      "period": "2019–2023",
+      "population": "MRT-Untersuchungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "411–523",
+        "unit": "Millionen Franken",
+        "period": "2019–2023",
+        "population": "MRT-Untersuchungen",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "2021 waren in der Schweiz rund 700 CT- und MRT-Geräte in Betrieb.",
+      "excerpt": "Insgesamt waren 2021 in der Schweiz rund 700 Geräte in Betrieb.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 700,
+      "unit": "Geräte",
+      "period": "2021",
+      "population": "CT- und MRT-Geräte",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": 700,
+        "unit": "Geräte",
+        "period": "2021",
+        "population": "CT- und MRT-Geräte",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "2021 lag die Quote der betriebenen CT- und MRT-Geräte in der Schweiz bei knapp 80 Geräten pro Million Einwohnende.",
+      "excerpt": "Mit knapp 80 betriebenen Geräten pro Million Einwohnende im Jahr 2021 ist die Quote in der Schwei z fast doppelt so hoch wie in den Niederlanden oder in Belgien.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": "knapp 80",
+      "unit": "Geräte pro Million Einwohnende",
+      "period": "2021",
+      "population": "betriebene CT- und MRT-Geräte",
+      "geography": "Schweiz",
+      "denominator": "Million Einwohnende",
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_AUDIT_BODY",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:41.741829+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "knapp 80",
+        "unit": "Geräte pro Million Einwohnende",
+        "period": "2021",
+        "population": "betriebene CT- und MRT-Geräte",
+        "geography": "Schweiz",
+        "denominator": "Million Einwohnende"
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "Seit dem 1. Januar 2026 werden ambulante Leistungen über die Tarifstrukturen TARDOC und Ambulante Pauschalen abgerechnet.",
+      "excerpt": "Seit 1. Januar 2026 werden ambulante Leistungen über die beiden Tarifstrukturen TARDOC und Ambulante Pauschalen abgerechnet.",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "CURRENT",
+      "value": "2026-01-01",
+      "unit": "Datum",
+      "period": "seit 1. Januar 2026",
+      "population": "ambulante Leistungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:51.951762+00:00",
+      "retrieval_mode": "LIVE_HTML",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "2026-01-01",
+        "unit": "Datum",
+        "period": "seit 1. Januar 2026",
+        "population": "ambulante Leistungen",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "TARMED war bis zum 31. Dezember 2025 Grundlage für die Abrechnung ambulanter ärztlicher Leistungen in Arztpraxen und Spitälern.",
+      "excerpt": "Bis 31. Dezember 2025 war der Einzelleistungstarif TARMED die Grundlage für die Abrechnung von ambulanten ärztlichen Leistungen in Arztpraxen und Spitälern.",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": "2025-12-31",
+      "unit": "Datum",
+      "period": "bis 31. Dezember 2025",
+      "population": "ambulante ärztliche Leistungen in Arztpraxen und Spitälern",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:51.951762+00:00",
+      "retrieval_mode": "LIVE_HTML",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "2025-12-31",
+        "unit": "Datum",
+        "period": "bis 31. Dezember 2025",
+        "population": "ambulante ärztliche Leistungen in Arztpraxen und Spitälern",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "Die Kostenneutralitätsphase für das neue Gesamt-Tarifsystem dauert mindestens bis 2028 und bis die Auflagen des Bundesrates erfüllt sind.",
+      "excerpt": "Die Phase der Kostenneutralität für das neue Gesamt-Tarifsystem dauert bis mindestens 2028 und bis die Auflagen des Bundesrates erfüllt sind",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "CURRENT",
+      "value": "mindestens 2028",
+      "unit": "Jahr",
+      "period": "bis mindestens 2028 sowie bis zur Erfüllung der Auflagen des Bundesrates",
+      "population": "neues Gesamt-Tarifsystem für ambulante ärztliche Leistungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:51.951762+00:00",
+      "retrieval_mode": "LIVE_HTML",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": "mindestens 2028",
+        "unit": "Jahr",
+        "period": "bis mindestens 2028 sowie bis zur Erfüllung der Auflagen des Bundesrates",
+        "population": "neues Gesamt-Tarifsystem für ambulante ärztliche Leistungen",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "Eine Gruppe in der Nordwestschweiz erzielte 2025 einen Gewinn von 5,4 Millionen Franken.",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "claim_role": "media_reporting",
+      "temporal_semantics": "HISTORICAL_SIGNAL",
+      "value": 5.4,
+      "unit": "Millionen Franken",
+      "period": "2025",
+      "population": "eine Gruppe",
+      "geography": "Nordwesten der Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "publisher": "",
+      "source_title": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes."
+      ],
+      "research_candidate": true,
+      "source_authority": "SECONDARY_MEDIA",
+      "claim_authority": true,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:58.175991+00:00",
+      "retrieval_mode": "LIVE_HTML",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": 5.4,
+        "unit": "Millionen Franken",
+        "period": "2025",
+        "population": "eine Gruppe",
+        "geography": "Nordwesten der Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "Der Gewinn einer Gruppe in der Nordwestschweiz entsprach 2025 47 Prozent ihres Umsatzes.",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "claim_role": "media_reporting",
+      "temporal_semantics": "HISTORICAL_SIGNAL",
+      "value": 47,
+      "unit": "Prozent",
+      "period": "2025",
+      "population": "eine Gruppe",
+      "geography": "Nordwesten der Schweiz",
+      "denominator": "Umsatz der Gruppe",
+      "confidence": 0.99,
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "publisher": "",
+      "source_title": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes."
+      ],
+      "research_candidate": true,
+      "source_authority": "SECONDARY_MEDIA",
+      "claim_authority": true,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:53:58.175991+00:00",
+      "retrieval_mode": "LIVE_HTML",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": 47,
+        "unit": "Prozent",
+        "period": "2025",
+        "population": "eine Gruppe",
+        "geography": "Nordwesten der Schweiz",
+        "denominator": "Umsatz der Gruppe"
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    },
+    {
+      "statement": "Das Spital Triemli veranschlagte 2011 für eine MRI-Untersuchung einen Gewinn von 205 CHF pro Untersuchung.",
+      "excerpt": "Für eine MRI -Untersuchung hatte das Spital Triemli im Jahr 2011 einen Gewinn von 205 CHF pro Untersuchung veranschlagt.",
+      "claim_role": "audit_findings",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 205,
+      "unit": "CHF pro Untersuchung",
+      "period": "2011",
+      "population": "MRI-Untersuchungen am Spital Triemli",
+      "geography": "Schweiz",
+      "denominator": "pro Untersuchung",
+      "confidence": 0.98,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:54:08.396211+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": 205,
+        "unit": "CHF pro Untersuchung",
+        "period": "2011",
+        "population": "MRI-Untersuchungen am Spital Triemli",
+        "geography": "Schweiz",
+        "denominator": "pro Untersuchung"
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "Die Datenbasis zu Betriebskosten, Vollkosten, Wirtschaftlichkeit und Auslastung war dünn.",
+      "excerpt": "Gute Datenlage bei Investitionskosten, dünne Datenbasis zu Betriebskosten, Vollkosten, Wirtschaftlichkeit und Auslastung",
+      "claim_role": "data_quality_assessment",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": null,
+      "unit": null,
+      "period": "Bericht vom 18. Oktober 2016",
+      "population": "kostenintensive Geräte in der ambulanten Medizin",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.98,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:54:08.396211+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "NORMALIZED",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": null,
+        "unit": null,
+        "period": "Bericht vom 18. Oktober 2016",
+        "population": "kostenintensive Geräte in der ambulanten Medizin",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED_NORMALIZED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT - NORMALISIERT VERIFIZIERT",
+      "publication_warnings": [
+        "PROVENANCE_NORMALIZED"
+      ]
+    },
+    {
+      "statement": "Der im Bericht verwendete Gewinn bezeichnet das Ergebnis aus Ertrag abzüglich Betriebskosten ohne Overhead.",
+      "excerpt": "Gewinn bezeichnet hier das Ergebnis aus Ertrag abzüglich Betriebskosten (ohne Overhead).",
+      "claim_role": "methodological_definition",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": null,
+      "unit": null,
+      "period": "Bericht vom 18. Oktober 2016",
+      "population": "ausgewiesene Gewinne der Gerätefallbeispiele",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "AI_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ],
+      "research_candidate": true,
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": false,
+      "retrieval_error": null,
+      "source_retrieved": true,
+      "retrieved_at": "2026-08-22T12:54:08.396211+00:00",
+      "retrieval_mode": "LIVE_PDF_TEXT",
+      "provenance_valid": true,
+      "provenance_match_method": "EXACT",
+      "numeric_context_valid": true,
+      "numeric_context": {
+        "value": null,
+        "unit": null,
+        "period": "Bericht vom 18. Oktober 2016",
+        "population": "ausgewiesene Gewinne der Gerätefallbeispiele",
+        "geography": "Schweiz",
+        "denominator": null
+      },
+      "research_evidence_class": "SOURCE_EXTRACTED",
+      "evidence_status": "VERIFIED",
+      "publication_mode": "REVIEW",
+      "visibility": "REVIEW_VISIBLE",
+      "publication_action": "PUBLISH_WITH_LABEL",
+      "publication_label": "KI-EXTRAHIERT",
+      "publication_warnings": []
+    }
+  ],
+  "data_gaps": [
+    {
+      "missing_information": "Aktuelle, nationale und repräsentative Netto-/EBIT-Margen sowie Vollkosten nach ambulantem Radiologieanbieter, Gerät, Kanton und Eigentümerstruktur für 2026.",
+      "why_it_matters": "Ohne diese Daten kann weder die 47%-Einzelfallmarge verallgemeinert noch eine heutige Übervergütung quantifiziert werden.",
+      "search_coverage": "Zweite Suche über EFK-Evaluation, BAG-Auftragsstudie, BFS/Open-Data und Versicherer-/SASIS-Datenhalter. Gefunden wurden historische Fallstudien, Kostenpool-Auswertungen und ein Medien-Einzelfall, aber keine öffentliche nationale Margenstatistik.",
+      "possible_data_holders": [
+        "Radiologieanbieter und deren Revisionsstellen",
+        "BFS (MAS-Erhebung Arztpraxen und ambulante Zentren)",
+        "BAG",
+        "SASIS AG / Krankenversicherer",
+        "OAAT AG"
+      ],
+      "not_found_is_not_evidence_of_problem": true
+    },
+    {
+      "missing_information": "Fallmixbereinigte radiologiespezifische OKP-Kosten-, Mengen- und Tarifdaten nach dem Systemwechsel vom 1. Januar 2026.",
+      "why_it_matters": "Erst damit lässt sich testen, ob TARDOC/Pauschalen Infrastrukturvergütung, Anbieterzahl, Verlagerungen oder Untersuchungszahlen verändert haben.",
+      "search_coverage": "Geprüft wurden BAG-Tarif-/Kostenneutralitätsseiten, OAAT-Tarif- und Simulationstools, operativer TARDOC-Browser sowie EFK-Bericht. Gefunden wurde der aktuelle Rahmen, nicht aber eine publizierte 2026-Nachherauswertung für Radiologie.",
+      "possible_data_holders": [
+        "OAAT AG",
+        "BAG",
+        "SASIS AG / Krankenversicherer",
+        "Tarifpartner FMH, H+ und prio.Swiss"
+      ],
+      "not_found_is_not_evidence_of_problem": true
+    },
+    {
+      "missing_information": "Öffentliches, vollständig verknüpfbares Register von ambulanten CT-/MRT-Geräten, Standorten, Auslastung, Verschreibenden und Untersuchungsindikationen.",
+      "why_it_matters": "Es wäre erforderlich, regionale Angebotsdichte, induzierte Nachfrage, Doppeluntersuchungen und WZW risikoadjustiert zu bewerten.",
+      "search_coverage": "Geprüft wurden EFK, BFS/Open-Data, BAG-Höchstzahlen und Strahlenschutz-/Auditangaben. Die EFK dokumentiert selbst lückenhafte Infrastrukturinformationen und fehlende ausreichende Zuordnung der Verschreibenden in Rechnungen.",
+      "possible_data_holders": [
+        "BFS",
+        "BAG",
+        "kantonale Gesundheitsbehörden",
+        "Krankenversicherer",
+        "Radiologieinstitute"
+      ],
+      "not_found_is_not_evidence_of_problem": true
+    }
+  ],
+  "process_and_responsibility": [
+    {
+      "institution": "BAG",
+      "role": "Genehmigung/Aufsicht des ambulanten Tarifsystems, Rahmen für Kostenneutralität sowie Strahlenschutz und klinische Audits.",
+      "current_status": "Seit 1. Januar 2026 gilt das neue System; die dynamische Kostenneutralität läuft mindestens bis 2028.",
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif"
+    },
+    {
+      "institution": "OAAT AG",
+      "role": "Pflege und Weiterentwicklung von TARDOC und ambulanten Pauschalen; Bereitstellung operativer Tarif- und Gruppierungsinstrumente.",
+      "current_status": "Öffentlicher Tarifkatalog enthält Radiologiepositionen; Tarifversionen werden weiterentwickelt.",
+      "source_url": "https://www.tardoc-online.ch/de/dignitaet/1600-radiologia"
+    },
+    {
+      "institution": "Kantone",
+      "role": "Setzen Höchstzahlen für ambulant zulasten der OKP tätige Ärztinnen und Ärzte um; regionale Angebotssteuerung.",
+      "current_status": "Seit 1. Juli 2025 ist die vollständige bundesrechtliche Methode für Höchstzahlen anzuwenden.",
+      "source_url": "https://www.bag.admin.ch/de/hoechstzahlen-fuer-arztinnen-und-aerzte"
+    },
+    {
+      "institution": "Krankenversicherer / SASIS AG",
+      "role": "Rechnungs- und Wirtschaftlichkeitskontrollen; Konsolidierung von Abrechnungsdaten in Daten- und Tarifpool.",
+      "current_status": "Der Daten-/Tarifpool wird auf Individualdaten-Ebene weiterentwickelt; öffentliche radiologiespezifische Vollkosten- und Margenauswertungen wurden nicht gefunden.",
+      "source_url": "https://geschaeftsbericht.santesuisse.ch/de/sasis-ag/"
+    }
+  ],
+  "research_claims": [
+    {
+      "statement": "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "value": 2.1,
+      "unit": "Mrd. CHF",
+      "confidence": 0.95,
+      "support": "beliefen sich die KVG-Ausgaben für die medizinische Bildgebung im Jahr 2023 auf rund 2,1 Milliarden Franken."
+    },
+    {
+      "statement": "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "PERIOD",
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "value": "5,3 gegenüber 3,3",
+      "unit": "% pro Jahr",
+      "confidence": 0.95,
+      "support": "Diese Ausgaben stiegen zwischen 2019 und 2023 um durchschnittlich 5,3 % pro Jahr ... (3,3 %)."
+    },
+    {
+      "statement": "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "PERIOD",
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "value": "CT 251→330; MRT 411→523",
+      "unit": "Mio. CHF",
+      "confidence": 0.95,
+      "support": "CT-Untersuchungen 251 330 7,1 %; MRT-Untersuchungen 411 523 6,2 %."
+    },
+    {
+      "statement": "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "PERIOD",
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "value": null,
+      "unit": null,
+      "confidence": 0.9,
+      "support": "ist der starke Kostenanstieg in erster Linie auf eine höhere Anzahl von Untersuchungen zurückzuführen."
+    },
+    {
+      "statement": "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "value": "rund 700; knapp 80",
+      "unit": "Geräte; Geräte pro Mio. Einwohner",
+      "confidence": 0.85,
+      "support": "Insgesamt waren 2021 in der Schweiz rund 700 Geräte in Betrieb."
+    },
+    {
+      "statement": "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "CURRENT",
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "value": "2026-01-01",
+      "unit": "Datum",
+      "confidence": 0.99,
+      "support": "Seit dem 1. Januar 2026 gilt für ambulante ärztliche Behandlungen ein neues Tarifsystem."
+    },
+    {
+      "statement": "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028.",
+      "evidence_class": "OFFICIAL",
+      "temporal_semantics": "CURRENT",
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "value": "mindestens 2028",
+      "unit": "Jahr",
+      "confidence": 0.95,
+      "support": "Die Phase der Kostenneutralität für das neue Gesamt-Tarifsystem dauert bis mindestens 2028."
+    },
+    {
+      "statement": "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes.",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "temporal_semantics": "HISTORICAL_SIGNAL",
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "value": "5,4 Mio.; 47",
+      "unit": "CHF; % des Umsatzes",
+      "confidence": 0.65,
+      "support": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach."
+    },
+    {
+      "statement": "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit.",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "value": 205,
+      "unit": "CHF pro MRI-Untersuchung",
+      "confidence": 0.7,
+      "support": "Dünn, da nur vereinzelte Angaben; Geräte erzielen Gewinn: 205 CHF bei MRI."
+    }
+  ],
+  "extracted_evidence_candidates": [
+    {
+      "statement": "Die EFK schätzte die KVG-Ausgaben für medizinische Bildgebung im ambulanten Bereich 2023 auf rund 2,1 Milliarden Franken.",
+      "excerpt": "Gemäss dieser vorsichtigen Schätzung8 beliefen sich die KVG-Ausgaben für die medizinische Bildgebung im Jahr 2023 auf rund 2,1 Milliarden Franken.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 2.1,
+      "unit": "Milliarden Franken",
+      "period": "2023",
+      "population": "ambulante medizinische Bildgebung",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "Die ambulanten KVG-Ausgaben für medizinische Bildgebung stiegen von 2019 bis 2023 durchschnittlich um 5,3 % pro Jahr; die gesamten ambulanten KVG-Kosten stiegen um 3,3 % pro Jahr.",
+      "excerpt": "Diese Ausgaben stiegen zwischen 2019 und 2023 um durchschnittlich 5,3 % pro Jahr und damit weitaus stärker als die gesamten KVG -Kosten im ambulanten Bereich (3,3 %).",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "5,3 % gegenüber 3,3 %",
+      "unit": "pro Jahr",
+      "period": "2019–2023",
+      "population": "KVG-Ausgaben für ambulante medizinische Bildgebung gegenüber gesamten ambulanten KVG-Kosten",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "Der starke Kostenanstieg der ambulanten medizinischen Bildgebung zwischen 2019 und 2023 war laut EFK in erster Linie auf eine höhere Zahl von Untersuchungen zurückzuführen.",
+      "excerpt": "Da sich die Tarife und der von jedem Kanton festgelegte Punktwert in diesem Zeitraum kaum verändert haben, ist der starke Kostenanstieg in erster Linie auf e ine höhere Anzahl von Untersuchungen zurückzuführen.",
+      "claim_role": "audit_findings",
+      "temporal_semantics": "PERIOD",
+      "value": null,
+      "unit": null,
+      "period": "2019–2023",
+      "population": "ambulante medizinische Bildgebung",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.98,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "Die Kosten für CT-Untersuchungen betrugen 2019 251 Millionen Franken und 2023 330 Millionen Franken.",
+      "excerpt": "CT-Untersuchungen 251 330 7,1 %",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "251–330",
+      "unit": "Millionen Franken",
+      "period": "2019–2023",
+      "population": "CT-Untersuchungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "Die Kosten für MRT-Untersuchungen betrugen 2019 411 Millionen Franken und 2023 523 Millionen Franken.",
+      "excerpt": "MRT-Untersuchungen 411 523 6,2 %",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "411–523",
+      "unit": "Millionen Franken",
+      "period": "2019–2023",
+      "population": "MRT-Untersuchungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "2021 waren in der Schweiz rund 700 CT- und MRT-Geräte in Betrieb.",
+      "excerpt": "Insgesamt waren 2021 in der Schweiz rund 700 Geräte in Betrieb.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 700,
+      "unit": "Geräte",
+      "period": "2021",
+      "population": "CT- und MRT-Geräte",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.97,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "2021 lag die Quote der betriebenen CT- und MRT-Geräte in der Schweiz bei knapp 80 Geräten pro Million Einwohnende.",
+      "excerpt": "Mit knapp 80 betriebenen Geräten pro Million Einwohnende im Jahr 2021 ist die Quote in der Schwei z fast doppelt so hoch wie in den Niederlanden oder in Belgien.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": "knapp 80",
+      "unit": "Geräte pro Million Einwohnende",
+      "period": "2021",
+      "population": "betriebene CT- und MRT-Geräte",
+      "geography": "Schweiz",
+      "denominator": "Million Einwohnende",
+      "confidence": 0.99,
+      "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "publisher": "",
+      "source_title": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+        "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+        "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+        "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+        "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+      ]
+    },
+    {
+      "statement": "Seit dem 1. Januar 2026 werden ambulante Leistungen über die Tarifstrukturen TARDOC und Ambulante Pauschalen abgerechnet.",
+      "excerpt": "Seit 1. Januar 2026 werden ambulante Leistungen über die beiden Tarifstrukturen TARDOC und Ambulante Pauschalen abgerechnet.",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "CURRENT",
+      "value": "2026-01-01",
+      "unit": "Datum",
+      "period": "seit 1. Januar 2026",
+      "population": "ambulante Leistungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ]
+    },
+    {
+      "statement": "TARMED war bis zum 31. Dezember 2025 Grundlage für die Abrechnung ambulanter ärztlicher Leistungen in Arztpraxen und Spitälern.",
+      "excerpt": "Bis 31. Dezember 2025 war der Einzelleistungstarif TARMED die Grundlage für die Abrechnung von ambulanten ärztlichen Leistungen in Arztpraxen und Spitälern.",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": "2025-12-31",
+      "unit": "Datum",
+      "period": "bis 31. Dezember 2025",
+      "population": "ambulante ärztliche Leistungen in Arztpraxen und Spitälern",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ]
+    },
+    {
+      "statement": "Die Kostenneutralitätsphase für das neue Gesamt-Tarifsystem dauert mindestens bis 2028 und bis die Auflagen des Bundesrates erfüllt sind.",
+      "excerpt": "Die Phase der Kostenneutralität für das neue Gesamt-Tarifsystem dauert bis mindestens 2028 und bis die Auflagen des Bundesrates erfüllt sind",
+      "claim_role": "tariff_process",
+      "temporal_semantics": "CURRENT",
+      "value": "mindestens 2028",
+      "unit": "Jahr",
+      "period": "bis mindestens 2028 sowie bis zur Erfüllung der Auflagen des Bundesrates",
+      "population": "neues Gesamt-Tarifsystem für ambulante ärztliche Leistungen",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+        "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+      ]
+    },
+    {
+      "statement": "Eine Gruppe in der Nordwestschweiz erzielte 2025 einen Gewinn von 5,4 Millionen Franken.",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "claim_role": "media_reporting",
+      "temporal_semantics": "HISTORICAL_SIGNAL",
+      "value": 5.4,
+      "unit": "Millionen Franken",
+      "period": "2025",
+      "population": "eine Gruppe",
+      "geography": "Nordwesten der Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "publisher": "",
+      "source_title": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes."
+      ]
+    },
+    {
+      "statement": "Der Gewinn einer Gruppe in der Nordwestschweiz entsprach 2025 47 Prozent ihres Umsatzes.",
+      "excerpt": "2025 erzielte eine Gruppe im Nordwesten der Schweiz 5,4 Millionen Gewinn, was 47 Prozent ihres Umsatzes entsprach.",
+      "claim_role": "media_reporting",
+      "temporal_semantics": "HISTORICAL_SIGNAL",
+      "value": 47,
+      "unit": "Prozent",
+      "period": "2025",
+      "population": "eine Gruppe",
+      "geography": "Nordwesten der Schweiz",
+      "denominator": "Umsatz der Gruppe",
+      "confidence": 0.99,
+      "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "publisher": "",
+      "source_title": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes."
+      ]
+    },
+    {
+      "statement": "Das Spital Triemli veranschlagte 2011 für eine MRI-Untersuchung einen Gewinn von 205 CHF pro Untersuchung.",
+      "excerpt": "Für eine MRI -Untersuchung hatte das Spital Triemli im Jahr 2011 einen Gewinn von 205 CHF pro Untersuchung veranschlagt.",
+      "claim_role": "audit_findings",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": 205,
+      "unit": "CHF pro Untersuchung",
+      "period": "2011",
+      "population": "MRI-Untersuchungen am Spital Triemli",
+      "geography": "Schweiz",
+      "denominator": "pro Untersuchung",
+      "confidence": 0.98,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ]
+    },
+    {
+      "statement": "Die Datenbasis zu Betriebskosten, Vollkosten, Wirtschaftlichkeit und Auslastung war dünn.",
+      "excerpt": "Gute Datenlage bei Investitionskosten, dünne Datenbasis zu Betriebskosten, Vollkosten, Wirtschaftlichkeit und Auslastung",
+      "claim_role": "data_quality_assessment",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": null,
+      "unit": null,
+      "period": "Bericht vom 18. Oktober 2016",
+      "population": "kostenintensive Geräte in der ambulanten Medizin",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.98,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ]
+    },
+    {
+      "statement": "Der im Bericht verwendete Gewinn bezeichnet das Ergebnis aus Ertrag abzüglich Betriebskosten ohne Overhead.",
+      "excerpt": "Gewinn bezeichnet hier das Ergebnis aus Ertrag abzüglich Betriebskosten (ohne Overhead).",
+      "claim_role": "methodological_definition",
+      "temporal_semantics": "HISTORICAL_OBSERVATION",
+      "value": null,
+      "unit": null,
+      "period": "Bericht vom 18. Oktober 2016",
+      "population": "ausgewiesene Gewinne der Gerätefallbeispiele",
+      "geography": "Schweiz",
+      "denominator": null,
+      "confidence": 0.99,
+      "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "publisher": "",
+      "source_title": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+      "evidence_class": "SOURCE_EXTRACTED",
+      "research_hint_statements": [
+        "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+      ]
+    }
+  ],
+  "evidence_extraction_audit": {
+    "research_hints": 9,
+    "sources_attempted": 4,
+    "retrieval_failures": [],
+    "extraction_calls": [
+      {
+        "source_url": "https://www.efk.admin.ch/wp-content/uploads/publikationen/berichte/bildung_und_soziales/gesundheit/22613/22613_endgueltige_fassung_v04.pdf",
+        "research_hints": [
+          "Die ambulanten OKP-Ausgaben für medizinische Bildgebung betrugen 2023 nach EFK-Schätzung rund CHF 2,1 Mrd.",
+          "Die EFK schätzt das durchschnittliche jährliche Wachstum der ambulanten Bildgebungskosten 2019–2023 auf 5,3%; die gesamten ambulanten OKP-Leistungen wuchsen um 3,3%.",
+          "CT-Kosten stiegen 2019–2023 von CHF 251 Mio. auf CHF 330 Mio.; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio.",
+          "Die EFK ordnet den Kostenanstieg 2019–2023 vor allem einer steigenden Zahl von Untersuchungen zu.",
+          "In der Schweiz waren 2021 rund 700 CT- und MRT-Geräte in Betrieb; dies entsprach knapp 80 Geräten pro Million Einwohner."
+        ],
+        "hints_supported": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "notes": "",
+        "response_id": "resp_06ad6c4eec3f84dc006a899bd6013887d1a2330329857d3a79",
+        "model": "gpt-5.6-terra"
+      },
+      {
+        "source_url": "https://www.bag.admin.ch/de/ambulanter-arzttarif",
+        "research_hints": [
+          "Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen anstelle von TARMED.",
+          "Die dynamische Kostenneutralität des neuen Gesamt-Tarifsystems dauert mindestens bis 2028."
+        ],
+        "hints_supported": [
+          0,
+          1
+        ],
+        "notes": "",
+        "response_id": "resp_0340f51aa5878743006a899be00fb087d195a6815d84fad623",
+        "model": "gpt-5.6-terra"
+      },
+      {
+        "source_url": "https://www.srf.ch/news/dialog/datenleck-gibt-einblick-die-radiologie-lastet-immer-schwerer-auf-dem-gesundheitswesen",
+        "research_hints": [
+          "Ein Medienbericht nennt für eine einzelne Radiologiegruppe 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes."
+        ],
+        "hints_supported": [
+          0
+        ],
+        "notes": "Die im Hinweis genannte einzelne Radiologiegruppe wird im Dokument nur als „eine Gruppe im Nordwesten der Schweiz“ bezeichnet.",
+        "response_id": "resp_04317a7a7dec841c006a899be6526887d18a0c71ac3f371da4",
+        "model": "gpt-5.6-terra"
+      },
+      {
+        "source_url": "https://www.bag.admin.ch/dam/fr/sd-web/cmagTKtVvfKd/kosten-und-rentabilitaeten-von-kostenintensiven-infrastrukturen-geraeten-und-einrichtungen-sowie-damit-verbundenen-leistungen-in-der-ambulanten-medizin.pdf",
+        "research_hints": [
+          "Die historische INFRAS-Fallstudie berichtete beim MRI rund CHF 205 Gewinn pro Untersuchung, bei dünner Datengrundlage zu Vollkosten und Wirtschaftlichkeit."
+        ],
+        "hints_supported": [
+          0
+        ],
+        "notes": "Die Quelle stützt den historischen Betrag von 205 CHF sowie die dünne Datenbasis. Die Definition des Gewinns schliesst Overhead ausdrücklich aus.",
+        "response_id": "resp_0a99cd73022b9c08006a899bf0beb487d1b047f931c698934b",
+        "model": "gpt-5.6-terra"
+      }
+    ],
+    "extraction_call_count": 4,
+    "extracted_claims": 15,
+    "validated_claims": 14
+  },
+  "research_outcome_unvalidated": {
+    "classification": "SIGNAL_PARTLY_SUPPORTED",
+    "summary": "Der Kostenteil des Signals ist für die historische Periode 2019–2023 klar gestützt: ambulante OKP-Bildgebung wuchs mit 5,3% p.a. deutlich schneller als die ambulanten OKP-Leistungen insgesamt; insbesondere CT und MRT nahmen stark zu. Für «sehr hohe Margen» besteht ein relevantes aktuelles Einzelfallsignal und eine historische Fallstudie, aber kein öffentlicher, repräsentativer Nachweis für die gesamte ambulante Radiologie. Der Tarifwechsel am 1. Januar 2026 verhindert zudem eine Fortschreibung der TARMED-basierten Befunde auf die Gegenwart.",
+    "what_is_proven": [
+      "Die ambulante OKP-Bildgebung hatte 2023 ein grosses Volumen von rund CHF 2,1 Mrd. und wuchs 2019–2023 schneller als die gesamten ambulanten OKP-Leistungen.",
+      "Die EFK sieht für diesen Zeitraum bei wenig veränderten Tarifen vor allem eine Mengensteigerung als Erklärung.",
+      "Die Schweiz verfügte 2021 über eine im internationalen Vergleich sehr hohe CT-/MRT-Gerätedichte und wies regionale Nutzungsunterschiede auf.",
+      "Das Vergütungsregime änderte sich am 1. Januar 2026 fundamental; bis mindestens 2028 besteht ein Kostenneutralitätsmechanismus.",
+      "Die WZW- und Transparenzmechanismen waren laut EFK für Bildgebung unvollständig, insbesondere bei der Zuordnung von Verschreibenden und bei Ultraschall."
+    ],
+    "what_is_not_proven": [
+      "Dass ambulante Radiologieanbieter schweizweit aktuell sehr hohe oder unangemessene Margen erzielen.",
+      "Dass die gemessene Kosten- und Mengensteigerung medizinisch nicht gerechtfertigt ist oder einen Nettoanstieg der gesamten Gesundheitskosten verursacht.",
+      "Dass der TARDOC-/Pauschalenwechsel die Radiologiekosten oder -margen bereits gesenkt oder erhöht hat.",
+      "Dass regionale Unterschiede oder hohe Gerätedichte eine unangemessene Untersuchung im Einzelfall belegen."
+    ],
+    "next_evidence_needed": [
+      "Eine öffentliche oder vertraulich auswertbare, repräsentative 2024–2026-Analyse von Umsätzen, Vollkosten, Investitionen, Abschreibungen und Gewinnen nach Anbieter- und Gerätegruppe.",
+      "Monatliches oder quartalsweises, fallmixbereinigtes Monitoring von Radiologievolumen und -kosten vor/nach 1. Januar 2026, getrennt nach TARDOC-Positionen und Pauschalen.",
+      "Verknüpfte Daten zu Geräten, Standorten, Auslastung, verschreibender Stelle, klinischer Indikation und Wiederholungsuntersuchungen.",
+      "Publizierte Resultate zur Nachverfolgung klinischer Audit-Empfehlungen und zu den bildgebungsspezifischen Wirtschaftlichkeitsprüfungen der Versicherer."
+    ]
+  },
+  "research_summary": {
+    "official_sources_prioritized": true,
+    "counter_hypotheses_tested": true,
+    "current_state_checked": true,
+    "manual_case_knowledge_used": false
+  },
+  "schema_version": "2.0-review",
+  "process_events": [],
+  "public_actors": [],
+  "structured_observations": [],
+  "capability_audit": [
+    {
+      "observation_id": "oaat:e3b0c44298fc1c14",
+      "capability_id": "current_tariff_and_history",
+      "adapter_id": "oaat_tariff",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "TARIFF_RECORD",
+      "source_url": "https://www.tardoc-online.ch/de/dignitaet/1600-radiologia",
+      "source_authority": "OFFICIAL_TARIFF_ORGANISATION",
+      "claim_authority": "tariff_process",
+      "observed_at": "2026-08-22T12:54:25.259167+00:00",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "monitoring_plan": {
+    "targets": [
+      {
+        "target_id": "monitor:current_tariff_and_history:oaat:e3b0c44298fc1c14",
+        "capability_id": "current_tariff_and_history",
+        "adapter_id": "oaat_tariff",
+        "subject_ref": "oaat-public-tariff-tooling",
+        "last_known_marker": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "change_detection": [
+          "tariff_version",
+          "changelog_entry",
+          "catalog_hash"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      }
+    ],
+    "last_refresh_at": "2026-08-22T13:03:45.361301+00:00"
+  },
+  "revisions": [],
+  "capability_outputs": [
+    {
+      "tariff_id": "oaat-public-tariff-tooling",
+      "last_change": null,
+      "changelog_entries": [],
+      "purpose": "Aktuelle Tarifmetadaten und Versionsänderungen für ambulante radiologische Leistungen seit Einführung von TARDOC und ambulanten Pauschalen am 1. Januar 2026 überwachen. Dies kann dokumentieren, ob relevante Radiologiepositionen, Regeln oder Pauschalgruppierungen geändert wurden, belegt aber für sich allein keine Übervergütung oder Margenhöhe.",
+      "capability_id": "current_tariff_and_history",
+      "adapter_id": "oaat_tariff",
+      "source_url": "https://www.tardoc-online.ch/de/dignitaet/1600-radiologia",
+      "source_authority": "OFFICIAL_TARIFF_ORGANISATION",
+      "claim_authority": "tariff_process",
+      "observed_at": "2026-08-22T12:54:25.259167+00:00"
+    }
+  ],
+  "hypotheses": [
+    {
+      "kind": "PRIMARY",
+      "statement": "Ambulante Radiologieanbieter in der Schweiz erzielen aktuell generell sehr hohe Margen.",
+      "status": "PARTLY_SUPPORTED",
+      "supporting_evidence_indexes": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rationale": "Für eine einzelne Gruppe in der Nordwestschweiz berichtet SRF für 2025 einen Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes. Dies ist ein relevantes, aber nicht repräsentatives Einzelfallsignal. Die historische Fallstudie zum Triemli weist für 2011 bei MRI CHF 205 Gewinn je Untersuchung aus; dieser Gewinnbegriff schliesst jedoch Overhead aus. Die damalige Datenbasis zu Vollkosten, Wirtschaftlichkeit und Auslastung war ausdrücklich dünn. Nationale, aktuelle und vollkostenbasierte Margendaten fehlen; daher lässt sich weder eine allgemeine noch eine aktuelle Margenhöhe oder Übervergütung belegen."
+    },
+    {
+      "kind": "PRIMARY",
+      "statement": "Das ambulante OKP-Kostenvolumen der medizinischen Bildgebung ist stark gestiegen.",
+      "status": "SUPPORTED",
+      "supporting_evidence_indexes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "Für 2019–2023 stiegen die ambulanten KVG-Ausgaben für medizinische Bildgebung durchschnittlich um 5,3% pro Jahr, gegenüber 3,3% für alle ambulanten KVG-Leistungen. CT stieg von CHF 251 Mio. auf CHF 330 Mio., MRT von CHF 411 Mio. auf CHF 523 Mio. Laut EFK war der Anstieg primär durch mehr Untersuchungen bedingt, weil Tarife und kantonale Taxpunktwerte in diesem Zeitraum kaum verändert waren. Dies belegt einen überdurchschnittlichen historischen Anstieg bis 2023, nicht das Kostenvolumen oder Wachstum im Jahr 2026."
+    },
+    {
+      "kind": "ALTERNATIVE",
+      "statement": "Der beobachtete Kostenanstieg 2019–2023 war vorwiegend mengengetrieben und ist nicht für sich ein Beleg für überhöhte Preise oder Margen.",
+      "status": "SUPPORTED",
+      "supporting_evidence_indexes": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "rationale": "Die EFK ordnet den damaligen Anstieg hauptsächlich einer höheren Untersuchungszahl zu, nicht wesentlich veränderten Tarifen oder Taxpunktwerten zu. Zudem endete TARMED am 31. Dezember 2025; seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen. Damit können Befunde aus der TARMED-Periode nicht ohne Weiteres auf die heutige Vergütung oder heutige Margen übertragen werden."
+    },
+    {
+      "kind": "COUNTER",
+      "statement": "Hohe Gerätekapazität und regionale Unterschiede können ein Nutzungs- und Kostenrisiko anzeigen, beweisen aber keine medizinisch unangemessenen Untersuchungen oder missbräuchliche Abrechnung.",
+      "status": "SUPPORTED",
+      "supporting_evidence_indexes": [
+        5,
+        6
+      ],
+      "rationale": "2021 waren rund 700 CT- und MRT-Geräte in Betrieb; die Quote lag bei knapp 80 Geräten pro Million Einwohnende. Diese historische Angebotsdichte ist ein Beobachtungsindikator. Ohne verknüpfte Daten zu Indikation, Verschreibung, Auslastung und Fallmix kann daraus jedoch keine WZW-Verletzung, Überversorgung im Einzelfall oder missbräuchliche Abrechnung abgeleitet werden."
+    }
+  ],
+  "outcome": {
+    "classification": "SIGNAL_PARTLY_SUPPORTED",
+    "summary": "Das Kostensignal ist für die historische Periode 2019–2023 klar gestützt: Ambulante KVG-Ausgaben der Bildgebung wuchsen überdurchschnittlich, nach Einschätzung der EFK vor allem wegen steigender Untersuchungszahlen. Das Margensignal ist dagegen nur als Einzelfallsignal gestützt. Öffentliche Evidenz belegt keine sehr hohen aktuellen Margen aller ambulanten Radiologieanbieter in der Schweiz und keine aktuelle systematische Übervergütung unter dem seit 2026 geltenden Tarifsystem.",
+    "what_is_proven": [
+      "Die ambulanten KVG-Ausgaben für medizinische Bildgebung stiegen von 2019 bis 2023 durchschnittlich um 5,3% pro Jahr und damit stärker als sämtliche ambulanten KVG-Ausgaben mit 3,3% pro Jahr. [1]",
+      "Die CT-Kosten stiegen in der Schweiz von CHF 251 Mio. im Jahr 2019 auf CHF 330 Mio. im Jahr 2023; MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio. [3,4]",
+      "Für 2019–2023 führt die EFK den Anstieg in erster Linie auf mehr Untersuchungen zurück, bei kaum veränderten Tarifen und kantonalen Taxpunktwerten. [2]",
+      "Im Jahr 2021 bestanden in der Schweiz rund 700 CT- und MRT-Geräte beziehungsweise knapp 80 Geräte pro Million Einwohnende. [5,6]",
+      "Seit dem 1. Januar 2026 gelten TARDOC und ambulante Pauschalen; die Kostenneutralitätsphase des neuen Gesamtsystems dauert mindestens bis 2028. [7,9]",
+      "Für eine einzelne Gruppe in der Nordwestschweiz liegt ein Medienbericht zu 2025 über CHF 5,4 Mio. Gewinn beziehungsweise 47% des Umsatzes vor. [10,11]"
+    ],
+    "what_is_not_proven": [
+      "Dass ambulante Radiologieanbieter schweizweit oder überwiegend aktuell sehr hohe Netto- oder EBIT-Margen erzielen.",
+      "Dass die für eine einzelne Gruppe berichtete Umsatzrendite von 47% auf andere Anbieter, Kantone, Eigentümerstrukturen oder die gesamte Branche übertragbar ist.",
+      "Dass die historischen Kosten- und Mengentrends von 2019–2023 nach dem Tarifwechsel 2026 fortbestehen.",
+      "Dass aktuelle Tarife zu Übervergütung führen oder dass hohe Kosten auf Fehlversorgung, WZW-Verstösse, Missbrauch oder Betrug zurückgehen.",
+      "Dass die hohe historische Gerätequote für sich allein medizinisch unangemessene Nutzung verursacht."
+    ],
+    "next_evidence_needed": [
+      "Aktuelle, nationale und repräsentative Vollkosten-, Ertrags- sowie Netto-/EBIT-Margendaten nach Anbieter, Gerätetyp, Kanton und Eigentümerstruktur; einschliesslich einer einheitlichen Definition von Gewinn und vollständiger Overhead-Zurechnung.",
+      "Fallmixbereinigte OKP-Abrechnungs-, Mengen- und Tarifdaten für Radiologie nach dem 1. Januar 2026, mit einem belastbaren Vorher-Nachher-Vergleich zu TARMED.",
+      "Verknüpfbare Daten zu Gerätebestand, Standorten, Auslastung, Verschreibenden, Indikationen und Wiederholungsuntersuchungen, damit regionale Unterschiede und WZW risikoadjustiert geprüft werden können.",
+      "Auswertungen der Kostenneutralitätsüberwachung, sobald für Radiologie ausreichend detaillierte und publizierte Daten vorliegen."
+    ],
+    "supporting_evidence_indexes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "reasoning_guardrail": {
+    "invalid_evidence_indexes": [],
+    "fallback_applied": false
+  },
+  "capability_requests": [
+    {
+      "capability_id": "current_tariff_and_history",
+      "purpose": "Aktuelle und künftige Änderungen der verbindlichen Tarifmetadaten für ambulante Radiologie überwachen. Dies ist nötig, weil die historischen TARMED-Kosten- und Rentabilitätssignale nach dem Systemwechsel per 1. Januar 2026 nicht direkt auf TARDOC und ambulante Pauschalen übertragbar sind; die Abfrage belegt jedoch keine Tarifadäquanz oder Margenhöhe.",
+      "query": "Vergleiche die aktuell publizierten OAAT-Tarifversionen, Regeln, TARDOC-Radiologiepositionen und allenfalls einschlägigen ambulanten Pauschalen mit früheren Releases. Ermittele insbesondere Versionsstand, Gültigkeitsdaten, Änderungen von Taxpunkten, Limitationen, Kumulations-/Abrechnungsregeln sowie Trigger- und Gruppierungslogik mit Bezug zu CT, MRT, Ultraschall, konventioneller Radiologie und Mammografie.",
+      "resource_locator": "https://tarifmatcher.oaat-otma.ch/",
+      "identifiers": [
+        "TARDOC 1.4c",
+        "Ambulante Pauschalen 1.1c",
+        "LKAAT 1.0c"
+      ],
+      "structured_query_json": null
+    },
+    {
+      "capability_id": "parliament_activity",
+      "purpose": "Parlamentarische Prozessbeobachtung zu Angebotssteuerung, Kosten und Tarifangemessenheit in der medizinischen Bildgebung. Die Geschäfte können institutionelle Befassung, Antworten des Bundesrats und mögliche Umsetzungsaufträge sichtbar machen, sind aber kein Nachweis hoher Margen oder medizinisch unangemessener Bildgebung.",
+      "query": "Verfolge den Stand, die Bundesratsantworten, Beratungen, Beschlüsse und allfällige Folgegeschäfte zu den konkret identifizierten Vorstössen. Geschäft 25.8194 betrifft den Zusammenhang zwischen kantonalen Moratorien für CT-/MRT-Grossgeräte, Untersuchungsvolumen und Kosten. Geschäft 24.3458 betrifft die TARDOC-Vergütung radiologischer Mammografie, Hinweise auf frühere Überbewertung in der Radiologie sowie die Sicherstellung der Versorgung.",
+      "resource_locator": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "identifiers": [
+        "25.8194",
+        "24.3458"
+      ],
+      "structured_query_json": null
+    }
+  ],
+  "capability_execution_errors": [
+    {
+      "request": {
+        "capability_id": "parliament_activity",
+        "purpose": "Parlamentarische Prozessbeobachtung zu Angebotssteuerung, Kosten und Tarifangemessenheit in der medizinischen Bildgebung. Die Geschäfte können institutionelle Befassung, Antworten des Bundesrats und mögliche Umsetzungsaufträge sichtbar machen, sind aber kein Nachweis hoher Margen oder medizinisch unangemessener Bildgebung.",
+        "query": "Verfolge den Stand, die Bundesratsantworten, Beratungen, Beschlüsse und allfällige Folgegeschäfte zu den konkret identifizierten Vorstössen. Geschäft 25.8194 betrifft den Zusammenhang zwischen kantonalen Moratorien für CT-/MRT-Grossgeräte, Untersuchungsvolumen und Kosten. Geschäft 24.3458 betrifft die TARDOC-Vergütung radiologischer Mammografie, Hinweise auf frühere Überbewertung in der Radiologie sowie die Sicherstellung der Versorgung.",
+        "resource_locator": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+        "identifiers": [
+          "25.8194",
+          "24.3458"
+        ],
+        "structured_query_json": null
+      },
+      "reason": "JSONDecodeError",
+      "detail": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "run_metadata": {
+    "signal_id": "signal-radiology-margin-cost-001",
+    "started_from_signal_only": true,
+    "manual_intervention_count": 0,
+    "llm_used": true,
+    "model": "gpt-5.6-terra",
+    "publication_mode": "REVIEW",
+    "generated_at": "2026-08-22T12:54:43.464598+00:00",
+    "benchmark_material_visible_to_model": false,
+    "pipeline": [
+      "RESEARCH_V2",
+      "INDEPENDENT_SOURCE_FETCH",
+      "DEDICATED_EVIDENCE_EXTRACTION",
+      "DETERMINISTIC_EVIDENCE_VALIDATION",
+      "CAPABILITY_PLANNING",
+      "DETERMINISTIC_CAPABILITY_EXECUTION",
+      "CASE_BUNDLE_INTEGRATION",
+      "VALIDATED_REASONING",
+      "DETERMINISTIC_REASONING_REFERENCE_GATE"
+    ]
+  },
+  "capability_plan_trace": {
+    "response_id": "resp_02751f6a6d0588a2006a899dc1b35487d1a370c9c4ccc14db0",
+    "model": "gpt-5.6-terra",
+    "usage": {
+      "input_tokens": 29400,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 8351
+      },
+      "output_tokens": 1091,
+      "output_tokens_details": {
+        "reasoning_tokens": 586
+      },
+      "total_tokens": 30491
+    },
+    "public_output_trace": [
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc3b75887d1a4717f4cde6c6e1e",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:parlament.ch Radiologie bildgebende Verfahren Krankenversicherung Geschäft",
+            "site:parlament.ch MRT CT Kosten Krankenversicherung Geschäft",
+            "site:parlament.ch TARMED Radiologie Tarif Geschäft",
+            "site:parlament.ch medizinische Bildgebung WZW Geschäft"
+          ],
+          "query": "site:parlament.ch Radiologie bildgebende Verfahren Krankenversicherung Geschäft",
+          "sources": null
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc73b9c87d1b4a432f6b9026316",
+        "action": {
+          "type": "open_page",
+          "url": "https://ws-old.parlament.ch/affairs/20243458"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc8da7c87d1806894d4fbc9bcef",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:oaat-otma.ch Tarifbrowser TARDOC ambulante Pauschalen OAAT",
+            "site:oaat-otma.ch TARDOC Browser Radiologie",
+            "OAAT public tariff tooling TARDOC ambulante Pauschalen Tarifbrowser"
+          ],
+          "query": "site:oaat-otma.ch Tarifbrowser TARDOC ambulante Pauschalen OAAT",
+          "sources": null
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "msg_02751f6a6d0588a2006a899dcd602487d1a63eb55d55e61398",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"capability_requests\":[{\"capability_id\":\"current_tariff_and_history\",\"purpose\":\"Aktuelle und künftige Änderungen der verbindlichen Tarifmetadaten für ambulante Radiologie überwachen. Dies ist nötig, weil die historischen TARMED-Kosten- und Rentabilitätssignale nach dem Systemwechsel per 1. Januar 2026 nicht direkt auf TARDOC und ambulante Pauschalen übertragbar sind; die Abfrage belegt jedoch keine Tarifadäquanz oder Margenhöhe.\",\"query\":\"Vergleiche die aktuell publizierten OAAT-Tarifversionen, Regeln, TARDOC-Radiologiepositionen und allenfalls einschlägigen ambulanten Pauschalen mit früheren Releases. Ermittele insbesondere Versionsstand, Gültigkeitsdaten, Änderungen von Taxpunkten, Limitationen, Kumulations-/Abrechnungsregeln sowie Trigger- und Gruppierungslogik mit Bezug zu CT, MRT, Ultraschall, konventioneller Radiologie und Mammografie.\",\"resource_locator\":\"https://tarifmatcher.oaat-otma.ch/\",\"identifiers\":[\"TARDOC 1.4c\",\"Ambulante Pauschalen 1.1c\",\"LKAAT 1.0c\"],\"structured_query_json\":null},{\"capability_id\":\"parliament_activity\",\"purpose\":\"Parlamentarische Prozessbeobachtung zu Angebotssteuerung, Kosten und Tarifangemessenheit in der medizinischen Bildgebung. Die Geschäfte können institutionelle Befassung, Antworten des Bundesrats und mögliche Umsetzungsaufträge sichtbar machen, sind aber kein Nachweis hoher Margen oder medizinisch unangemessener Bildgebung.\",\"query\":\"Verfolge den Stand, die Bundesratsantworten, Beratungen, Beschlüsse und allfällige Folgegeschäfte zu den konkret identifizierten Vorstössen. Geschäft 25.8194 betrifft den Zusammenhang zwischen kantonalen Moratorien für CT-/MRT-Grossgeräte, Untersuchungsvolumen und Kosten. Geschäft 24.3458 betrifft die TARDOC-Vergütung radiologischer Mammografie, Hinweise auf frühere Überbewertung in der Radiologie sowie die Sicherstellung der Versorgung.\",\"resource_locator\":\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista\",\"identifiers\":[\"25.8194\",\"24.3458\"],\"structured_query_json\":null}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ]
+  },
+  "stage_metadata": {
+    "stage": "capability-execution",
+    "llm_calls_expected": 0
+  }
+}
