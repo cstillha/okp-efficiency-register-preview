@@ -852,6 +852,172 @@
       "publication_action": "PUBLISH_WITH_LABEL",
       "publication_label": "KI-EXTRAHIERT",
       "publication_warnings": []
+    },
+    {
+      "statement": "Für die Haupttätigkeit Radiologie weist das BFS in Arztpraxen und ambulante Zentren für Anzahl Ärzte am 31.12 410 im Jahr 2018 und 538 im Jahr 2024 aus.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "410–538",
+      "unit": "Anzahl Ärzte am 31.12",
+      "period": "2018–2024",
+      "population": "Arztpraxen und ambulante Zentren",
+      "geography": "Schweiz",
+      "series": [
+        {
+          "period": "2018",
+          "value": "410"
+        },
+        {
+          "period": "2019",
+          "value": "441"
+        },
+        {
+          "period": "2020",
+          "value": "446"
+        },
+        {
+          "period": "2021",
+          "value": "504"
+        },
+        {
+          "period": "2022",
+          "value": "548"
+        },
+        {
+          "period": "2023",
+          "value": "557"
+        },
+        {
+          "period": "2024",
+          "value": "538"
+        }
+      ],
+      "selection_basis": {
+        "CANTON": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "AGE": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "GENDER": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "MAIN_ACTIVITY": {
+          "code": "139",
+          "labels": {
+            "it": "Radiologia",
+            "de": "Radiologie",
+            "fr": "Radiologie",
+            "en": "Radiology"
+          },
+          "matched_terms": [
+            "radiologie"
+          ],
+          "exact_label_match": true,
+          "mode": "LEXICAL_EXACT"
+        },
+        "FREQ": {
+          "code": "A",
+          "mode": "SDMX_ANNUAL"
+        }
+      },
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "official_statistics",
+      "provenance_valid": true,
+      "provenance_match_method": "STRUCTURED_QUERY",
+      "evidence_status": "VERIFIED",
+      "evidence_class": "STRUCTURED_OFFICIAL",
+      "adapter_id": "bfs_sdmx",
+      "capability_id": "official_statistics_query",
+      "derived_from_observation": null,
+      "observed_at": "2026-08-22T16:06:57.568278+00:00"
+    },
+    {
+      "statement": "Für die Haupttätigkeit Radiologie weist das BFS in Arztpraxen und ambulante Zentren für Anzahl Ärzte (Vollzeitäquivalente) am 31.12 303.62122 im Jahr 2018 und 411.0161 im Jahr 2024 aus.",
+      "claim_role": "official_statistics",
+      "temporal_semantics": "PERIOD",
+      "value": "303.62122–411.0161",
+      "unit": "Anzahl Ärzte (Vollzeitäquivalente) am 31.12",
+      "period": "2018–2024",
+      "population": "Arztpraxen und ambulante Zentren",
+      "geography": "Schweiz",
+      "series": [
+        {
+          "period": "2018",
+          "value": "303.62122"
+        },
+        {
+          "period": "2019",
+          "value": "335.37354"
+        },
+        {
+          "period": "2020",
+          "value": "346.20718"
+        },
+        {
+          "period": "2021",
+          "value": "371.73743"
+        },
+        {
+          "period": "2022",
+          "value": "411.1449"
+        },
+        {
+          "period": "2023",
+          "value": "406.38174"
+        },
+        {
+          "period": "2024",
+          "value": "411.0161"
+        }
+      ],
+      "selection_basis": {
+        "CANTON": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "AGE": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "GENDER": {
+          "code": "_T",
+          "mode": "TOTAL"
+        },
+        "MAIN_ACTIVITY": {
+          "code": "139",
+          "labels": {
+            "it": "Radiologia",
+            "de": "Radiologie",
+            "fr": "Radiologie",
+            "en": "Radiology"
+          },
+          "matched_terms": [
+            "radiologie"
+          ],
+          "exact_label_match": true,
+          "mode": "LEXICAL_EXACT"
+        },
+        "FREQ": {
+          "code": "A",
+          "mode": "SDMX_ANNUAL"
+        }
+      },
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "official_statistics",
+      "provenance_valid": true,
+      "provenance_match_method": "STRUCTURED_QUERY",
+      "evidence_status": "VERIFIED",
+      "evidence_class": "STRUCTURED_OFFICIAL",
+      "adapter_id": "bfs_sdmx",
+      "capability_id": "official_statistics_query",
+      "derived_from_observation": null,
+      "observed_at": "2026-08-22T16:06:57.568278+00:00"
     }
   ],
   "data_gaps": [
@@ -1457,7 +1623,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595763+00:00",
+      "observed_at": "2026-08-22T16:06:53.064584+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1473,7 +1639,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595799+00:00",
+      "observed_at": "2026-08-22T16:06:53.064608+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1489,7 +1655,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595804+00:00",
+      "observed_at": "2026-08-22T16:06:53.064613+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1505,7 +1671,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956260+00:00",
+      "observed_at": "2026-08-22T16:06:53.485461+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1521,7 +1687,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956282+00:00",
+      "observed_at": "2026-08-22T16:06:53.485486+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1537,7 +1703,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956297+00:00",
+      "observed_at": "2026-08-22T16:06:53.485502+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1606,111 +1772,6 @@
         }
       },
       "rows": [
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2018",
-          "OBS_VALUE": "303.62122",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2019",
-          "OBS_VALUE": "335.37354",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2020",
-          "OBS_VALUE": "346.20718",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2021",
-          "OBS_VALUE": "371.73743",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2022",
-          "OBS_VALUE": "411.1449",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2023",
-          "OBS_VALUE": "406.38174",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
-        {
-          "STRUCTURE": "DATAFLOW",
-          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
-          "ACTION": "I",
-          "CANTON": "_T",
-          "AGE": "_T",
-          "GENDER": "_T",
-          "MAIN_ACTIVITY": "139",
-          "UNIT": "PHYS_FTE",
-          "FREQ": "A",
-          "TIME_PERIOD": "2024",
-          "OBS_VALUE": "411.0161",
-          "OBS_STATUS": "A",
-          "DECIMALS": "2"
-        },
         {
           "STRUCTURE": "DATAFLOW",
           "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
@@ -1815,6 +1876,111 @@
           "OBS_VALUE": "538",
           "OBS_STATUS": "A",
           "DECIMALS": "0"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2018",
+          "OBS_VALUE": "303.62122",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2019",
+          "OBS_VALUE": "335.37354",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2020",
+          "OBS_VALUE": "346.20718",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2021",
+          "OBS_VALUE": "371.73743",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2022",
+          "OBS_VALUE": "411.1449",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2023",
+          "OBS_VALUE": "406.38174",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
+        },
+        {
+          "STRUCTURE": "DATAFLOW",
+          "STRUCTURE_ID": "CH1.GVS:DF_GVS_PRACTICES_GENERAL(1.0.0)",
+          "ACTION": "I",
+          "CANTON": "_T",
+          "AGE": "_T",
+          "GENDER": "_T",
+          "MAIN_ACTIVITY": "139",
+          "UNIT": "PHYS_FTE",
+          "FREQ": "A",
+          "TIME_PERIOD": "2024",
+          "OBS_VALUE": "411.0161",
+          "OBS_STATUS": "A",
+          "DECIMALS": "2"
         }
       ],
       "row_count": 14,
@@ -1829,7 +1995,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T16:03:43.878198+00:00"
+      "observed_at": "2026-08-22T16:06:57.568278+00:00"
     }
   ],
   "capability_audit": [
@@ -1854,7 +2020,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595763+00:00",
+      "observed_at": "2026-08-22T16:06:53.064584+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1866,7 +2032,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595799+00:00",
+      "observed_at": "2026-08-22T16:06:53.064608+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1878,7 +2044,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.595804+00:00",
+      "observed_at": "2026-08-22T16:06:53.064613+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1890,7 +2056,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956260+00:00",
+      "observed_at": "2026-08-22T16:06:53.485461+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1902,7 +2068,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956282+00:00",
+      "observed_at": "2026-08-22T16:06:53.485486+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1914,7 +2080,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T16:03:38.956297+00:00",
+      "observed_at": "2026-08-22T16:06:53.485502+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1926,11 +2092,11 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T16:03:42.930110+00:00",
+      "observed_at": "2026-08-22T16:06:56.465173+00:00",
       "content_hash": "d1002d5d7e3c44e5d59e2a92bc834b01448fabac3198c0a84a26545b73b7ac6b"
     },
     {
-      "observation_id": "bfs-sdmx:CH1.GVS:DF_GVS_PRACTICES_GENERAL:370ea3b26d154baa",
+      "observation_id": "bfs-sdmx:CH1.GVS:DF_GVS_PRACTICES_GENERAL:3f7eabfde2396381",
       "capability_id": "official_statistics_query",
       "adapter_id": "bfs_sdmx",
       "execution_mode": "DETERMINISTIC",
@@ -1938,8 +2104,56 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T16:03:43.878198+00:00",
-      "content_hash": "370ea3b26d154baafac47d8cd928ce62084de15523560e5cf380f94705dceca9"
+      "observed_at": "2026-08-22T16:06:57.568278+00:00",
+      "content_hash": "3f7eabfde23963813d15524528deb8e2a5299eda33fe373573851966bcaf3b7d"
+    },
+    {
+      "observation_id": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+      "capability_id": "official_statistics_query",
+      "adapter_id": "bfs_sdmx",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "EVIDENCE_CLAIM",
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "official_statistics",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00",
+      "content_hash": null
+    },
+    {
+      "observation_id": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "CALCULATION",
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00",
+      "content_hash": null
+    },
+    {
+      "observation_id": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+      "capability_id": "official_statistics_query",
+      "adapter_id": "bfs_sdmx",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "EVIDENCE_CLAIM",
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "official_statistics",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00",
+      "content_hash": null
+    },
+    {
+      "observation_id": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "CALCULATION",
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00",
+      "content_hash": null
     }
   ],
   "monitoring_plan": {
@@ -2068,11 +2282,11 @@
         "dependent_ids": []
       },
       {
-        "target_id": "monitor:official_statistics_query:bfs-sdmx:CH1.GVS:DF_GVS_PRACTICES_GENERAL:370ea3b26d154baa",
+        "target_id": "monitor:official_statistics_query:bfs-sdmx:CH1.GVS:DF_GVS_PRACTICES_GENERAL:3f7eabfde2396381",
         "capability_id": "official_statistics_query",
         "adapter_id": "bfs_sdmx",
         "subject_ref": "DF_GVS_PRACTICES_GENERAL",
-        "last_known_marker": "370ea3b26d154baafac47d8cd928ce62084de15523560e5cf380f94705dceca9",
+        "last_known_marker": "3f7eabfde23963813d15524528deb8e2a5299eda33fe373573851966bcaf3b7d",
         "change_detection": [
           "latest_period",
           "dataset_version",
@@ -2081,9 +2295,63 @@
         ],
         "refresh_strategy": "PERIODIC_INCREMENTAL",
         "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:official_statistics_query:bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+        "capability_id": "official_statistics_query",
+        "adapter_id": "bfs_sdmx",
+        "subject_ref": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+        "last_known_marker": "2026-08-22T16:06:57.568278+00:00",
+        "change_detection": [
+          "latest_period",
+          "dataset_version",
+          "row_hash",
+          "structure_hash"
+        ],
+        "refresh_strategy": "PERIODIC_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:deterministic_calculator:calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+        "capability_id": "deterministic_calculator",
+        "adapter_id": "calculator",
+        "subject_ref": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
+        "last_known_marker": "2026-08-22T16:06:57.568278+00:00",
+        "change_detection": [
+          "input_dependency_changed"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:official_statistics_query:bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+        "capability_id": "official_statistics_query",
+        "adapter_id": "bfs_sdmx",
+        "subject_ref": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+        "last_known_marker": "2026-08-22T16:06:57.568278+00:00",
+        "change_detection": [
+          "latest_period",
+          "dataset_version",
+          "row_hash",
+          "structure_hash"
+        ],
+        "refresh_strategy": "PERIODIC_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:deterministic_calculator:calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+        "capability_id": "deterministic_calculator",
+        "adapter_id": "calculator",
+        "subject_ref": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
+        "last_known_marker": "2026-08-22T16:06:57.568278+00:00",
+        "change_detection": [
+          "input_dependency_changed"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T16:03:43.885888+00:00"
+    "last_refresh_at": "2026-08-22T16:06:57.585323+00:00"
   },
   "revisions": [],
   "capability_outputs": [
@@ -5847,7 +6115,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "0bcb57daa350235455c83a091eb48d0970fcc721d8a1384c6f5cd0b1ba2a4b6e"
+          "metadata_hash": "b5abf7940c815fff70c2c5a85d2dd12fd773b08c5bb1f46edc790fb85a3fa1ce"
         },
         {
           "resource_id": "4a5c5fba-5fc0-4ca6-b934-9d340e657420",
@@ -9469,7 +9737,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "0bcb57daa350235455c83a091eb48d0970fcc721d8a1384c6f5cd0b1ba2a4b6e"
+          "metadata_hash": "b5abf7940c815fff70c2c5a85d2dd12fd773b08c5bb1f46edc790fb85a3fa1ce"
         },
         {
           "resource_id": "669e0347-632e-48ec-adcf-d7e6d7d347f3",
@@ -13123,7 +13391,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "0bcb57daa350235455c83a091eb48d0970fcc721d8a1384c6f5cd0b1ba2a4b6e"
+          "metadata_hash": "b5abf7940c815fff70c2c5a85d2dd12fd773b08c5bb1f46edc790fb85a3fa1ce"
         },
         {
           "resource_id": "031e50ed-6683-49f5-b3b3-b1dfda19569b",
@@ -16761,7 +17029,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "0bcb57daa350235455c83a091eb48d0970fcc721d8a1384c6f5cd0b1ba2a4b6e"
+          "metadata_hash": "b5abf7940c815fff70c2c5a85d2dd12fd773b08c5bb1f46edc790fb85a3fa1ce"
         }
       ],
       "capability_id": "open_data_catalog_search",
@@ -16769,7 +17037,7 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T16:03:42.930110+00:00"
+      "observed_at": "2026-08-22T16:06:56.465173+00:00"
     }
   ],
   "hypotheses": [
@@ -17001,8 +17269,48 @@
     "llm_calls_expected": 0,
     "requests_executed": 3,
     "deterministic_followups": 1,
-    "structured_followup_observations": 1
+    "structured_followup_observations": 1,
+    "projected_claims": 2,
+    "projected_calculations": 2
   },
+  "calculations": [
+    {
+      "calculation_type": "SERIES_CHANGE",
+      "description": "Veränderung Anzahl Ärzte am 31.12, Haupttätigkeit Radiologie, 2018 bis 2024",
+      "start_period": "2018",
+      "end_period": "2024",
+      "start_value": "410",
+      "end_value": "538",
+      "absolute_change": "128",
+      "percent_change": "31.21951219512195121951219512",
+      "unit": "Anzahl Ärzte am 31.12",
+      "input_observation": null,
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00"
+    },
+    {
+      "calculation_type": "SERIES_CHANGE",
+      "description": "Veränderung Anzahl Ärzte (Vollzeitäquivalente) am 31.12, Haupttätigkeit Radiologie, 2018 bis 2024",
+      "start_period": "2018",
+      "end_period": "2024",
+      "start_value": "303.62122",
+      "end_value": "411.0161",
+      "absolute_change": "107.39488",
+      "percent_change": "35.37133537636137553231621953",
+      "unit": "Anzahl Ärzte (Vollzeitäquivalente) am 31.12",
+      "input_observation": null,
+      "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": "2026-08-22T16:06:57.568278+00:00"
+    }
+  ],
   "derived_capability_requests": [
     {
       "capability_id": "official_statistics_query",
