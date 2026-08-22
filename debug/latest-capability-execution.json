@@ -1446,7 +1446,39 @@
   "process_events": [
     {
       "business_id": "25.8194",
-      "event_type": "PARLIAMENTARY_BUSINESS_STATUS",
+      "event_type": "FEDERAL_COUNCIL_POSITION",
+      "title": "Stellungnahme des Bundesrates",
+      "status": "Bundesratsposition publiziert",
+      "date": "2025-12-15T00:00:00Z",
+      "institution": "Bundesrat",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.410113+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    },
+    {
+      "business_id": "25.8194",
+      "event_type": "PARLIAMENTARY_RESOLUTION",
+      "title": "Schriftliche Beantwortung der Frage",
+      "status": "Beschluss",
+      "date": "2025-12-15T00:00:00Z",
+      "institution": "Nationalrat",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.410130+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    },
+    {
+      "business_id": "25.8194",
+      "event_type": "PARLIAMENTARY_CURRENT_STATUS",
       "title": "Medizinische Bildgebung in der Westschweiz: Wie hängen Moratorien, Untersuchungsvolumen und Kosten zusammen?",
       "status": "Erledigt",
       "date": "2025-12-15T16:21:50Z",
@@ -1457,12 +1489,44 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T13:28:30.817519+00:00",
+      "observed_at": "2026-08-22T13:57:00.410136+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
       "business_id": "24.3458",
-      "event_type": "PARLIAMENTARY_BUSINESS_STATUS",
+      "event_type": "FEDERAL_COUNCIL_POSITION",
+      "title": "Stellungnahme des Bundesrates",
+      "status": "Bundesratsposition publiziert",
+      "date": "2024-08-14T00:00:00Z",
+      "institution": "Bundesrat",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.806075+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    },
+    {
+      "business_id": "24.3458",
+      "event_type": "PARLIAMENTARY_RESOLUTION",
+      "title": "Keine Diskussion verlangt",
+      "status": "Beschluss",
+      "date": "2024-09-27T00:00:00Z",
+      "institution": "Bundesversammlung",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.806095+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    },
+    {
+      "business_id": "24.3458",
+      "event_type": "PARLIAMENTARY_CURRENT_STATUS",
       "title": "Sicherstellung eines ausreichenden Angebots an Mammografie-Untersuchungen",
       "status": "Erledigt",
       "date": "2025-11-14T04:54:50Z",
@@ -1473,7 +1537,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T13:28:31.205269+00:00",
+      "observed_at": "2026-08-22T13:57:00.806107+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     }
   ],
@@ -1493,7 +1557,7 @@
       "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "observation_id": "parliament:25.8194:490ab5fbd00d",
+      "observation_id": "parliament:25.8194:event:0:490ab5fbd0",
       "capability_id": "parliament_activity",
       "adapter_id": "parliament_business_status",
       "execution_mode": "LLM_ASSISTED",
@@ -1501,11 +1565,35 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T13:28:30.817519+00:00",
+      "observed_at": "2026-08-22T13:57:00.410113+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
-      "observation_id": "parliament:24.3458:cc6fed21e0e6",
+      "observation_id": "parliament:25.8194:event:1:490ab5fbd0",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.410130+00:00",
+      "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
+    },
+    {
+      "observation_id": "parliament:25.8194:event:2:490ab5fbd0",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.410136+00:00",
+      "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
+    },
+    {
+      "observation_id": "parliament:24.3458:event:0:cc6fed21e0",
       "capability_id": "parliament_activity",
       "adapter_id": "parliament_business_status",
       "execution_mode": "LLM_ASSISTED",
@@ -1513,7 +1601,31 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T13:28:31.205269+00:00",
+      "observed_at": "2026-08-22T13:57:00.806075+00:00",
+      "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
+    },
+    {
+      "observation_id": "parliament:24.3458:event:1:cc6fed21e0",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.806095+00:00",
+      "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
+    },
+    {
+      "observation_id": "parliament:24.3458:event:2:cc6fed21e0",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:57:00.806107+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     }
   ],
@@ -1534,7 +1646,7 @@
         "dependent_ids": []
       },
       {
-        "target_id": "monitor:parliament_activity:parliament:25.8194:490ab5fbd00d",
+        "target_id": "monitor:parliament_activity:parliament:25.8194:event:0:490ab5fbd0",
         "capability_id": "parliament_activity",
         "adapter_id": "parliament_business_status",
         "subject_ref": "25.8194",
@@ -1550,7 +1662,71 @@
         "dependent_ids": []
       },
       {
-        "target_id": "monitor:parliament_activity:parliament:24.3458:cc6fed21e0e6",
+        "target_id": "monitor:parliament_activity:parliament:25.8194:event:1:490ab5fbd0",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "25.8194",
+        "last_known_marker": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:25.8194:event:2:490ab5fbd0",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "25.8194",
+        "last_known_marker": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:24.3458:event:0:cc6fed21e0",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "24.3458",
+        "last_known_marker": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:24.3458:event:1:cc6fed21e0",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "24.3458",
+        "last_known_marker": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:24.3458:event:2:cc6fed21e0",
         "capability_id": "parliament_activity",
         "adapter_id": "parliament_business_status",
         "subject_ref": "24.3458",
@@ -1566,7 +1742,7 @@
         "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T13:28:31.363921+00:00"
+    "last_refresh_at": "2026-08-22T13:57:00.980436+00:00"
   },
   "revisions": [],
   "capability_outputs": [
