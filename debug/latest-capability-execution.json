@@ -934,7 +934,7 @@
       "adapter_id": "bfs_sdmx",
       "capability_id": "official_statistics_query",
       "derived_from_observation": null,
-      "observed_at": "2026-08-22T17:47:16.077568+00:00"
+      "observed_at": "2026-08-22T17:50:14.592912+00:00"
     },
     {
       "statement": "Für die Haupttätigkeit Radiologie weist das BFS in Arztpraxen und ambulante Zentren für Anzahl Ärzte (Vollzeitäquivalente) am 31.12 303.62122 im Jahr 2018 und 411.0161 im Jahr 2024 aus.",
@@ -1017,7 +1017,7 @@
       "adapter_id": "bfs_sdmx",
       "capability_id": "official_statistics_query",
       "derived_from_observation": null,
-      "observed_at": "2026-08-22T17:47:16.077568+00:00"
+      "observed_at": "2026-08-22T17:50:14.592912+00:00"
     }
   ],
   "data_gaps": [
@@ -1623,7 +1623,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057333+00:00",
+      "observed_at": "2026-08-22T17:50:08.536000+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1639,7 +1639,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057357+00:00",
+      "observed_at": "2026-08-22T17:50:08.536019+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1655,7 +1655,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057362+00:00",
+      "observed_at": "2026-08-22T17:50:08.536025+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1671,7 +1671,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481929+00:00",
+      "observed_at": "2026-08-22T17:50:08.938663+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1687,7 +1687,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481954+00:00",
+      "observed_at": "2026-08-22T17:50:08.938683+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1703,7 +1703,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481970+00:00",
+      "observed_at": "2026-08-22T17:50:08.938698+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1996,7 +1996,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00"
+      "observed_at": "2026-08-22T17:50:14.592912+00:00"
     },
     {
       "dataset_id": "DF_GVS_PRACTICES_GENERAL",
@@ -6431,7 +6431,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/*._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00"
+      "observed_at": "2026-08-22T17:50:15.240153+00:00"
     }
   ],
   "capability_audit": [
@@ -6456,7 +6456,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057333+00:00",
+      "observed_at": "2026-08-22T17:50:08.536000+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -6468,7 +6468,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057357+00:00",
+      "observed_at": "2026-08-22T17:50:08.536019+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -6480,7 +6480,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.057362+00:00",
+      "observed_at": "2026-08-22T17:50:08.536025+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -6492,7 +6492,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481929+00:00",
+      "observed_at": "2026-08-22T17:50:08.938663+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -6504,7 +6504,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481954+00:00",
+      "observed_at": "2026-08-22T17:50:08.938683+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -6516,7 +6516,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T17:47:12.481970+00:00",
+      "observed_at": "2026-08-22T17:50:08.938698+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -6528,7 +6528,7 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T17:47:15.166310+00:00",
+      "observed_at": "2026-08-22T17:50:13.308363+00:00",
       "content_hash": "d1002d5d7e3c44e5d59e2a92bc834b01448fabac3198c0a84a26545b73b7ac6b"
     },
     {
@@ -6540,7 +6540,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00",
+      "observed_at": "2026-08-22T17:50:14.592912+00:00",
       "content_hash": "3f7eabfde23963813d15524528deb8e2a5299eda33fe373573851966bcaf3b7d"
     },
     {
@@ -6552,7 +6552,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/*._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00",
+      "observed_at": "2026-08-22T17:50:15.240153+00:00",
       "content_hash": "a176f976d918518151ee912bd52166237a15c347abdf4b2f0f7c22cbe64f1575"
     },
     {
@@ -6564,7 +6564,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00",
+      "observed_at": "2026-08-22T17:50:14.592912+00:00",
       "content_hash": null
     },
     {
@@ -6576,7 +6576,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00",
+      "observed_at": "2026-08-22T17:50:14.592912+00:00",
       "content_hash": null
     },
     {
@@ -6588,7 +6588,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "official_statistics",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00",
+      "observed_at": "2026-08-22T17:50:14.592912+00:00",
       "content_hash": null
     },
     {
@@ -6600,7 +6600,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/_T._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00",
+      "observed_at": "2026-08-22T17:50:14.592912+00:00",
       "content_hash": null
     },
     {
@@ -6612,7 +6612,7 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/*._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00",
+      "observed_at": "2026-08-22T17:50:15.240153+00:00",
       "content_hash": null
     },
     {
@@ -6624,8 +6624,32 @@
       "source_url": "https://disseminate.stats.swiss/rest/v2/data/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+/*._T._T.139.*.A?dimensionAtObservation=AllDimensions",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00",
+      "observed_at": "2026-08-22T17:50:15.240153+00:00",
       "content_hash": null
+    },
+    {
+      "observation_id": "calc:population-normalized:PHYS_DOC:2018:2024",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "CALCULATION",
+      "source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": null,
+      "content_hash": "5760ae8e1a95c98dc28c1b93fc9564460f443b4c24d06c97bfd666034ac714f6"
+    },
+    {
+      "observation_id": "calc:population-normalized:PHYS_FTE:2018:2024",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "execution_mode": "DETERMINISTIC",
+      "output_kind": "CALCULATION",
+      "source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": null,
+      "content_hash": "5760ae8e1a95c98dc28c1b93fc9564460f443b4c24d06c97bfd666034ac714f6"
     }
   ],
   "monitoring_plan": {
@@ -6788,7 +6812,7 @@
         "capability_id": "official_statistics_query",
         "adapter_id": "bfs_sdmx",
         "subject_ref": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.077568+00:00",
+        "last_known_marker": "2026-08-22T17:50:14.592912+00:00",
         "change_detection": [
           "latest_period",
           "dataset_version",
@@ -6803,7 +6827,7 @@
         "capability_id": "deterministic_calculator",
         "adapter_id": "calculator",
         "subject_ref": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.077568+00:00",
+        "last_known_marker": "2026-08-22T17:50:14.592912+00:00",
         "change_detection": [
           "input_dependency_changed"
         ],
@@ -6815,7 +6839,7 @@
         "capability_id": "official_statistics_query",
         "adapter_id": "bfs_sdmx",
         "subject_ref": "bfs-sdmx-claim:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.077568+00:00",
+        "last_known_marker": "2026-08-22T17:50:14.592912+00:00",
         "change_detection": [
           "latest_period",
           "dataset_version",
@@ -6830,7 +6854,7 @@
         "capability_id": "deterministic_calculator",
         "adapter_id": "calculator",
         "subject_ref": "calc:bfs-sdmx:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.077568+00:00",
+        "last_known_marker": "2026-08-22T17:50:14.592912+00:00",
         "change_detection": [
           "input_dependency_changed"
         ],
@@ -6842,7 +6866,7 @@
         "capability_id": "deterministic_calculator",
         "adapter_id": "calculator",
         "subject_ref": "calc:bfs-sdmx:regional:DF_GVS_PRACTICES_GENERAL:PHYS_DOC:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.756931+00:00",
+        "last_known_marker": "2026-08-22T17:50:15.240153+00:00",
         "change_detection": [
           "input_dependency_changed"
         ],
@@ -6854,7 +6878,31 @@
         "capability_id": "deterministic_calculator",
         "adapter_id": "calculator",
         "subject_ref": "calc:bfs-sdmx:regional:DF_GVS_PRACTICES_GENERAL:PHYS_FTE:2018:2024",
-        "last_known_marker": "2026-08-22T17:47:16.756931+00:00",
+        "last_known_marker": "2026-08-22T17:50:15.240153+00:00",
+        "change_detection": [
+          "input_dependency_changed"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:deterministic_calculator:calc:population-normalized:PHYS_DOC:2018:2024",
+        "capability_id": "deterministic_calculator",
+        "adapter_id": "calculator",
+        "subject_ref": "calc:population-normalized:PHYS_DOC:2018:2024",
+        "last_known_marker": "5760ae8e1a95c98dc28c1b93fc9564460f443b4c24d06c97bfd666034ac714f6",
+        "change_detection": [
+          "input_dependency_changed"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:deterministic_calculator:calc:population-normalized:PHYS_FTE:2018:2024",
+        "capability_id": "deterministic_calculator",
+        "adapter_id": "calculator",
+        "subject_ref": "calc:population-normalized:PHYS_FTE:2018:2024",
+        "last_known_marker": "5760ae8e1a95c98dc28c1b93fc9564460f443b4c24d06c97bfd666034ac714f6",
         "change_detection": [
           "input_dependency_changed"
         ],
@@ -6862,7 +6910,7 @@
         "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T17:47:16.790814+00:00"
+    "last_refresh_at": "2026-08-22T17:50:21.912365+00:00"
   },
   "revisions": [],
   "capability_outputs": [
@@ -10626,7 +10674,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "bd2b4e2fd182883756c413ec67da4f711240b1b824caa976fa930fd7ec1a7835"
+          "metadata_hash": "a6b068f202c07c71180464165667be56961d5fb1e664f860ab0e0e1673558f6d"
         },
         {
           "resource_id": "4a5c5fba-5fc0-4ca6-b934-9d340e657420",
@@ -14248,7 +14296,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "bd2b4e2fd182883756c413ec67da4f711240b1b824caa976fa930fd7ec1a7835"
+          "metadata_hash": "a6b068f202c07c71180464165667be56961d5fb1e664f860ab0e0e1673558f6d"
         },
         {
           "resource_id": "669e0347-632e-48ec-adcf-d7e6d7d347f3",
@@ -17902,7 +17950,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "bd2b4e2fd182883756c413ec67da4f711240b1b824caa976fa930fd7ec1a7835"
+          "metadata_hash": "a6b068f202c07c71180464165667be56961d5fb1e664f860ab0e0e1673558f6d"
         },
         {
           "resource_id": "031e50ed-6683-49f5-b3b3-b1dfda19569b",
@@ -21540,7 +21588,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "bd2b4e2fd182883756c413ec67da4f711240b1b824caa976fa930fd7ec1a7835"
+          "metadata_hash": "a6b068f202c07c71180464165667be56961d5fb1e664f860ab0e0e1673558f6d"
         }
       ],
       "capability_id": "open_data_catalog_search",
@@ -21548,7 +21596,7 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T17:47:15.166310+00:00"
+      "observed_at": "2026-08-22T17:50:13.308363+00:00"
     }
   ],
   "hypotheses": [
@@ -21680,12 +21728,7 @@
       "structured_query_json": null
     }
   ],
-  "capability_execution_errors": [
-    {
-      "reason": "POPULATION_NORMALIZATION_FETCH_FAILED",
-      "detail": "PXWEB_JSONSTAT_DIMENSIONS_INVALID"
-    }
-  ],
+  "capability_execution_errors": [],
   "run_metadata": {
     "signal_id": "signal-radiology-margin-cost-001",
     "started_from_signal_only": true,
@@ -21789,7 +21832,7 @@
     "projected_claims": 2,
     "projected_calculations": 2,
     "regional_comparisons": 2,
-    "population_normalized_comparisons": 0
+    "population_normalized_comparisons": 2
   },
   "calculations": [
     {
@@ -21808,7 +21851,7 @@
       "adapter_id": "calculator",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00"
+      "observed_at": "2026-08-22T17:50:14.592912+00:00"
     },
     {
       "calculation_type": "SERIES_CHANGE",
@@ -21826,7 +21869,7 @@
       "adapter_id": "calculator",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.077568+00:00"
+      "observed_at": "2026-08-22T17:50:14.592912+00:00"
     },
     {
       "calculation_type": "REGIONAL_SERIES_COMPARISON",
@@ -22280,7 +22323,7 @@
       "adapter_id": "calculator",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00"
+      "observed_at": "2026-08-22T17:50:15.240153+00:00"
     },
     {
       "calculation_type": "REGIONAL_SERIES_COMPARISON",
@@ -22734,7 +22777,537 @@
       "adapter_id": "calculator",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "derived_calculation",
-      "observed_at": "2026-08-22T17:47:16.756931+00:00"
+      "observed_at": "2026-08-22T17:50:15.240153+00:00"
+    },
+    {
+      "calculation_type": "POPULATION_NORMALIZED_REGIONAL_COMPARISON",
+      "description": "Kantonale Dichte Anzahl Ärzte am 31.12, pro 100'000 ständige Einwohner, 2018 bis 2024",
+      "unit_code": "PHYS_DOC",
+      "source_unit": "Anzahl Ärzte am 31.12",
+      "normalized_unit": "pro 100'000 ständige Einwohner",
+      "start_period": "2018",
+      "end_period": "2024",
+      "regions": [
+        {
+          "canton_code": "19",
+          "canton_label": "Aargau",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "678207",
+          "population_end": "735808",
+          "density_start_per_100k": "3.686190204465598261297804358",
+          "density_end_per_100k": "3.805340523614856049404192398",
+          "density_percent_change": "3.232343219970427067930764537",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "15",
+          "canton_label": "Appenzell Ausserrhoden",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "55234",
+          "population_end": "56705",
+          "density_start_per_100k": "14.48383242205887677879566933",
+          "density_end_per_100k": null,
+          "density_percent_change": null,
+          "boundary_complete": false
+        },
+        {
+          "canton_code": "13",
+          "canton_label": "Basel-Landschaft",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "288132",
+          "population_end": "301323",
+          "density_start_per_100k": "0.6941263032221342995571474185",
+          "density_end_per_100k": "1.327479150280595905390560960",
+          "density_percent_change": "91.24461126432432970599655528",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "12",
+          "canton_label": "Basel-Stadt",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "194766",
+          "population_end": "201384",
+          "density_start_per_100k": "1.540309910353963217399340747",
+          "density_end_per_100k": "17.37973225281055098716879196",
+          "density_percent_change": "1028.326977316966591188972312",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "2",
+          "canton_label": "Bern",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "1034931",
+          "population_end": "1071216",
+          "density_start_per_100k": "4.251491162212746550253108661",
+          "density_end_per_100k": "5.507759406132843422801750534",
+          "density_percent_change": "29.54888522610158582735542005",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "10",
+          "canton_label": "Freiburg",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "318760",
+          "population_end": "346674",
+          "density_start_per_100k": "13.48977286987074915296775003",
+          "density_end_per_100k": "15.86504900857866468209326341",
+          "density_percent_change": "17.60797725522174776893136384",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "25",
+          "canton_label": "Genf",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "499480",
+          "population_end": "531102",
+          "density_start_per_100k": "11.81228477616721390245855690",
+          "density_end_per_100k": "12.42699142537591649061762147",
+          "density_percent_change": "5.203960629606148622604907990",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "18",
+          "canton_label": "Graubünden",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "198379",
+          "population_end": "206138",
+          "density_start_per_100k": "3.024513683403989333548409862",
+          "density_end_per_100k": "1.940447661275456247756357392",
+          "density_percent_change": "-35.84265556730604417105692949",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "26",
+          "canton_label": "Jura",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "73419",
+          "population_end": "74840",
+          "density_start_per_100k": "1.362045247143110094117326578",
+          "density_end_per_100k": "2.672367717797969000534473544",
+          "density_percent_change": "96.20256547300908605024051307",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "3",
+          "canton_label": "Luzern",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "409557",
+          "population_end": "437944",
+          "density_start_per_100k": "1.220831288440925194783632071",
+          "density_end_per_100k": "2.740076356794476006064702336",
+          "density_percent_change": "124.4434904919350419231682589",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "24",
+          "canton_label": "Neuenburg",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "176850",
+          "population_end": "179518",
+          "density_start_per_100k": "9.047215154085383093016680803",
+          "density_end_per_100k": "6.127519245980904421840706781",
+          "density_percent_change": "-32.27176383426731581234193786",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "5",
+          "canton_label": "Schwyz",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "159165",
+          "population_end": "168931",
+          "density_start_per_100k": "6.911067131593000973832186724",
+          "density_end_per_100k": "4.143703642315501595325902291",
+          "density_percent_change": "-40.04249179735028987090479653",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "11",
+          "canton_label": "Solothurn",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "273194",
+          "population_end": "289792",
+          "density_start_per_100k": "1.098120749357599361625804373",
+          "density_end_per_100k": "1.380300353356890459363957597",
+          "density_percent_change": "25.69659157832744405182567730",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "17",
+          "canton_label": "St. Gallen",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "507697",
+          "population_end": "540036",
+          "density_start_per_100k": "4.333293283198443165904072705",
+          "density_end_per_100k": "3.888629646912428060351532120",
+          "density_percent_change": "-10.26156337052277322925946352",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "21",
+          "canton_label": "Tessin",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "353343",
+          "population_end": "358903",
+          "density_start_per_100k": "4.245166877509954916327760844",
+          "density_end_per_100k": "6.408416758845704828324087567",
+          "density_percent_change": "50.95794685472119207696787156",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "20",
+          "canton_label": "Thurgau",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "276472",
+          "population_end": "299509",
+          "density_start_per_100k": "2.893602245435342457825747273",
+          "density_end_per_100k": "4.674316965433426040619814430",
+          "density_percent_change": "61.53972000841377053778016687",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "22",
+          "canton_label": "Waadt",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "799145",
+          "population_end": "855106",
+          "density_start_per_100k": "9.009629041037608944559497963",
+          "density_end_per_100k": "11.10973376400118815678991844",
+          "density_percent_change": "23.30955817823235429941499128",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "23",
+          "canton_label": "Wallis",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "343955",
+          "population_end": "371288",
+          "density_start_per_100k": "3.488828480469828902036603625",
+          "density_end_per_100k": "1.885328909094826657473443796",
+          "density_percent_change": "-45.96097458935740808572680325",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "9",
+          "canton_label": "Zug",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "126837",
+          "population_end": "133739",
+          "density_start_per_100k": "9.460961706757491899051538589",
+          "density_end_per_100k": "7.477250465458841474812881807",
+          "density_percent_change": "-20.96733189271641032159654252",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "1",
+          "canton_label": "Zürich",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "1520968",
+          "population_end": "1620020",
+          "density_start_per_100k": "5.259808227392029286612210119",
+          "density_end_per_100k": "6.728311996148195701287638424",
+          "density_percent_change": "27.91934050196911149245071048",
+          "boundary_complete": true
+        }
+      ],
+      "region_count": 20,
+      "complete_boundary_count": 19,
+      "method": "Zähler: BFS Arztpraxen/ambulante Zentren; Nenner: BFS ständige Wohnbevölkerung per 31.12.; Dichte = Zähler / Bevölkerung × 100'000.",
+      "population_source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "population_cube_path": "px-x-0102020000_104/px-x-0102020000_104.px",
+      "input_calculation": "Kantonale Entwicklung Anzahl Ärzte am 31.12, Haupttätigkeit Radiologie, 2018 bis 2024",
+      "geography": "Kantone der Schweiz",
+      "population": "ständige Wohnbevölkerung",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": null
+    },
+    {
+      "calculation_type": "POPULATION_NORMALIZED_REGIONAL_COMPARISON",
+      "description": "Kantonale Dichte Anzahl Ärzte (Vollzeitäquivalente) am 31.12, pro 100'000 ständige Einwohner, 2018 bis 2024",
+      "unit_code": "PHYS_FTE",
+      "source_unit": "Anzahl Ärzte (Vollzeitäquivalente) am 31.12",
+      "normalized_unit": "pro 100'000 ständige Einwohner",
+      "start_period": "2018",
+      "end_period": "2024",
+      "regions": [
+        {
+          "canton_code": "19",
+          "canton_label": "Aargau",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "678207",
+          "population_end": "735808",
+          "density_start_per_100k": "2.632993024253657069301850320",
+          "density_end_per_100k": "2.788965327911629120640167000",
+          "density_percent_change": "5.923764408839770786514155181",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "15",
+          "canton_label": "Appenzell Ausserrhoden",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "55234",
+          "population_end": "56705",
+          "density_start_per_100k": "5.793532968823550711518267734",
+          "density_end_per_100k": null,
+          "density_percent_change": null,
+          "boundary_complete": false
+        },
+        {
+          "canton_code": "13",
+          "canton_label": "Basel-Landschaft",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "288132",
+          "population_end": "301323",
+          "density_start_per_100k": "0.4164757819332805797342884511",
+          "density_end_per_100k": "1.194731235252536314851504864",
+          "density_percent_change": "186.8669168964864945589948329",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "12",
+          "canton_label": "Basel-Stadt",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "194766",
+          "population_end": "201384",
+          "density_start_per_100k": "1.309263423800868734789439635",
+          "density_end_per_100k": "12.81843890279267469113732968",
+          "density_percent_change": "879.0572828789482662329620204",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "2",
+          "canton_label": "Bern",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "1034931",
+          "population_end": "1071216",
+          "density_start_per_100k": "2.469837216200886822406517922",
+          "density_end_per_100k": "4.086909922928709055876685934",
+          "density_percent_change": "65.47284558353241343490564440",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "10",
+          "canton_label": "Freiburg",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "318760",
+          "population_end": "346674",
+          "density_start_per_100k": "9.436678692433178566946919312",
+          "density_end_per_100k": "11.25278042195261254088855813",
+          "density_percent_change": "19.24513686129505622335655091",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "25",
+          "canton_label": "Genf",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "499480",
+          "population_end": "531102",
+          "density_start_per_100k": "8.423285016417073756706975254",
+          "density_end_per_100k": "9.131054486708767807313849317",
+          "density_percent_change": "8.402534983824525525128203484",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "18",
+          "canton_label": "Graubünden",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "198379",
+          "population_end": "206138",
+          "density_start_per_100k": "1.297020349936233169841565892",
+          "density_end_per_100k": "1.018735022169614530072087631",
+          "density_percent_change": "-21.45574105913606411263254015",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "26",
+          "canton_label": "Jura",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "73419",
+          "population_end": "74840",
+          "density_start_per_100k": "0.1362045247143110094117326578",
+          "density_end_per_100k": "1.469802244788882950293960449",
+          "density_percent_change": "979.1141101015499732763228216",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "3",
+          "canton_label": "Luzern",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "409557",
+          "population_end": "437944",
+          "density_start_per_100k": "0.8981220196456170935913682345",
+          "density_end_per_100k": "1.986555358675995104396909194",
+          "density_percent_change": "121.1899179868515376609497492",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "24",
+          "canton_label": "Neuenburg",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "176850",
+          "population_end": "179518",
+          "density_start_per_100k": "5.359230421260955612100650269",
+          "density_end_per_100k": "2.242114996824830936173531345",
+          "density_percent_change": "-58.16348952024923180347156356",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "5",
+          "canton_label": "Schwyz",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "159165",
+          "population_end": "168931",
+          "density_start_per_100k": "4.568484654289573712813746741",
+          "density_end_per_100k": "2.900592549620851116728131604",
+          "density_percent_change": "-36.50865069892830028008071664",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "11",
+          "canton_label": "Solothurn",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "273194",
+          "population_end": "289792",
+          "density_start_per_100k": "0.5091287143934347020798406993",
+          "density_end_per_100k": "0.7591651943462897526501766784",
+          "density_percent_change": "49.11066158402463732929230779",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "17",
+          "canton_label": "St. Gallen",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "507697",
+          "population_end": "540036",
+          "density_start_per_100k": "2.591221929615499008266741777",
+          "density_end_per_100k": "2.424080802020606033671829285",
+          "density_percent_change": "-6.450282227261575149154721203",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "21",
+          "canton_label": "Tessin",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "353343",
+          "population_end": "358903",
+          "density_start_per_100k": "2.900864032965135859490636577",
+          "density_end_per_100k": "5.284622028793295124309353781",
+          "density_percent_change": "82.17406844096675893744780419",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "20",
+          "canton_label": "Thurgau",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "276472",
+          "population_end": "299509",
+          "density_start_per_100k": "2.158145020110535605775630082",
+          "density_end_per_100k": "3.672677615697691889058425623",
+          "density_percent_change": "70.17751733428855209086189594",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "22",
+          "canton_label": "Waadt",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "799145",
+          "population_end": "855106",
+          "density_start_per_100k": "6.112833465766537987474112958",
+          "density_end_per_100k": "8.923171396294728372856698468",
+          "density_percent_change": "45.97439053863999249968452251",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "23",
+          "canton_label": "Wallis",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "343955",
+          "population_end": "371288",
+          "density_start_per_100k": "2.682960270965678649823378058",
+          "density_end_per_100k": "1.021015761349680032750856478",
+          "density_percent_change": "-61.94443233472907369074659609",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "9",
+          "canton_label": "Zug",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "126837",
+          "population_end": "133739",
+          "density_start_per_100k": "5.952521740501588653153259696",
+          "density_end_per_100k": "3.589080223420243907910183267",
+          "density_percent_change": "-39.70487837113198986124451457",
+          "boundary_complete": true
+        },
+        {
+          "canton_code": "1",
+          "canton_label": "Zürich",
+          "start_period": "2018",
+          "end_period": "2024",
+          "population_start": "1520968",
+          "population_end": "1620020",
+          "density_start_per_100k": "4.050558394390940506309139969",
+          "density_end_per_100k": "4.865312156640041480969370749",
+          "density_percent_change": "20.11460354151025335725537491",
+          "boundary_complete": true
+        }
+      ],
+      "region_count": 20,
+      "complete_boundary_count": 19,
+      "method": "Zähler: BFS Arztpraxen/ambulante Zentren; Nenner: BFS ständige Wohnbevölkerung per 31.12.; Dichte = Zähler / Bevölkerung × 100'000.",
+      "population_source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "population_cube_path": "px-x-0102020000_104/px-x-0102020000_104.px",
+      "input_calculation": "Kantonale Entwicklung Anzahl Ärzte (Vollzeitäquivalente) am 31.12, Haupttätigkeit Radiologie, 2018 bis 2024",
+      "geography": "Kantone der Schweiz",
+      "population": "ständige Wohnbevölkerung",
+      "capability_id": "deterministic_calculator",
+      "adapter_id": "calculator",
+      "source_url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-0102020000_104/-/px-x-0102020000_104.px/",
+      "source_authority": "OFFICIAL_GOVERNMENT",
+      "claim_authority": "derived_calculation",
+      "observed_at": null
     }
   ],
   "derived_capability_requests": [
