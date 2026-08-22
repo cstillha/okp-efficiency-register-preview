@@ -1457,7 +1457,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950393+00:00",
+      "observed_at": "2026-08-22T15:18:17.029361+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1473,7 +1473,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950414+00:00",
+      "observed_at": "2026-08-22T15:18:17.029384+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1489,7 +1489,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950419+00:00",
+      "observed_at": "2026-08-22T15:18:17.029390+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1505,7 +1505,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257425+00:00",
+      "observed_at": "2026-08-22T15:18:17.477952+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257448+00:00",
+      "observed_at": "2026-08-22T15:18:17.477973+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1537,7 +1537,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257462+00:00",
+      "observed_at": "2026-08-22T15:18:17.477987+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1589,7 +1589,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950393+00:00",
+      "observed_at": "2026-08-22T15:18:17.029361+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1601,7 +1601,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950414+00:00",
+      "observed_at": "2026-08-22T15:18:17.029384+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1613,7 +1613,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:36.950419+00:00",
+      "observed_at": "2026-08-22T15:18:17.029390+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1625,7 +1625,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257425+00:00",
+      "observed_at": "2026-08-22T15:18:17.477952+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1637,7 +1637,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257448+00:00",
+      "observed_at": "2026-08-22T15:18:17.477973+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1649,20 +1649,20 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:16:37.257462+00:00",
+      "observed_at": "2026-08-22T15:18:17.477987+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
-      "observation_id": "opendata:4f53cda18c2baa0c:empty",
+      "observation_id": "opendata:65a4457c-e0df-4401-b34d-da628bb0f9c0:direct",
       "capability_id": "open_data_catalog_search",
       "adapter_id": "opendata_swiss",
       "execution_mode": "DETERMINISTIC",
       "output_kind": "DATASET_CANDIDATE",
-      "source_url": "https://opendata.swiss/api/3/action/package_search?q=Schweiz+BFS%2FOpen+Government+Data%3A+ambulante+Radiologie%2C+medizinische+Bildgebung%2C+CT%2C+MRT%2C+Ger%C3%A4te%2C+Arztpraxen+und+ambulante+Zentren+nach+Kanton+und+Jahr%3B+maschinenlesbare+Datens%C3%A4tze%2FAPI.&rows=20",
+      "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T15:16:37.843043+00:00",
-      "content_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      "observed_at": "2026-08-22T15:18:18.999947+00:00",
+      "content_hash": "d1002d5d7e3c44e5d59e2a92bc834b01448fabac3198c0a84a26545b73b7ac6b"
     }
   ],
   "monitoring_plan": {
@@ -1778,11 +1778,11 @@
         "dependent_ids": []
       },
       {
-        "target_id": "monitor:open_data_catalog_search:opendata:4f53cda18c2baa0c:empty",
+        "target_id": "monitor:open_data_catalog_search:opendata:65a4457c-e0df-4401-b34d-da628bb0f9c0:direct",
         "capability_id": "open_data_catalog_search",
         "adapter_id": "opendata_swiss",
-        "subject_ref": "opendata:4f53cda18c2baa0c:empty",
-        "last_known_marker": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "subject_ref": "65a4457c-e0df-4401-b34d-da628bb0f9c0",
+        "last_known_marker": "d1002d5d7e3c44e5d59e2a92bc834b01448fabac3198c0a84a26545b73b7ac6b",
         "change_detection": [
           "new_dataset",
           "dataset_metadata_hash"
@@ -1791,7 +1791,7 @@
         "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T15:16:37.844316+00:00"
+    "last_refresh_at": "2026-08-22T15:18:19.001620+00:00"
   },
   "revisions": [],
   "capability_outputs": [
@@ -1809,14 +1809,121 @@
     },
     {
       "query": "Schweiz BFS/Open Government Data: ambulante Radiologie, medizinische Bildgebung, CT, MRT, Geräte, Arztpraxen und ambulante Zentren nach Kanton und Jahr; maschinenlesbare Datensätze/API.",
-      "result": "NOT_FOUND",
-      "datasets": [],
+      "purpose": "Nach öffentlich verfügbaren, maschinenlesbaren Ergänzungsdaten zur regionalen Angebotsstruktur der ambulanten Radiologie suchen, insbesondere Standorte, Tätigkeiten, Ärztinnen/Ärzte sowie allfällige Register zu CT-/MRT-Geräten. Damit können die von der EFK beschriebenen regionalen Angebots- und Transparenzlücken aktualisiert werden; Margen und WZW einzelner Untersuchungen werden dadurch nicht nachgewiesen.",
+      "resolution_mode": "DIRECT_DATASET_LOCATOR",
+      "catalog_rank": 1,
+      "dataset_id": "65a4457c-e0df-4401-b34d-da628bb0f9c0",
+      "name": "arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
+      "title": {
+        "it": "Studi medici e centri ambulatoriali: imprese, sedi e medici",
+        "fr": "Cabinets médicaux et centres ambulatoires: entreprises, sites et médecins",
+        "en": "Medical practices and outpatient centers: facilities, sites, and physicians",
+        "de": "Arztpraxen und ambulante Zentren: Unternehmen, Standorte und Ärzte"
+      },
+      "notes": null,
+      "organization": {
+        "de": "Bundesamt für Statistik BFS",
+        "en": "Federal Statistical Office FSO",
+        "fr": "Office fédéral de la statistique OFS",
+        "it": "Ufficio federale di statistica UST"
+      },
+      "metadata_modified": "2026-08-21T15:36:19.649223",
+      "resources": [
+        {
+          "id": "ddd9fa0d-7d2d-446e-9458-4f457bc1f984",
+          "name": {
+            "de": "Arztpraxen und ambulante Zentren: Unternehmen, Standorte und Ärzte",
+            "en": "",
+            "fr": "",
+            "it": ""
+          },
+          "format": "HTML",
+          "url": "https://www.bfs.admin.ch/asset/de/DF_GVS_PRACTICES_GENERAL"
+        },
+        {
+          "id": "3f6f2249-81fd-4768-bcd4-94da4598a522",
+          "name": {
+            "en": "View data in browser",
+            "de": "",
+            "fr": "",
+            "it": ""
+          },
+          "format": "SERVICE",
+          "url": "https://stats.swiss/vis?lc=en&df%5bds%5d=disseminate&df%5bid%5d=DF_GVS_PRACTICES_GENERAL&df%5bag%5d=CH1.GVS"
+        },
+        {
+          "id": "4a5c5fba-5fc0-4ca6-b934-9d340e657420",
+          "name": {
+            "fr": "Consulter les données dans le navigateur",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "format": "SERVICE",
+          "url": "https://stats.swiss/vis?lc=fr&df%5bds%5d=disseminate&df%5bid%5d=DF_GVS_PRACTICES_GENERAL&df%5bag%5d=CH1.GVS"
+        },
+        {
+          "id": "669e0347-632e-48ec-adcf-d7e6d7d347f3",
+          "name": {
+            "it": "Studi medici e centri ambulatoriali: imprese, sedi e medici",
+            "en": "",
+            "de": "",
+            "fr": ""
+          },
+          "format": "HTML",
+          "url": "https://www.bfs.admin.ch/asset/it/DF_GVS_PRACTICES_GENERAL"
+        },
+        {
+          "id": "ee0444b8-116e-4bc9-9230-17108c0c6801",
+          "name": {
+            "en": "Medical practices and outpatient centers: facilities, sites, and physicians",
+            "de": "",
+            "fr": "",
+            "it": ""
+          },
+          "format": "HTML",
+          "url": "https://www.bfs.admin.ch/asset/en/DF_GVS_PRACTICES_GENERAL"
+        },
+        {
+          "id": "135bf5b8-f6e5-4b8f-893e-044b35caa8ed",
+          "name": {
+            "de": "Daten im Browser anschauen",
+            "en": "",
+            "fr": "",
+            "it": ""
+          },
+          "format": "SERVICE",
+          "url": "https://stats.swiss/vis?lc=de&df%5bds%5d=disseminate&df%5bid%5d=DF_GVS_PRACTICES_GENERAL&df%5bag%5d=CH1.GVS"
+        },
+        {
+          "id": "031e50ed-6683-49f5-b3b3-b1dfda19569b",
+          "name": {
+            "fr": "Cabinets médicaux et centres ambulatoires: entreprises, sites et médecins",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "format": "HTML",
+          "url": "https://www.bfs.admin.ch/asset/fr/DF_GVS_PRACTICES_GENERAL"
+        },
+        {
+          "id": "eb8aaf45-1324-4e1c-b203-3202ff4d3717",
+          "name": {
+            "it": "Visualizzare dati nel browser",
+            "en": "",
+            "de": "",
+            "fr": ""
+          },
+          "format": "SERVICE",
+          "url": "https://stats.swiss/vis?lc=it&df%5bds%5d=disseminate&df%5bid%5d=DF_GVS_PRACTICES_GENERAL&df%5bag%5d=CH1.GVS"
+        }
+      ],
       "capability_id": "open_data_catalog_search",
       "adapter_id": "opendata_swiss",
-      "source_url": "https://opendata.swiss/api/3/action/package_search?q=Schweiz+BFS%2FOpen+Government+Data%3A+ambulante+Radiologie%2C+medizinische+Bildgebung%2C+CT%2C+MRT%2C+Ger%C3%A4te%2C+Arztpraxen+und+ambulante+Zentren+nach+Kanton+und+Jahr%3B+maschinenlesbare+Datens%C3%A4tze%2FAPI.&rows=20",
+      "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T15:16:37.843043+00:00"
+      "observed_at": "2026-08-22T15:18:18.999947+00:00"
     }
   ],
   "hypotheses": [
