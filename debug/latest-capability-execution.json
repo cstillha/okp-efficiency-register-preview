@@ -1457,7 +1457,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370085+00:00",
+      "observed_at": "2026-08-22T16:00:31.379718+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1473,7 +1473,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370110+00:00",
+      "observed_at": "2026-08-22T16:00:31.379739+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1489,7 +1489,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370115+00:00",
+      "observed_at": "2026-08-22T16:00:31.379745+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1505,7 +1505,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722490+00:00",
+      "observed_at": "2026-08-22T16:00:31.823139+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722514+00:00",
+      "observed_at": "2026-08-22T16:00:31.823159+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1537,7 +1537,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722529+00:00",
+      "observed_at": "2026-08-22T16:00:31.823174+00:00",
       "evidence_role": "PROCESS_EVIDENCE"
     },
     {
@@ -1589,7 +1589,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370085+00:00",
+      "observed_at": "2026-08-22T16:00:31.379718+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1601,7 +1601,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370110+00:00",
+      "observed_at": "2026-08-22T16:00:31.379739+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1613,7 +1613,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.370115+00:00",
+      "observed_at": "2026-08-22T16:00:31.379745+00:00",
       "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
     },
     {
@@ -1625,7 +1625,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722490+00:00",
+      "observed_at": "2026-08-22T16:00:31.823139+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1637,7 +1637,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722514+00:00",
+      "observed_at": "2026-08-22T16:00:31.823159+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1649,7 +1649,7 @@
       "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
       "source_authority": "OFFICIAL_PARLIAMENT",
       "claim_authority": "parliamentary_status",
-      "observed_at": "2026-08-22T15:32:36.722529+00:00",
+      "observed_at": "2026-08-22T16:00:31.823174+00:00",
       "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     },
     {
@@ -1661,7 +1661,7 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T15:32:38.929527+00:00",
+      "observed_at": "2026-08-22T16:00:35.472981+00:00",
       "content_hash": "d1002d5d7e3c44e5d59e2a92bc834b01448fabac3198c0a84a26545b73b7ac6b"
     }
   ],
@@ -1791,7 +1791,7 @@
         "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T15:32:38.939014+00:00"
+    "last_refresh_at": "2026-08-22T16:00:35.481715+00:00"
   },
   "revisions": [],
   "capability_outputs": [
@@ -2311,47 +2311,56 @@
               {
                 "kind": "Dimension",
                 "id": "CANTON",
-                "position": "1"
+                "position": "1",
+                "codelist_id": "CL_HGDE_KT__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "AGE",
-                "position": "2"
+                "position": "2",
+                "codelist_id": "CL_CLASS_AGE__Q2_TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "GENDER",
-                "position": "3"
+                "position": "3",
+                "codelist_id": "CL_sex__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "MAIN_ACTIVITY",
-                "position": "4"
+                "position": "4",
+                "codelist_id": "CL_PHYSICIAN_ACTIVITY_GVS__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "UNIT",
-                "position": "5"
+                "position": "5",
+                "codelist_id": "CL_UNIT_GVS"
               },
               {
                 "kind": "Dimension",
                 "id": "FREQ",
-                "position": "6"
+                "position": "6",
+                "codelist_id": "CL_FREQ"
               },
               {
                 "kind": "TimeDimension",
                 "id": "TIME_PERIOD",
-                "position": "7"
+                "position": "7",
+                "codelist_id": null
               },
               {
                 "kind": "Attribute",
                 "id": "OBS_STATUS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_OBS_STATUS"
               },
               {
                 "kind": "Attribute",
                 "id": "DECIMALS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_DECIMALS"
               }
             ],
             "codelists": [
@@ -5546,7 +5555,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "49b0d81752a0268ee6ad5ec9e3b363c8d492d18ce3b791f69b665ecb1e87e1cf"
+          "metadata_hash": "1110ec9ef808f614c14388a5173e565654a9e454ec98ba0ee1a2a7715aa56327"
         },
         {
           "resource_id": "4a5c5fba-5fc0-4ca6-b934-9d340e657420",
@@ -5924,47 +5933,56 @@
               {
                 "kind": "Dimension",
                 "id": "CANTON",
-                "position": "1"
+                "position": "1",
+                "codelist_id": "CL_HGDE_KT__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "AGE",
-                "position": "2"
+                "position": "2",
+                "codelist_id": "CL_CLASS_AGE__Q2_TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "GENDER",
-                "position": "3"
+                "position": "3",
+                "codelist_id": "CL_sex__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "MAIN_ACTIVITY",
-                "position": "4"
+                "position": "4",
+                "codelist_id": "CL_PHYSICIAN_ACTIVITY_GVS__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "UNIT",
-                "position": "5"
+                "position": "5",
+                "codelist_id": "CL_UNIT_GVS"
               },
               {
                 "kind": "Dimension",
                 "id": "FREQ",
-                "position": "6"
+                "position": "6",
+                "codelist_id": "CL_FREQ"
               },
               {
                 "kind": "TimeDimension",
                 "id": "TIME_PERIOD",
-                "position": "7"
+                "position": "7",
+                "codelist_id": null
               },
               {
                 "kind": "Attribute",
                 "id": "OBS_STATUS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_OBS_STATUS"
               },
               {
                 "kind": "Attribute",
                 "id": "DECIMALS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_DECIMALS"
               }
             ],
             "codelists": [
@@ -9159,7 +9177,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "49b0d81752a0268ee6ad5ec9e3b363c8d492d18ce3b791f69b665ecb1e87e1cf"
+          "metadata_hash": "1110ec9ef808f614c14388a5173e565654a9e454ec98ba0ee1a2a7715aa56327"
         },
         {
           "resource_id": "669e0347-632e-48ec-adcf-d7e6d7d347f3",
@@ -9569,47 +9587,56 @@
               {
                 "kind": "Dimension",
                 "id": "CANTON",
-                "position": "1"
+                "position": "1",
+                "codelist_id": "CL_HGDE_KT__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "AGE",
-                "position": "2"
+                "position": "2",
+                "codelist_id": "CL_CLASS_AGE__Q2_TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "GENDER",
-                "position": "3"
+                "position": "3",
+                "codelist_id": "CL_sex__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "MAIN_ACTIVITY",
-                "position": "4"
+                "position": "4",
+                "codelist_id": "CL_PHYSICIAN_ACTIVITY_GVS__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "UNIT",
-                "position": "5"
+                "position": "5",
+                "codelist_id": "CL_UNIT_GVS"
               },
               {
                 "kind": "Dimension",
                 "id": "FREQ",
-                "position": "6"
+                "position": "6",
+                "codelist_id": "CL_FREQ"
               },
               {
                 "kind": "TimeDimension",
                 "id": "TIME_PERIOD",
-                "position": "7"
+                "position": "7",
+                "codelist_id": null
               },
               {
                 "kind": "Attribute",
                 "id": "OBS_STATUS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_OBS_STATUS"
               },
               {
                 "kind": "Attribute",
                 "id": "DECIMALS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_DECIMALS"
               }
             ],
             "codelists": [
@@ -12804,7 +12831,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "49b0d81752a0268ee6ad5ec9e3b363c8d492d18ce3b791f69b665ecb1e87e1cf"
+          "metadata_hash": "1110ec9ef808f614c14388a5173e565654a9e454ec98ba0ee1a2a7715aa56327"
         },
         {
           "resource_id": "031e50ed-6683-49f5-b3b3-b1dfda19569b",
@@ -13198,47 +13225,56 @@
               {
                 "kind": "Dimension",
                 "id": "CANTON",
-                "position": "1"
+                "position": "1",
+                "codelist_id": "CL_HGDE_KT__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "AGE",
-                "position": "2"
+                "position": "2",
+                "codelist_id": "CL_CLASS_AGE__Q2_TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "GENDER",
-                "position": "3"
+                "position": "3",
+                "codelist_id": "CL_sex__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "MAIN_ACTIVITY",
-                "position": "4"
+                "position": "4",
+                "codelist_id": "CL_PHYSICIAN_ACTIVITY_GVS__TOT"
               },
               {
                 "kind": "Dimension",
                 "id": "UNIT",
-                "position": "5"
+                "position": "5",
+                "codelist_id": "CL_UNIT_GVS"
               },
               {
                 "kind": "Dimension",
                 "id": "FREQ",
-                "position": "6"
+                "position": "6",
+                "codelist_id": "CL_FREQ"
               },
               {
                 "kind": "TimeDimension",
                 "id": "TIME_PERIOD",
-                "position": "7"
+                "position": "7",
+                "codelist_id": null
               },
               {
                 "kind": "Attribute",
                 "id": "OBS_STATUS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_OBS_STATUS"
               },
               {
                 "kind": "Attribute",
                 "id": "DECIMALS",
-                "position": null
+                "position": null,
+                "codelist_id": "CL_DECIMALS"
               }
             ],
             "codelists": [
@@ -16433,7 +16469,7 @@
             "version": "+",
             "structure_url": "https://disseminate.stats.swiss/rest/v2/structure/dataflow/CH1.GVS/DF_GVS_PRACTICES_GENERAL/+?references=all&detail=referencepartial"
           },
-          "metadata_hash": "49b0d81752a0268ee6ad5ec9e3b363c8d492d18ce3b791f69b665ecb1e87e1cf"
+          "metadata_hash": "1110ec9ef808f614c14388a5173e565654a9e454ec98ba0ee1a2a7715aa56327"
         }
       ],
       "capability_id": "open_data_catalog_search",
@@ -16441,7 +16477,7 @@
       "source_url": "https://opendata.swiss/de/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
       "source_authority": "OFFICIAL_GOVERNMENT",
       "claim_authority": "catalog_metadata",
-      "observed_at": "2026-08-22T15:32:38.929527+00:00"
+      "observed_at": "2026-08-22T16:00:35.472981+00:00"
     }
   ],
   "hypotheses": [
@@ -16671,6 +16707,9 @@
   "stage_metadata": {
     "stage": "capability-execution",
     "llm_calls_expected": 0,
-    "requests_executed": 3
-  }
+    "requests_executed": 3,
+    "deterministic_followups": 0,
+    "structured_followup_observations": 0
+  },
+  "derived_capability_requests": []
 }
