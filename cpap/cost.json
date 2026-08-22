@@ -1,0 +1,282 @@
+{
+  "signal_id": "signal-cpap-cost-001",
+  "pricing_version": "2026-08-22",
+  "currency": "USD",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+  "tool_pricing_source": "https://platform.openai.com/pricing",
+  "pricing_notes": "Standard direct API pricing. Does not apply regional-processing uplifts, batch discounts, Fast/Priority processing, negotiated discounts, taxes or credits. Cost report is an estimate from response usage and observed built-in tool calls.",
+  "calls": 8,
+  "input_tokens": 197994,
+  "cached_input_tokens": 6427,
+  "output_tokens": 13885,
+  "reasoning_tokens": 3315,
+  "total_tokens": 211879,
+  "web_search_calls": 9,
+  "estimated_cost_usd": 0.6410394,
+  "by_stage": {
+    "research": {
+      "calls": 1,
+      "input_tokens": 79997,
+      "cached_input_tokens": 6427,
+      "output_tokens": 7625,
+      "reasoning_tokens": 1799,
+      "total_tokens": 87622,
+      "web_search_calls": 9,
+      "cost_usd": 0.3299254
+    },
+    "evidence_extraction": {
+      "calls": 6,
+      "input_tokens": 109680,
+      "cached_input_tokens": 0,
+      "output_tokens": 4555,
+      "reasoning_tokens": 1192,
+      "total_tokens": 114235,
+      "web_search_calls": 0,
+      "cost_usd": 0.27402
+    },
+    "reasoning": {
+      "calls": 1,
+      "input_tokens": 8317,
+      "cached_input_tokens": 0,
+      "output_tokens": 1705,
+      "reasoning_tokens": 324,
+      "total_tokens": 10022,
+      "web_search_calls": 0,
+      "cost_usd": 0.037094
+    }
+  },
+  "call_details": [
+    {
+      "stage": "research",
+      "response_id": "resp_0766fc4235a6b334006a89f6e7808c87d195ee1e31aed1e6dc",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 79997,
+      "cached_input_tokens": 6427,
+      "uncached_input_tokens": 73570,
+      "output_tokens": 7625,
+      "reasoning_tokens": 1799,
+      "total_tokens": 87622,
+      "web_search_calls": 9,
+      "usage_raw": {
+        "input_tokens": 79997,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 6427
+        },
+        "output_tokens": 7625,
+        "output_tokens_details": {
+          "reasoning_tokens": 1799
+        },
+        "total_tokens": 87622
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.2399254,
+      "tool_cost_usd": 0.09,
+      "cost_usd": 0.3299254,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[0]",
+      "response_id": "resp_04a2eafca54a2582006a89f743748487d1b166a687b9bb2999",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 9395,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 9395,
+      "output_tokens": 1732,
+      "reasoning_tokens": 1192,
+      "total_tokens": 11127,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 9395,
+        "input_tokens_details": {
+          "cache_write_tokens": 9392,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1732,
+        "output_tokens_details": {
+          "reasoning_tokens": 1192
+        },
+        "total_tokens": 11127
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.039574,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.039574,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[1]",
+      "response_id": "resp_0b9f8a463cd6e97f006a89f758c23887d183cf04587f2ac349",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2042,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 2042,
+      "output_tokens": 552,
+      "reasoning_tokens": 0,
+      "total_tokens": 2594,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 2042,
+        "input_tokens_details": {
+          "cache_write_tokens": 2039,
+          "cached_tokens": 0
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2594
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.010708,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.010708,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[2]",
+      "response_id": "resp_0bca37836c7aaf23006a89f763ae8087d18c5b0b4cff960d80",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 38305,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 38305,
+      "output_tokens": 613,
+      "reasoning_tokens": 0,
+      "total_tokens": 38918,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 38305,
+        "input_tokens_details": {
+          "cache_write_tokens": 38302,
+          "cached_tokens": 0
+        },
+        "output_tokens": 613,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 38918
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.083966,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.083966,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[3]",
+      "response_id": "resp_00660d6a836536a6006a89f76c27b487d196ee52e86cbd226e",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 21464,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 21464,
+      "output_tokens": 847,
+      "reasoning_tokens": 0,
+      "total_tokens": 22311,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 21464,
+        "input_tokens_details": {
+          "cache_write_tokens": 21461,
+          "cached_tokens": 0
+        },
+        "output_tokens": 847,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 22311
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.053092,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.053092,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[4]",
+      "response_id": "resp_03f8eb1eb633d847006a89f775f89487d1a647d0986fd1c9a1",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 10951,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 10951,
+      "output_tokens": 259,
+      "reasoning_tokens": 0,
+      "total_tokens": 11210,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 10951,
+        "input_tokens_details": {
+          "cache_write_tokens": 10948,
+          "cached_tokens": 0
+        },
+        "output_tokens": 259,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11210
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.02501,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.02501,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "evidence_extraction[5]",
+      "response_id": "resp_0d02727e04557210006a89f77e50ec87d1bcccb001b3dd08b7",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 27523,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 27523,
+      "output_tokens": 552,
+      "reasoning_tokens": 0,
+      "total_tokens": 28075,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 27523,
+        "input_tokens_details": {
+          "cache_write_tokens": 27520,
+          "cached_tokens": 0
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 28075
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.06167,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.06167,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    },
+    {
+      "stage": "reasoning",
+      "response_id": "resp_0791923458f202c7006a89f7847ef887d18108912f22e2b16b",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 8317,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 8317,
+      "output_tokens": 1705,
+      "reasoning_tokens": 324,
+      "total_tokens": 10022,
+      "web_search_calls": 0,
+      "usage_raw": {
+        "input_tokens": 8317,
+        "input_tokens_details": {
+          "cache_write_tokens": 8314,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1705,
+        "output_tokens_details": {
+          "reasoning_tokens": 324
+        },
+        "total_tokens": 10022
+      },
+      "long_context_pricing": false,
+      "token_cost_usd": 0.037094,
+      "tool_cost_usd": 0.0,
+      "cost_usd": 0.037094,
+      "pricing_status": "ESTIMATED_FROM_CONFIGURED_STANDARD_RATES"
+    }
+  ]
+}
