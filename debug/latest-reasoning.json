@@ -17043,7 +17043,7 @@
   "hypotheses": [
     {
       "kind": "PRIMARY",
-      "statement": "Ambulante Radiologieanbieter in der Schweiz erzielen aktuell sehr hohe Margen.",
+      "statement": "Ambulante Radiologieanbieter in der Schweiz erzielen aktuell generell sehr hohe Margen.",
       "status": "PARTLY_SUPPORTED",
       "supporting_evidence_indexes": [
         10,
@@ -17052,11 +17052,23 @@
         13,
         14
       ],
-      "rationale": "Ein verifiziertes Medienberichtssignal betrifft eine einzelne Gruppe in der Nordwestschweiz: Für 2025 wurden CHF 5,4 Mio. Gewinn bzw. 47 % ihres Umsatzes berichtet. Das ist ein relevantes Einzelfallsignal, aber weder national noch repräsentativ und keine belastbare Aussage über Netto-/EBIT-Margen sämtlicher ambulanter Radiologieanbieter. Die historische Triemli-Fallzahl von CHF 205 je MRI-Untersuchung stammt aus 2011; zudem war der dortige «Gewinn» als Ertrag minus Betriebskosten ohne Overhead definiert. Die damalige Studie bewertete ihre Datenbasis zu Vollkosten, Wirtschaftlichkeit und Auslastung ausdrücklich als dünn."
+      "rationale": "Für eine einzelne Gruppe in der Nordwestschweiz berichtet SRF/RTS für 2025 einen Gewinn von CHF 5,4 Mio., entsprechend 47% ihres Umsatzes. Das ist ein relevantes, aber auf eine Gruppe, eine Region und ein Geschäftsjahr begrenztes Signal; es belegt keine allgemeine oder OKP-spezifische Marge sämtlicher ambulanten Radiologieanbieter. Ein historisches Fallbeispiel des Spitals Triemli weist für 2011 CHF 205 Ergebnis je MRI aus; dieses Ergebnis ist ausdrücklich nur Ertrag minus Betriebskosten ohne Overhead und daher nicht mit einer Netto- oder EBIT-Marge gleichzusetzen. Die damalige Studienbasis zu Vollkosten, Wirtschaftlichkeit und Auslastung war zudem dünn. Nationale, aktuelle und repräsentative Margen- und Vollkostendaten fehlen."
     },
     {
       "kind": "PRIMARY",
       "statement": "Das OKP-Kostenvolumen der ambulanten medizinischen Bildgebung ist stark gestiegen.",
+      "status": "PARTLY_SUPPORTED",
+      "supporting_evidence_indexes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "Für den historischen Zeitraum 2019–2023 ist der Anstieg klar gestützt: Die ambulanten KVG-Ausgaben für medizinische Bildgebung wuchsen durchschnittlich um 5,3% jährlich, gegenüber 3,3% für sämtliche ambulanten KVG-Kosten. CT-Ausgaben stiegen von CHF 251 Mio. auf CHF 330 Mio., MRI-Ausgaben von CHF 411 Mio. auf CHF 523 Mio. Die Befunde belegen jedoch weder eine Kostenentwicklung ab 2024 noch ein heutiges Volumen im Tarifregime 2026. Die Angabe von rund CHF 2,1 Mrd. für 2023 ist nur mit ungeklärter Provenienz vorliegend und kann deshalb nicht als gesicherte Schlussfolgerung verwendet werden."
+    },
+    {
+      "kind": "ALTERNATIVE",
+      "statement": "Der beobachtete Kostenanstieg 2019–2023 war vorwiegend mengen- und nicht tarifgetrieben.",
       "status": "SUPPORTED",
       "supporting_evidence_indexes": [
         1,
@@ -17064,54 +17076,55 @@
         3,
         4
       ],
-      "rationale": "Für 2019–2023 stiegen die ambulanten KVG-Ausgaben für medizinische Bildgebung durchschnittlich um 5,3 % pro Jahr, gegenüber 3,3 % für sämtliche ambulanten KVG-Kosten. CT stieg in diesem Zeitraum von CHF 251 Mio. auf CHF 330 Mio., MRT von CHF 411 Mio. auf CHF 523 Mio. Die Aussage ist eine historische Beobachtung bis 2023 und belegt keine Kostenentwicklung im Jahr 2026."
-    },
-    {
-      "kind": "COUNTER",
-      "statement": "Der beobachtete Kostenanstieg von 2019–2023 ist primär tarif- bzw. preisgetrieben und belegt damit eine Übervergütung.",
-      "status": "WEAKENED",
-      "supporting_evidence_indexes": [
-        2,
-        8,
-        9
-      ],
-      "rationale": "Die EFK führte den damaligen starken Anstieg bei kaum veränderten Tarifen und kantonalen Taxpunktwerten in erster Linie auf eine höhere Untersuchungszahl zurück. Diese Einordnung betrifft den Zeitraum unter TARMED. Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen; deshalb kann aus der Entwicklung unter TARMED keine aktuelle Übervergütung unter dem neuen System abgeleitet werden."
+      "rationale": "Die EFK führt den damaligen starken Kostenanstieg primär auf eine höhere Untersuchungszahl zurück, weil Tarife und kantonale Taxpunktwerte im Zeitraum 2019–2023 kaum verändert waren. Dies ist eine Erklärung für den historischen TARMED-Zeitraum; sie beweist weder medizinische Unangemessenheit noch eine Fortsetzung dieses Mechanismus nach dem Tarifwechsel 2026."
     },
     {
       "kind": "ALTERNATIVE",
-      "statement": "Mehr Untersuchungen und eine hohe bzw. regional unterschiedlich genutzte Gerätekapazität sind eine plausible Erklärung für das historische Kostenwachstum.",
+      "statement": "Angebots- und Kapazitätsstrukturen können das Mengen- und Kostenrisiko mitbeeinflussen, ohne dass damit Überversorgung oder hohe Margen bewiesen wären.",
       "status": "PARTLY_SUPPORTED",
       "supporting_evidence_indexes": [
-        2,
         5,
-        6
+        6,
+        15,
+        16
       ],
-      "rationale": "Die EFK ordnete den Kostenanstieg 2019–2023 primär einer höheren Untersuchungszahl zu. Für 2021 wurden rund 700 CT- und MRT-Geräte beziehungsweise knapp 80 Geräte pro Million Einwohnende ausgewiesen. Diese Befunde stützen ein Monitoring von Angebots- und Nutzungsrisiken, beweisen jedoch weder angebotsinduzierte Nachfrage noch medizinische Unangemessenheit einzelner Untersuchungen."
+      "rationale": "2021 bestanden rund 700 CT- und MRT-Geräte beziehungsweise knapp 80 Geräte pro Million Einwohnende. Zudem stieg die Zahl der in Arztpraxen und ambulanten Zentren mit Haupttätigkeit Radiologie ausgewiesenen Ärztinnen und Ärzte von 410 (2018) auf 538 (2024); die Vollzeitäquivalente stiegen von 303,62122 auf 411,0161. Diese Indikatoren beschreiben historische Kapazitäts- und Personalentwicklung, nicht jedoch Auslastung, Indikationen, Untersuchungszahlen, Kausalität oder Rentabilität. Sie sind daher ein Monitoringhinweis, kein Nachweis induzierter Nachfrage oder unangemessener Leistungserbringung."
+    },
+    {
+      "kind": "COUNTER",
+      "statement": "Historische Kosten- und Rentabilitätsbefunde lassen sich wegen des Tarifwechsels nicht unmittelbar als aktuelle Übervergütung oder aktuelle Margenlage interpretieren.",
+      "status": "SUPPORTED",
+      "supporting_evidence_indexes": [
+        7,
+        8,
+        9
+      ],
+      "rationale": "TARMED galt bis 31. Dezember 2025; seit 1. Januar 2026 werden ambulante Leistungen über TARDOC und ambulante Pauschalen abgerechnet. Für das neue Gesamtsystem läuft mindestens bis 2028 eine Kostenneutralitätsphase. Ohne fallmixbereinigte radiologiespezifische Nachherdaten kann aus den TARMED-Beobachtungen 2019–2023 keine aktuelle Übervergütung unter dem neuen System abgeleitet werden."
     }
   ],
   "outcome": {
     "classification": "SIGNAL_PARTLY_SUPPORTED",
-    "summary": "Das Signal wird hinsichtlich des historischen Kostenwachstums klar gestützt: Die ambulante medizinische Bildgebung wuchs von 2019 bis 2023 deutlich schneller als die gesamten ambulanten KVG-Kosten. Für sehr hohe Margen liegt hingegen nur ein relevantes, aber nicht verallgemeinerbares Einzelfallsignal für 2025 vor. Öffentliche Evidenz reicht nicht aus, um hohe aktuelle Margen, eine aktuelle Übervergütung oder unangemessene Nutzung auf nationaler Ebene festzustellen. Der Tarifwechsel per 1. Januar 2026 verhindert zudem eine unmittelbare Fortschreibung der TARMED-Befunde auf den Stand 2026.",
+    "summary": "Das Signal wird nur teilweise gestützt. Es gibt einen robusten historischen Befund eines überdurchschnittlichen Kostenwachstums der ambulanten medizinischen Bildgebung von 2019 bis 2023 und ein auffälliges Margensignal für eine einzelne Gruppe im Jahr 2025. Nicht belegt sind dagegen sehr hohe aktuelle Margen als allgemeines Merkmal ambulanter Radiologieanbieter in der Schweiz, eine aktuelle Übervergütung unter TARDOC/Pauschalen oder ein fortgesetztes starkes Kostenwachstum bis 2026.",
     "what_is_proven": [
-      "Die ambulanten KVG-Ausgaben für medizinische Bildgebung stiegen 2019–2023 durchschnittlich um 5,3 % jährlich; für alle ambulanten KVG-Kosten betrug der Vergleichswert 3,3 % jährlich. [1]",
-      "Die CT-Kosten stiegen von CHF 251 Mio. 2019 auf CHF 330 Mio. 2023; die MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio. [3, 4]",
-      "Nach der EFK war der historische Kostenanstieg 2019–2023 primär mit einer höheren Untersuchungszahl verbunden, nicht mit wesentlich veränderten Tarifen oder kantonalen Taxpunktwerten. [2]",
-      "Für 2021 sind rund 700 CT- und MRT-Geräte respektive knapp 80 Geräte pro Million Einwohnende dokumentiert. [5, 6]",
-      "Eine einzelne Gruppe in der Nordwestschweiz wurde für 2025 mit CHF 5,4 Mio. Gewinn beziehungsweise 47 % des Umsatzes berichtet. Dies belegt ausschliesslich den berichteten Einzelfall. [10, 11]",
-      "Seit 1. Januar 2026 gelten für ambulante Leistungen TARDOC und ambulante Pauschalen; die Kostenneutralitätsphase dauert mindestens bis 2028. [8, 9]"
+      "Im Zeitraum 2019–2023 stiegen die ambulanten KVG-Ausgaben für medizinische Bildgebung durchschnittlich um 5,3% pro Jahr und damit stärker als die gesamten ambulanten KVG-Kosten mit 3,3% pro Jahr. [1]",
+      "Die CT-Ausgaben stiegen in der Schweiz von CHF 251 Mio. (2019) auf CHF 330 Mio. (2023); die MRI-Ausgaben von CHF 411 Mio. auf CHF 523 Mio. [3,4]",
+      "Für 2019–2023 ordnete die EFK den Anstieg primär einer höheren Zahl von Untersuchungen zu, bei kaum veränderten Tarifen und kantonalen Taxpunktwerten. [2]",
+      "Für eine einzelne Gruppe in der Nordwestschweiz wurde für 2025 ein Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes berichtet. Dies ist ein Einzelfallsignal. [10,11]",
+      "Seit 1. Januar 2026 gilt für ambulante Leistungen ein neues Tarifregime mit TARDOC und ambulanten Pauschalen; die Kostenneutralitätsphase dauert mindestens bis 2028. [7,9]",
+      "Die Geräte- und Personalzahlen sind relevante strukturelle Kontextindikatoren, beweisen aber weder Überversorgung noch Margenhöhen. [5,6,15,16]"
     ],
     "what_is_not_proven": [
-      "Dass ambulante Radiologieanbieter schweizweit oder überwiegend aktuell sehr hohe Netto-, EBIT- oder Vollkostenmargen erzielen.",
-      "Dass die für eine einzelne Gruppe berichteten 47 % Gewinn im Jahr 2025 auf andere Anbieter, Kantone, Eigentümerstrukturen oder die gesamte ambulante Radiologie übertragbar sind.",
-      "Dass das Kostenwachstum nach dem Tarifwechsel 2026 fortbesteht, sich beschleunigt hat oder durch TARDOC beziehungsweise Pauschalen verursacht wird.",
-      "Dass hohe Gerätekapazität, steigende Untersuchungszahlen oder regionale Unterschiede medizinisch nicht gerechtfertigt sind.",
-      "Dass eine aktuelle Übervergütung, missbräuchliche Abrechnung, WZW-Verstösse oder unangemessene Untersuchungen vorliegen."
+      "Dass das ambulante OKP-Kostenvolumen der Bildgebung im Jahr 2026 weiterhin stark steigt oder wie hoch es aktuell ist.",
+      "Dass alle oder ein repräsentativer Anteil ambulanter Radiologieanbieter aktuell sehr hohe Netto-, EBIT- oder OKP-bezogene Margen erzielen.",
+      "Dass die berichtete 47%-Umsatzrelation einer einzelnen Gruppe auf andere Anbieter, Kantone, Eigentümerstrukturen oder die gesamte Schweiz übertragbar ist.",
+      "Dass die Kosten- oder Mengendynamik medizinisch unangemessen ist, durch induzierte Nachfrage verursacht wird oder WZW-Verstösse vorliegen.",
+      "Dass unter TARDOC und ambulanten Pauschalen aktuell eine Übervergütung besteht."
     ],
     "next_evidence_needed": [
-      "Nationale, aktuelle und repräsentative Anbieterinformationen zu Umsätzen, Vollkosten, Abschreibungen, Overhead sowie klar definierten Netto-/EBIT-Margen, differenziert nach Anbieter, Gerätetyp, Kanton und Eigentümerstruktur.",
-      "Fallmixbereinigte radiologiespezifische OKP-Daten zu Mengen, Kosten, Tarifpositionen und Pauschalen vor und nach dem Systemwechsel vom 1. Januar 2026.",
-      "Ein verknüpfbares Register zu ambulanten CT-/MRT-Geräten, Standorten und Auslastung sowie – unter geeigneten Datenschutz- und Rechtsgrundlagen – zu Verschreibungen, Indikationen und Wiederholungsuntersuchungen.",
-      "Unabhängige WZW-Analysen mit risikoadjustierten klinischen Indikationen und systematischer Nachverfolgung von Auditbefunden."
+      "Aktuelle, nationale und repräsentative Vollkosten-, Netto- und EBIT-Margen nach Anbieter, Gerätetyp, Kanton und Eigentümerstruktur; mit klarer Trennung von OKP- und Nicht-OKP-Umsätzen.",
+      "Fallmixbereinigte radiologiespezifische OKP-Daten zu Mengen, Kosten, Tarifpositionen und Pauschalen vor und nach dem 1. Januar 2026.",
+      "Ein verknüpfbares Register zu ambulanten CT-/MRT-Geräten, Standorten, Auslastung, Verschreibenden und Indikationen, damit regionale Angebotsunterschiede und WZW risikoadjustiert geprüft werden können.",
+      "Methodisch dokumentierte klinische und abrechnungsbezogene WZW-Auswertungen, welche die Angemessenheit von Untersuchungen von blossen Kosten- oder Kapazitätsindikatoren trennen."
     ],
     "supporting_evidence_indexes": [
       1,
@@ -17120,13 +17133,16 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
       11,
       12,
       13,
-      14
+      14,
+      15,
+      16
     ]
   },
   "reasoning_guardrail": {
@@ -17264,7 +17280,8 @@
   "stage_metadata": {
     "stage": "reasoning",
     "llm_calls_expected": "1 (+1 only on invalid-reference repair)",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "evidence_coverage_required": true
   },
   "calculations": [
     {
@@ -17323,27 +17340,27 @@
   ],
   "final_reasoning_trace": {
     "initial": {
-      "response_id": "resp_0995f17d28ebfa14006a89cef0874487d2b2c494aac3259beb",
+      "response_id": "resp_054963d021a83db0006a89d4c67b9487d09e6cb5b6e9049d8d",
       "model": "gpt-5.6-terra",
       "usage": {
-        "input_tokens": 6859,
+        "input_tokens": 7003,
         "input_tokens_details": {
-          "cache_write_tokens": 6856,
+          "cache_write_tokens": 7000,
           "cached_tokens": 0
         },
-        "output_tokens": 1742,
+        "output_tokens": 2275,
         "output_tokens_details": {
-          "reasoning_tokens": 265
+          "reasoning_tokens": 510
         },
-        "total_tokens": 8601
+        "total_tokens": 9278
       },
       "public_output_trace": [
         {
-          "id": "msg_0995f17d28ebfa14006a89cef537a887d2be4465ef846a8f4b",
+          "id": "msg_054963d021a83db0006a89d4cdf03887d0ad29d7987a69a7f4",
           "content": [
             {
               "annotations": [],
-              "text": "{\"hypotheses\":[{\"kind\":\"PRIMARY\",\"statement\":\"Ambulante Radiologieanbieter in der Schweiz erzielen aktuell sehr hohe Margen.\",\"status\":\"PARTLY_SUPPORTED\",\"supporting_evidence_indexes\":[10,11,12,13,14],\"rationale\":\"Ein verifiziertes Medienberichtssignal betrifft eine einzelne Gruppe in der Nordwestschweiz: Für 2025 wurden CHF 5,4 Mio. Gewinn bzw. 47 % ihres Umsatzes berichtet. Das ist ein relevantes Einzelfallsignal, aber weder national noch repräsentativ und keine belastbare Aussage über Netto-/EBIT-Margen sämtlicher ambulanter Radiologieanbieter. Die historische Triemli-Fallzahl von CHF 205 je MRI-Untersuchung stammt aus 2011; zudem war der dortige «Gewinn» als Ertrag minus Betriebskosten ohne Overhead definiert. Die damalige Studie bewertete ihre Datenbasis zu Vollkosten, Wirtschaftlichkeit und Auslastung ausdrücklich als dünn.\"},{\"kind\":\"PRIMARY\",\"statement\":\"Das OKP-Kostenvolumen der ambulanten medizinischen Bildgebung ist stark gestiegen.\",\"status\":\"SUPPORTED\",\"supporting_evidence_indexes\":[1,2,3,4],\"rationale\":\"Für 2019–2023 stiegen die ambulanten KVG-Ausgaben für medizinische Bildgebung durchschnittlich um 5,3 % pro Jahr, gegenüber 3,3 % für sämtliche ambulanten KVG-Kosten. CT stieg in diesem Zeitraum von CHF 251 Mio. auf CHF 330 Mio., MRT von CHF 411 Mio. auf CHF 523 Mio. Die Aussage ist eine historische Beobachtung bis 2023 und belegt keine Kostenentwicklung im Jahr 2026.\"},{\"kind\":\"COUNTER\",\"statement\":\"Der beobachtete Kostenanstieg von 2019–2023 ist primär tarif- bzw. preisgetrieben und belegt damit eine Übervergütung.\",\"status\":\"WEAKENED\",\"supporting_evidence_indexes\":[2,8,9],\"rationale\":\"Die EFK führte den damaligen starken Anstieg bei kaum veränderten Tarifen und kantonalen Taxpunktwerten in erster Linie auf eine höhere Untersuchungszahl zurück. Diese Einordnung betrifft den Zeitraum unter TARMED. Seit 1. Januar 2026 gelten TARDOC und ambulante Pauschalen; deshalb kann aus der Entwicklung unter TARMED keine aktuelle Übervergütung unter dem neuen System abgeleitet werden.\"},{\"kind\":\"ALTERNATIVE\",\"statement\":\"Mehr Untersuchungen und eine hohe bzw. regional unterschiedlich genutzte Gerätekapazität sind eine plausible Erklärung für das historische Kostenwachstum.\",\"status\":\"PARTLY_SUPPORTED\",\"supporting_evidence_indexes\":[2,5,6],\"rationale\":\"Die EFK ordnete den Kostenanstieg 2019–2023 primär einer höheren Untersuchungszahl zu. Für 2021 wurden rund 700 CT- und MRT-Geräte beziehungsweise knapp 80 Geräte pro Million Einwohnende ausgewiesen. Diese Befunde stützen ein Monitoring von Angebots- und Nutzungsrisiken, beweisen jedoch weder angebotsinduzierte Nachfrage noch medizinische Unangemessenheit einzelner Untersuchungen.\"}],\"outcome\":{\"classification\":\"SIGNAL_PARTLY_SUPPORTED\",\"summary\":\"Das Signal wird hinsichtlich des historischen Kostenwachstums klar gestützt: Die ambulante medizinische Bildgebung wuchs von 2019 bis 2023 deutlich schneller als die gesamten ambulanten KVG-Kosten. Für sehr hohe Margen liegt hingegen nur ein relevantes, aber nicht verallgemeinerbares Einzelfallsignal für 2025 vor. Öffentliche Evidenz reicht nicht aus, um hohe aktuelle Margen, eine aktuelle Übervergütung oder unangemessene Nutzung auf nationaler Ebene festzustellen. Der Tarifwechsel per 1. Januar 2026 verhindert zudem eine unmittelbare Fortschreibung der TARMED-Befunde auf den Stand 2026.\",\"what_is_proven\":[\"Die ambulanten KVG-Ausgaben für medizinische Bildgebung stiegen 2019–2023 durchschnittlich um 5,3 % jährlich; für alle ambulanten KVG-Kosten betrug der Vergleichswert 3,3 % jährlich. [1]\",\"Die CT-Kosten stiegen von CHF 251 Mio. 2019 auf CHF 330 Mio. 2023; die MRT-Kosten von CHF 411 Mio. auf CHF 523 Mio. [3, 4]\",\"Nach der EFK war der historische Kostenanstieg 2019–2023 primär mit einer höheren Untersuchungszahl verbunden, nicht mit wesentlich veränderten Tarifen oder kantonalen Taxpunktwerten. [2]\",\"Für 2021 sind rund 700 CT- und MRT-Geräte respektive knapp 80 Geräte pro Million Einwohnende dokumentiert. [5, 6]\",\"Eine einzelne Gruppe in der Nordwestschweiz wurde für 2025 mit CHF 5,4 Mio. Gewinn beziehungsweise 47 % des Umsatzes berichtet. Dies belegt ausschliesslich den berichteten Einzelfall. [10, 11]\",\"Seit 1. Januar 2026 gelten für ambulante Leistungen TARDOC und ambulante Pauschalen; die Kostenneutralitätsphase dauert mindestens bis 2028. [8, 9]\"],\"what_is_not_proven\":[\"Dass ambulante Radiologieanbieter schweizweit oder überwiegend aktuell sehr hohe Netto-, EBIT- oder Vollkostenmargen erzielen.\",\"Dass die für eine einzelne Gruppe berichteten 47 % Gewinn im Jahr 2025 auf andere Anbieter, Kantone, Eigentümerstrukturen oder die gesamte ambulante Radiologie übertragbar sind.\",\"Dass das Kostenwachstum nach dem Tarifwechsel 2026 fortbesteht, sich beschleunigt hat oder durch TARDOC beziehungsweise Pauschalen verursacht wird.\",\"Dass hohe Gerätekapazität, steigende Untersuchungszahlen oder regionale Unterschiede medizinisch nicht gerechtfertigt sind.\",\"Dass eine aktuelle Übervergütung, missbräuchliche Abrechnung, WZW-Verstösse oder unangemessene Untersuchungen vorliegen.\"],\"next_evidence_needed\":[\"Nationale, aktuelle und repräsentative Anbieterinformationen zu Umsätzen, Vollkosten, Abschreibungen, Overhead sowie klar definierten Netto-/EBIT-Margen, differenziert nach Anbieter, Gerätetyp, Kanton und Eigentümerstruktur.\",\"Fallmixbereinigte radiologiespezifische OKP-Daten zu Mengen, Kosten, Tarifpositionen und Pauschalen vor und nach dem Systemwechsel vom 1. Januar 2026.\",\"Ein verknüpfbares Register zu ambulanten CT-/MRT-Geräten, Standorten und Auslastung sowie – unter geeigneten Datenschutz- und Rechtsgrundlagen – zu Verschreibungen, Indikationen und Wiederholungsuntersuchungen.\",\"Unabhängige WZW-Analysen mit risikoadjustierten klinischen Indikationen und systematischer Nachverfolgung von Auditbefunden.\"],\"supporting_evidence_indexes\":[1,2,3,4,5,6,8,9,10,11,12,13,14]}}",
+              "text": "{\"hypotheses\":[{\"kind\":\"PRIMARY\",\"statement\":\"Ambulante Radiologieanbieter in der Schweiz erzielen aktuell generell sehr hohe Margen.\",\"status\":\"PARTLY_SUPPORTED\",\"supporting_evidence_indexes\":[10,11,12,13,14],\"rationale\":\"Für eine einzelne Gruppe in der Nordwestschweiz berichtet SRF/RTS für 2025 einen Gewinn von CHF 5,4 Mio., entsprechend 47% ihres Umsatzes. Das ist ein relevantes, aber auf eine Gruppe, eine Region und ein Geschäftsjahr begrenztes Signal; es belegt keine allgemeine oder OKP-spezifische Marge sämtlicher ambulanten Radiologieanbieter. Ein historisches Fallbeispiel des Spitals Triemli weist für 2011 CHF 205 Ergebnis je MRI aus; dieses Ergebnis ist ausdrücklich nur Ertrag minus Betriebskosten ohne Overhead und daher nicht mit einer Netto- oder EBIT-Marge gleichzusetzen. Die damalige Studienbasis zu Vollkosten, Wirtschaftlichkeit und Auslastung war zudem dünn. Nationale, aktuelle und repräsentative Margen- und Vollkostendaten fehlen.\"},{\"kind\":\"PRIMARY\",\"statement\":\"Das OKP-Kostenvolumen der ambulanten medizinischen Bildgebung ist stark gestiegen.\",\"status\":\"PARTLY_SUPPORTED\",\"supporting_evidence_indexes\":[1,2,3,4],\"rationale\":\"Für den historischen Zeitraum 2019–2023 ist der Anstieg klar gestützt: Die ambulanten KVG-Ausgaben für medizinische Bildgebung wuchsen durchschnittlich um 5,3% jährlich, gegenüber 3,3% für sämtliche ambulanten KVG-Kosten. CT-Ausgaben stiegen von CHF 251 Mio. auf CHF 330 Mio., MRI-Ausgaben von CHF 411 Mio. auf CHF 523 Mio. Die Befunde belegen jedoch weder eine Kostenentwicklung ab 2024 noch ein heutiges Volumen im Tarifregime 2026. Die Angabe von rund CHF 2,1 Mrd. für 2023 ist nur mit ungeklärter Provenienz vorliegend und kann deshalb nicht als gesicherte Schlussfolgerung verwendet werden.\"},{\"kind\":\"ALTERNATIVE\",\"statement\":\"Der beobachtete Kostenanstieg 2019–2023 war vorwiegend mengen- und nicht tarifgetrieben.\",\"status\":\"SUPPORTED\",\"supporting_evidence_indexes\":[1,2,3,4],\"rationale\":\"Die EFK führt den damaligen starken Kostenanstieg primär auf eine höhere Untersuchungszahl zurück, weil Tarife und kantonale Taxpunktwerte im Zeitraum 2019–2023 kaum verändert waren. Dies ist eine Erklärung für den historischen TARMED-Zeitraum; sie beweist weder medizinische Unangemessenheit noch eine Fortsetzung dieses Mechanismus nach dem Tarifwechsel 2026.\"},{\"kind\":\"ALTERNATIVE\",\"statement\":\"Angebots- und Kapazitätsstrukturen können das Mengen- und Kostenrisiko mitbeeinflussen, ohne dass damit Überversorgung oder hohe Margen bewiesen wären.\",\"status\":\"PARTLY_SUPPORTED\",\"supporting_evidence_indexes\":[5,6,15,16],\"rationale\":\"2021 bestanden rund 700 CT- und MRT-Geräte beziehungsweise knapp 80 Geräte pro Million Einwohnende. Zudem stieg die Zahl der in Arztpraxen und ambulanten Zentren mit Haupttätigkeit Radiologie ausgewiesenen Ärztinnen und Ärzte von 410 (2018) auf 538 (2024); die Vollzeitäquivalente stiegen von 303,62122 auf 411,0161. Diese Indikatoren beschreiben historische Kapazitäts- und Personalentwicklung, nicht jedoch Auslastung, Indikationen, Untersuchungszahlen, Kausalität oder Rentabilität. Sie sind daher ein Monitoringhinweis, kein Nachweis induzierter Nachfrage oder unangemessener Leistungserbringung.\"},{\"kind\":\"COUNTER\",\"statement\":\"Historische Kosten- und Rentabilitätsbefunde lassen sich wegen des Tarifwechsels nicht unmittelbar als aktuelle Übervergütung oder aktuelle Margenlage interpretieren.\",\"status\":\"SUPPORTED\",\"supporting_evidence_indexes\":[7,8,9],\"rationale\":\"TARMED galt bis 31. Dezember 2025; seit 1. Januar 2026 werden ambulante Leistungen über TARDOC und ambulante Pauschalen abgerechnet. Für das neue Gesamtsystem läuft mindestens bis 2028 eine Kostenneutralitätsphase. Ohne fallmixbereinigte radiologiespezifische Nachherdaten kann aus den TARMED-Beobachtungen 2019–2023 keine aktuelle Übervergütung unter dem neuen System abgeleitet werden.\"}],\"outcome\":{\"classification\":\"SIGNAL_PARTLY_SUPPORTED\",\"summary\":\"Das Signal wird nur teilweise gestützt. Es gibt einen robusten historischen Befund eines überdurchschnittlichen Kostenwachstums der ambulanten medizinischen Bildgebung von 2019 bis 2023 und ein auffälliges Margensignal für eine einzelne Gruppe im Jahr 2025. Nicht belegt sind dagegen sehr hohe aktuelle Margen als allgemeines Merkmal ambulanter Radiologieanbieter in der Schweiz, eine aktuelle Übervergütung unter TARDOC/Pauschalen oder ein fortgesetztes starkes Kostenwachstum bis 2026.\",\"what_is_proven\":[\"Im Zeitraum 2019–2023 stiegen die ambulanten KVG-Ausgaben für medizinische Bildgebung durchschnittlich um 5,3% pro Jahr und damit stärker als die gesamten ambulanten KVG-Kosten mit 3,3% pro Jahr. [1]\",\"Die CT-Ausgaben stiegen in der Schweiz von CHF 251 Mio. (2019) auf CHF 330 Mio. (2023); die MRI-Ausgaben von CHF 411 Mio. auf CHF 523 Mio. [3,4]\",\"Für 2019–2023 ordnete die EFK den Anstieg primär einer höheren Zahl von Untersuchungen zu, bei kaum veränderten Tarifen und kantonalen Taxpunktwerten. [2]\",\"Für eine einzelne Gruppe in der Nordwestschweiz wurde für 2025 ein Gewinn von CHF 5,4 Mio. beziehungsweise 47% des Umsatzes berichtet. Dies ist ein Einzelfallsignal. [10,11]\",\"Seit 1. Januar 2026 gilt für ambulante Leistungen ein neues Tarifregime mit TARDOC und ambulanten Pauschalen; die Kostenneutralitätsphase dauert mindestens bis 2028. [7,9]\",\"Die Geräte- und Personalzahlen sind relevante strukturelle Kontextindikatoren, beweisen aber weder Überversorgung noch Margenhöhen. [5,6,15,16]\"],\"what_is_not_proven\":[\"Dass das ambulante OKP-Kostenvolumen der Bildgebung im Jahr 2026 weiterhin stark steigt oder wie hoch es aktuell ist.\",\"Dass alle oder ein repräsentativer Anteil ambulanter Radiologieanbieter aktuell sehr hohe Netto-, EBIT- oder OKP-bezogene Margen erzielen.\",\"Dass die berichtete 47%-Umsatzrelation einer einzelnen Gruppe auf andere Anbieter, Kantone, Eigentümerstrukturen oder die gesamte Schweiz übertragbar ist.\",\"Dass die Kosten- oder Mengendynamik medizinisch unangemessen ist, durch induzierte Nachfrage verursacht wird oder WZW-Verstösse vorliegen.\",\"Dass unter TARDOC und ambulanten Pauschalen aktuell eine Übervergütung besteht.\"],\"next_evidence_needed\":[\"Aktuelle, nationale und repräsentative Vollkosten-, Netto- und EBIT-Margen nach Anbieter, Gerätetyp, Kanton und Eigentümerstruktur; mit klarer Trennung von OKP- und Nicht-OKP-Umsätzen.\",\"Fallmixbereinigte radiologiespezifische OKP-Daten zu Mengen, Kosten, Tarifpositionen und Pauschalen vor und nach dem 1. Januar 2026.\",\"Ein verknüpfbares Register zu ambulanten CT-/MRT-Geräten, Standorten, Auslastung, Verschreibenden und Indikationen, damit regionale Angebotsunterschiede und WZW risikoadjustiert geprüft werden können.\",\"Methodisch dokumentierte klinische und abrechnungsbezogene WZW-Auswertungen, welche die Angemessenheit von Untersuchungen von blossen Kosten- oder Kapazitätsindikatoren trennen.\"],\"supporting_evidence_indexes\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]}}",
               "type": "output_text",
               "logprobs": []
             }
