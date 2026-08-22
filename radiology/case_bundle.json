@@ -1443,7 +1443,40 @@
     "manual_case_knowledge_used": false
   },
   "schema_version": "2.0-review",
-  "process_events": [],
+  "process_events": [
+    {
+      "business_id": "25.8194",
+      "event_type": "PARLIAMENTARY_BUSINESS_STATUS",
+      "title": "Medizinische Bildgebung in der Westschweiz: Wie hängen Moratorien, Untersuchungsvolumen und Kosten zusammen?",
+      "status": "Erledigt",
+      "date": "2025-12-15T16:21:50Z",
+      "institution": "Bundesversammlung",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:28:30.817519+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    },
+    {
+      "business_id": "24.3458",
+      "event_type": "PARLIAMENTARY_BUSINESS_STATUS",
+      "title": "Sicherstellung eines ausreichenden Angebots an Mammografie-Untersuchungen",
+      "status": "Erledigt",
+      "date": "2025-11-14T04:54:50Z",
+      "institution": "Bundesversammlung",
+      "actors": [],
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:28:31.205269+00:00",
+      "evidence_role": "PROCESS_EVIDENCE"
+    }
+  ],
   "public_actors": [],
   "structured_observations": [],
   "capability_audit": [
@@ -1458,6 +1491,30 @@
       "claim_authority": "tariff_process",
       "observed_at": "2026-08-22T12:54:25.259167+00:00",
       "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "observation_id": "parliament:25.8194:490ab5fbd00d",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20258194?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:28:30.817519+00:00",
+      "content_hash": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6"
+    },
+    {
+      "observation_id": "parliament:24.3458:cc6fed21e0e6",
+      "capability_id": "parliament_activity",
+      "adapter_id": "parliament_business_status",
+      "execution_mode": "LLM_ASSISTED",
+      "output_kind": "PROCESS_EVENT",
+      "source_url": "https://ws-old.parlament.ch/affairs/20243458?lang=de&format=json",
+      "source_authority": "OFFICIAL_PARLIAMENT",
+      "claim_authority": "parliamentary_status",
+      "observed_at": "2026-08-22T13:28:31.205269+00:00",
+      "content_hash": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc"
     }
   ],
   "monitoring_plan": {
@@ -1475,9 +1532,41 @@
         ],
         "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
         "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:25.8194:490ab5fbd00d",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "25.8194",
+        "last_known_marker": "490ab5fbd00d50373597eee4c26a1de6363e9810eaae447335293f1f5da00bd6",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
+      },
+      {
+        "target_id": "monitor:parliament_activity:parliament:24.3458:cc6fed21e0e6",
+        "capability_id": "parliament_activity",
+        "adapter_id": "parliament_business_status",
+        "subject_ref": "24.3458",
+        "last_known_marker": "cc6fed21e0e69a38bc951a6437be206ffff48a3eadeeb77b2ff4fec2000ccffc",
+        "change_detection": [
+          "business_status",
+          "new_document",
+          "new_vote",
+          "new_committee_event",
+          "new_actor_event"
+        ],
+        "refresh_strategy": "EVENT_DRIVEN_INCREMENTAL",
+        "dependent_ids": []
       }
     ],
-    "last_refresh_at": "2026-08-22T12:54:25.260115+00:00"
+    "last_refresh_at": "2026-08-22T13:28:31.363921+00:00"
   },
   "revisions": [],
   "capability_outputs": [
@@ -1593,34 +1682,29 @@
   "capability_requests": [
     {
       "capability_id": "current_tariff_and_history",
-      "purpose": "Aktuelle Tarifmetadaten und Versionsänderungen für ambulante radiologische Leistungen seit Einführung von TARDOC und ambulanten Pauschalen am 1. Januar 2026 überwachen. Dies kann dokumentieren, ob relevante Radiologiepositionen, Regeln oder Pauschalgruppierungen geändert wurden, belegt aber für sich allein keine Übervergütung oder Margenhöhe.",
-      "query": "TARDOC-Radiologie: aktuelle Tarifversion, historische Versionen und Änderungen der radiologischen Positionen sowie allfällige ambulante Pauschalen seit 01.01.2026.",
-      "resource_locator": "https://www.tardoc-online.ch/de/dignitaet/1600-radiologia",
-      "identifiers": [],
+      "purpose": "Aktuelle und künftige Änderungen der verbindlichen Tarifmetadaten für ambulante Radiologie überwachen. Dies ist nötig, weil die historischen TARMED-Kosten- und Rentabilitätssignale nach dem Systemwechsel per 1. Januar 2026 nicht direkt auf TARDOC und ambulante Pauschalen übertragbar sind; die Abfrage belegt jedoch keine Tarifadäquanz oder Margenhöhe.",
+      "query": "Vergleiche die aktuell publizierten OAAT-Tarifversionen, Regeln, TARDOC-Radiologiepositionen und allenfalls einschlägigen ambulanten Pauschalen mit früheren Releases. Ermittele insbesondere Versionsstand, Gültigkeitsdaten, Änderungen von Taxpunkten, Limitationen, Kumulations-/Abrechnungsregeln sowie Trigger- und Gruppierungslogik mit Bezug zu CT, MRT, Ultraschall, konventioneller Radiologie und Mammografie.",
+      "resource_locator": "https://tarifmatcher.oaat-otma.ch/",
+      "identifiers": [
+        "TARDOC 1.4c",
+        "Ambulante Pauschalen 1.1c",
+        "LKAAT 1.0c"
+      ],
       "structured_query_json": null
     },
     {
-      "capability_id": "open_data_catalog_search",
-      "purpose": "Nach öffentlich verfügbaren, maschinenlesbaren Ergänzungsdaten zur regionalen Angebotsstruktur der ambulanten Radiologie suchen, insbesondere Standorte, Tätigkeiten, Ärztinnen/Ärzte sowie allfällige Register zu CT-/MRT-Geräten. Damit können die von der EFK beschriebenen regionalen Angebots- und Transparenzlücken aktualisiert werden; Margen und WZW einzelner Untersuchungen werden dadurch nicht nachgewiesen.",
-      "query": "Schweiz BFS/Open Government Data: ambulante Radiologie, medizinische Bildgebung, CT, MRT, Geräte, Arztpraxen und ambulante Zentren nach Kanton und Jahr; maschinenlesbare Datensätze/API.",
-      "resource_locator": "https://opendata.swiss/fr/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
-      "identifiers": [],
+      "capability_id": "parliament_activity",
+      "purpose": "Parlamentarische Prozessbeobachtung zu Angebotssteuerung, Kosten und Tarifangemessenheit in der medizinischen Bildgebung. Die Geschäfte können institutionelle Befassung, Antworten des Bundesrats und mögliche Umsetzungsaufträge sichtbar machen, sind aber kein Nachweis hoher Margen oder medizinisch unangemessener Bildgebung.",
+      "query": "Verfolge den Stand, die Bundesratsantworten, Beratungen, Beschlüsse und allfällige Folgegeschäfte zu den konkret identifizierten Vorstössen. Geschäft 25.8194 betrifft den Zusammenhang zwischen kantonalen Moratorien für CT-/MRT-Grossgeräte, Untersuchungsvolumen und Kosten. Geschäft 24.3458 betrifft die TARDOC-Vergütung radiologischer Mammografie, Hinweise auf frühere Überbewertung in der Radiologie sowie die Sicherstellung der Versorgung.",
+      "resource_locator": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "identifiers": [
+        "25.8194",
+        "24.3458"
+      ],
       "structured_query_json": null
     }
   ],
-  "capability_execution_errors": [
-    {
-      "request": {
-        "capability_id": "open_data_catalog_search",
-        "purpose": "Nach öffentlich verfügbaren, maschinenlesbaren Ergänzungsdaten zur regionalen Angebotsstruktur der ambulanten Radiologie suchen, insbesondere Standorte, Tätigkeiten, Ärztinnen/Ärzte sowie allfällige Register zu CT-/MRT-Geräten. Damit können die von der EFK beschriebenen regionalen Angebots- und Transparenzlücken aktualisiert werden; Margen und WZW einzelner Untersuchungen werden dadurch nicht nachgewiesen.",
-        "query": "Schweiz BFS/Open Government Data: ambulante Radiologie, medizinische Bildgebung, CT, MRT, Geräte, Arztpraxen und ambulante Zentren nach Kanton und Jahr; maschinenlesbare Datensätze/API.",
-        "resource_locator": "https://opendata.swiss/fr/dataset/arztpraxen-und-ambulante-zentren-unternehmen-standorte-und-arzte",
-        "identifiers": [],
-        "structured_query_json": null
-      },
-      "reason": "NO_EXECUTOR_FOR_open_data_catalog_search"
-    }
-  ],
+  "capability_execution_errors": [],
   "run_metadata": {
     "signal_id": "signal-radiology-margin-cost-001",
     "started_from_signal_only": true,
@@ -1641,5 +1725,82 @@
       "VALIDATED_REASONING",
       "DETERMINISTIC_REASONING_REFERENCE_GATE"
     ]
+  },
+  "capability_plan_trace": {
+    "response_id": "resp_02751f6a6d0588a2006a899dc1b35487d1a370c9c4ccc14db0",
+    "model": "gpt-5.6-terra",
+    "usage": {
+      "input_tokens": 29400,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 8351
+      },
+      "output_tokens": 1091,
+      "output_tokens_details": {
+        "reasoning_tokens": 586
+      },
+      "total_tokens": 30491
+    },
+    "public_output_trace": [
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc3b75887d1a4717f4cde6c6e1e",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:parlament.ch Radiologie bildgebende Verfahren Krankenversicherung Geschäft",
+            "site:parlament.ch MRT CT Kosten Krankenversicherung Geschäft",
+            "site:parlament.ch TARMED Radiologie Tarif Geschäft",
+            "site:parlament.ch medizinische Bildgebung WZW Geschäft"
+          ],
+          "query": "site:parlament.ch Radiologie bildgebende Verfahren Krankenversicherung Geschäft",
+          "sources": null
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc73b9c87d1b4a432f6b9026316",
+        "action": {
+          "type": "open_page",
+          "url": "https://ws-old.parlament.ch/affairs/20243458"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "ws_02751f6a6d0588a2006a899dc8da7c87d1806894d4fbc9bcef",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:oaat-otma.ch Tarifbrowser TARDOC ambulante Pauschalen OAAT",
+            "site:oaat-otma.ch TARDOC Browser Radiologie",
+            "OAAT public tariff tooling TARDOC ambulante Pauschalen Tarifbrowser"
+          ],
+          "query": "site:oaat-otma.ch Tarifbrowser TARDOC ambulante Pauschalen OAAT",
+          "sources": null
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "msg_02751f6a6d0588a2006a899dcd602487d1a63eb55d55e61398",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"capability_requests\":[{\"capability_id\":\"current_tariff_and_history\",\"purpose\":\"Aktuelle und künftige Änderungen der verbindlichen Tarifmetadaten für ambulante Radiologie überwachen. Dies ist nötig, weil die historischen TARMED-Kosten- und Rentabilitätssignale nach dem Systemwechsel per 1. Januar 2026 nicht direkt auf TARDOC und ambulante Pauschalen übertragbar sind; die Abfrage belegt jedoch keine Tarifadäquanz oder Margenhöhe.\",\"query\":\"Vergleiche die aktuell publizierten OAAT-Tarifversionen, Regeln, TARDOC-Radiologiepositionen und allenfalls einschlägigen ambulanten Pauschalen mit früheren Releases. Ermittele insbesondere Versionsstand, Gültigkeitsdaten, Änderungen von Taxpunkten, Limitationen, Kumulations-/Abrechnungsregeln sowie Trigger- und Gruppierungslogik mit Bezug zu CT, MRT, Ultraschall, konventioneller Radiologie und Mammografie.\",\"resource_locator\":\"https://tarifmatcher.oaat-otma.ch/\",\"identifiers\":[\"TARDOC 1.4c\",\"Ambulante Pauschalen 1.1c\",\"LKAAT 1.0c\"],\"structured_query_json\":null},{\"capability_id\":\"parliament_activity\",\"purpose\":\"Parlamentarische Prozessbeobachtung zu Angebotssteuerung, Kosten und Tarifangemessenheit in der medizinischen Bildgebung. Die Geschäfte können institutionelle Befassung, Antworten des Bundesrats und mögliche Umsetzungsaufträge sichtbar machen, sind aber kein Nachweis hoher Margen oder medizinisch unangemessener Bildgebung.\",\"query\":\"Verfolge den Stand, die Bundesratsantworten, Beratungen, Beschlüsse und allfällige Folgegeschäfte zu den konkret identifizierten Vorstössen. Geschäft 25.8194 betrifft den Zusammenhang zwischen kantonalen Moratorien für CT-/MRT-Grossgeräte, Untersuchungsvolumen und Kosten. Geschäft 24.3458 betrifft die TARDOC-Vergütung radiologischer Mammografie, Hinweise auf frühere Überbewertung in der Radiologie sowie die Sicherstellung der Versorgung.\",\"resource_locator\":\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista\",\"identifiers\":[\"25.8194\",\"24.3458\"],\"structured_query_json\":null}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ]
+  },
+  "stage_metadata": {
+    "stage": "capability-execution",
+    "llm_calls_expected": 0
   }
 }
